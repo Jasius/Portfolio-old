@@ -13,6 +13,10 @@ body {
   color: $primary-color;
   margin: 0;
 }
+a {
+    color: #FFC107;
+	text-decoration: none;
+}
 h2 {
   text-align: center;
 }
@@ -235,33 +239,52 @@ header {
   background: #E74C3C;
   height: 150px;
 }
-
 .intro {
   background: #ECF0F1;
   padding-bottom: 48px;
   padding-top: 100px;
   color: #000;
   text-align: center;
-}
-
-.intro h1 {
+  h1 {
   font-size: 63px;
 }
-
+}
 .section-about {
   display: flex;
   flex-wrap: wrap;
 }
-
 .about-me {
   flex: 1 400px;
   background: #3498DB;
   padding: 60px 80px 30px 10%;
+  flex: 3;
 }
 .profile {
   flex: 1 400px;
   background: #2C3E50;
-  padding: 60px 40px;
+  padding: 60px 20px;
+  flex: 2;
+	li {
+    margin: 0;
+    font-size: 1.15em;
+    color: #ecf0f1;
+    list-style: none;
+	}
+	ul p {
+	font-size: 1.25em;
+    margin: 0;
+	}
+	.small-line {
+	border-color: #69D2E7;
+    margin: 10px 0 50px;
+	position: relative;
+    width: 20px;
+    border-top: 2px solid #69D2E7;
+    margin-bottom: 30px;
+	}
+	.boxy {
+		margin-left: 35px;
+	}
 }
 .about-me,
 .profile {
@@ -269,13 +292,15 @@ header {
 }
 
 .boxy {
-  font-size: 2em;
+  font-size: 1.7em;
   text-align: center;
   color: #eee;
   border: 3px solid #eee;
   padding: 15px;
   display: inline-block;
   margin: 0 0 50px;
+  line-height: 1;
+  font-weight: 500;
 }
 .section-projects {
   display: flex;
@@ -286,11 +311,11 @@ header {
 .section-name {
   width: 100%;
   text-align: center;
-}
-.section-name h1 {
+  h1 {
   border-color: #222;
   color: #222;
   margin: 15px;
+  }
 }
 .project {
   flex: 1 400px;
@@ -299,10 +324,10 @@ header {
 .section-proficiency {
   background: #E74C3C;
   color: #eee;
-}
-.section-proficiency h1 {
+  h1 {
   color: #eee;
   border-color: #eee;
+}
 }
 @media screen and (max-width: 768px) {
   .boxy {
@@ -318,3 +343,4 @@ header {
     margin: 0px 50px;
   }
 }
+/*# sourceMappingURL=styles.css.map */
