@@ -1,0 +1,116 @@
+/* base */
+/* line 5, D:/github repos/Portfolio/css/style.scss */
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #fff;
+  margin: 0; }
+
+/* line 10, D:/github repos/Portfolio/css/style.scss */
+h2 {
+  text-align: center; }
+
+/* line 13, D:/github repos/Portfolio/css/style.scss */
+.img-responsive {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto; }
+
+/* buttons */
+/* */
+/* line 21, D:/github repos/Portfolio/css/style.scss */
+header {
+  background: #E74C3C;
+  height: 150px; }
+
+/* line 26, D:/github repos/Portfolio/css/style.scss */
+.intro {
+  background: #ECF0F1;
+  padding-bottom: 48px;
+  padding-top: 100px;
+  color: #000;
+  text-align: center; }
+
+/* line 34, D:/github repos/Portfolio/css/style.scss */
+.intro h1 {
+  font-size: 63px; }
+
+/* line 38, D:/github repos/Portfolio/css/style.scss */
+.section-about {
+  display: flex;
+  flex-wrap: wrap; }
+
+/* line 43, D:/github repos/Portfolio/css/style.scss */
+.about-me {
+  flex: 1 400px;
+  background: #3498DB;
+  padding: 60px 80px 30px 10%; }
+
+/* line 48, D:/github repos/Portfolio/css/style.scss */
+.profile {
+  flex: 1 400px;
+  background: #2C3E50;
+  padding: 60px 40px; }
+
+/* line 54, D:/github repos/Portfolio/css/style.scss */
+.about-me,
+.profile {
+  text-align: left; }
+
+/* line 58, D:/github repos/Portfolio/css/style.scss */
+.boxy {
+  font-size: 2em;
+  text-align: center;
+  color: #eee;
+  border: 3px solid #eee;
+  padding: 15px;
+  display: inline-block;
+  margin: 0 0 50px; }
+
+/* line 67, D:/github repos/Portfolio/css/style.scss */
+.section-projects {
+  display: flex;
+  flex-wrap: wrap;
+  background: #ECF0F1;
+  color: #222; }
+
+/* line 73, D:/github repos/Portfolio/css/style.scss */
+.section-name {
+  width: 100%;
+  text-align: center; }
+
+/* line 77, D:/github repos/Portfolio/css/style.scss */
+.section-name h1 {
+  border-color: #222;
+  color: #222;
+  margin: 15px; }
+
+/* line 82, D:/github repos/Portfolio/css/style.scss */
+.project {
+  flex: 1 400px;
+  padding: 0px 30px; }
+
+/* line 86, D:/github repos/Portfolio/css/style.scss */
+.section-proficiency {
+  background: #E74C3C;
+  color: #eee; }
+
+/* line 90, D:/github repos/Portfolio/css/style.scss */
+.section-proficiency h1 {
+  color: #eee;
+  border-color: #eee; }
+
+@media screen and (max-width: 768px) {
+  /* line 95, D:/github repos/Portfolio/css/style.scss */
+  .boxy {
+    display: block;
+    border: none;
+    border-bottom: 3px solid;
+    margin: 0px; }
+  /* line 101, D:/github repos/Portfolio/css/style.scss */
+  .about-me, .profile {
+    padding: 0px 50px; }
+  /* line 104, D:/github repos/Portfolio/css/style.scss */
+  .section-name h1 {
+    margin: 0px 50px; } }
+
+/*# sourceMappingURL=style.css.map */

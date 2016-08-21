@@ -1,0 +1,107 @@
+/* base */
+
+$font-stack: 'Open Sans',sans-serif;
+$primary-color: #fff;
+body {
+  font-family: $font-stack;
+  color: $primary-color;
+  margin: 0;
+}
+h2 {
+  text-align: center;
+}
+.img-responsive {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+/* buttons */
+
+/* */
+header {
+  background: #E74C3C;
+  height: 150px;
+}
+
+.intro {
+  background: #ECF0F1;
+  padding-bottom: 48px;
+  padding-top: 100px;
+  color: #000;
+  text-align: center;
+}
+
+.intro h1 {
+  font-size: 63px;
+}
+
+.section-about {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.about-me {
+  flex: 1 400px;
+  background: #3498DB;
+  padding: 60px 80px 30px 10%;
+}
+.profile {
+  flex: 1 400px;
+  background: #2C3E50;
+  padding: 60px 40px;
+}
+.about-me,
+.profile {
+  text-align: left;
+}
+
+.boxy {
+  font-size: 2em;
+  text-align: center;
+  color: #eee;
+  border: 3px solid #eee;
+  padding: 15px;
+  display: inline-block;
+  margin: 0 0 50px;
+}
+.section-projects {
+  display: flex;
+  flex-wrap: wrap;
+  background: #ECF0F1;
+  color: #222;
+}
+.section-name {
+  width: 100%;
+  text-align: center;
+}
+.section-name h1 {
+  border-color: #222;
+  color: #222;
+  margin: 15px;
+}
+.project {
+  flex: 1 400px;
+  padding: 0px 30px;
+}
+.section-proficiency {
+  background: #E74C3C;
+  color: #eee;
+}
+.section-proficiency h1 {
+  color: #eee;
+  border-color: #eee;
+}
+@media screen and (max-width: 768px) {
+  .boxy {
+    display: block;
+    border: none;
+    border-bottom: 3px solid;
+    margin: 0px;
+  }
+  .about-me, .profile {
+    padding: 0px 50px;
+  }
+  .section-name h1 {
+    margin: 0px 50px;
+  }
+}
