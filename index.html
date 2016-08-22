@@ -10,8 +10,8 @@
 </div>
 <ul>
 	<li class="targeted" id="active"><a href="#">Home</a></li>
-	<li class="targeted"><a href="#">About</a></li>
-	<li class="targeted"><a href="#">Projects</a></li>
+	<li class="targeted"><a href="#about">About</a></li>
+	<li class="targeted"><a href="#projects">Projects</a></li>
 	<li class="targeted"><a href="#">Proficiency</a></li>
 	<li class="has-child targeted"><a href="#">Dropdown</a>
 		<ul class="dropdown" id="drophide">
@@ -42,11 +42,11 @@
 </header>
 <div class="intro">
   <h1>Jaska</h1>
-  <p>Lithuanian Web developer, designer.</p>
+  <p>Lithuanian Web developer, designer</p>
 </div>
 <div class="section-about">
   <div class="about-me">
-    <h1 class="boxy">About me</h1>
+    <h1 class="boxy"><a class="anchor" name="about">About me</a></h1>
     <p>Hi, my name is <b>Mindaugas Jasiulis</b>, I am student and self-taught web developer currently working on small projects and maintaining Reddit community forum on the side. I've had experience working with various experts in their particular fields and i've gained additional insight because of that which helped me to move forward quicker.</p>
 	<p>One of the best experiences developing was on Reddit community forum <a href="https://windows10.reddit.com" target="_blank">/r/Windows10</a> due its big audience. I made its community interaction grow with the help of color coding and helpful hints in certain parts of the subreddit. Im happy that my work has reaches over <b>1 million unique users</b> every month on this community alone and occasional private messages from users that like my design are just hearth warming, those people drive me even further to improve my work and continue learning and trying new things. Not to mention that I've even received some job offers from some of the people that loved my design and everything I did on this community forum. Also thanks to this my side project i've had plenty of interaction with Microsoft employees and had some feedback and help from them on certain things.
 	</p>
@@ -80,7 +80,7 @@
 </div>
 </div>
 <div class="section-projects">
-<div class="section-name"><h1 class="boxy">Projects</h1></div>
+	<div class="section-name"><h1 class="boxy"><a class="anchor" name="projects">Projects</h1></a></div>
   <div class="project">
     <h2>Windows 10 subreddit</h2>
         <img src="http://www.aviatorcameragear.com/wp-content/uploads/2012/07/placeholder_2.jpg" class="img-responsive">
@@ -125,6 +125,28 @@
 <div class="section-proficiency">
   <div class='section-name'><h1 class='boxy'>Proficiency</h1></div>
 <p>Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.</p></div>
+<footer>
+	<div class="copyright">
+		<p>
+			© Jaska 2015 -
+			<script>
+				now = new Date
+				theYear = now.getYear()
+				if (theYear < 1900)
+					theYear = theYear + 1900
+				document.write(theYear)
+			</script>
+			<span style="padding-left:20px">Made with <img src="http://jaska.co/images/coffee.png" height="25px" width="25px" alt="Coffee cup"> by <a href="https://twitter.com/Jaska____" target="_blank"><span class="jaska-foot">Jaska</span>
+			</a>
+			</span>
+		</p>
+	</div>
+	<div class="social">
+		<a href="mailto:jasius@outlook.com" class="support" target="_top">Contact Me</a>
+		<a href="https://twitter.com/Jaska____" class="tweet">t</a>
+		<a href="https://linkedin.com/in/mindaugas-jasiulis-259a63a7" class="linkedin">in</a>
+	</div>
+</footer>
 <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
 <script src="/js/nav.min.js"> crossorigin = "anim" </script>
 </body>
