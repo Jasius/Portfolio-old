@@ -343,18 +343,27 @@ header {
 }
 }
 @media screen and (max-width: 768px) {
-  .boxy {
-    display: block;
-    border: none;
-    border-bottom: 3px solid;
-    margin: 0px;
-  }
-  .about-me, .profile {
-    padding: 0px 50px;
-  }
-  .section-name h1 {
-    margin: 0px 50px;
-  }
+	.boxy {
+		display: block;
+		border: none;
+		border-bottom: 3px solid;
+		margin: 0px;
+	}
+	.profile {
+		ul {
+			padding-left: 0px;
+		}
+		.boxy {
+			margin-left: 0px;
+		}
+	}
+	.about-me,
+	.profile {
+		padding: 0px 50px;
+	}
+	.section-name h1 {
+		margin: 0px 50px;
+	}
 }
 
 /* profile */
