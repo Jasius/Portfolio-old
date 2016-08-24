@@ -227,7 +227,6 @@ nav ul li:hover > a {
   height: 3px;
   transition: all .2s ease-out;
   position: absolute;
-  max-width: 150px;
 }
 #active {
   color: #3498DB;
@@ -331,7 +330,7 @@ header {
   }
 }
 .project {
-  flex: 1 400px;
+  flex: 1 500px;
   padding: 0px 30px;
 }
 .section-proficiency {
