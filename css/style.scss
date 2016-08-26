@@ -1,6 +1,6 @@
 /* base */
-$font-stack: 'Open Sans',sans-serif;
-$font-secondary: 'Segoe UI',sans-serif;
+$font-stack: 'Open Sans',Helvetica Neue,Arial,sans-serif;
+$font-secondary: 'Segoe UI',Helvetica Neue,Arial,sans-serif;
 $primary-color: #fff;
 
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700);
@@ -336,7 +336,7 @@ header {
 	.date p {
 		text-align: center;
 		margin-top: 0px;
-		font-family: "Segoe UI";
+		font-family: $font-secondary;
 	}
 	h2 {
 		margin-bottom: 9px;
@@ -448,7 +448,7 @@ header {
 
 .icons8-codepen:before,.icons8-github2:before,.icons8-linkedin:before,.icons8-twitter:before {
     font-size: 1.5em;
-    background: tomato;
+    background: #ff6347;
     border-radius: 50%;
     color: #fff;
     border: 2px solid #fff;
@@ -572,7 +572,7 @@ header {
 
 .icons8-codepen:hover:before,.icons8-github2:hover:before,.icons8-linkedin:hover:before,.icons8-twitter:hover:before {
     color: #fff;
-    background: #2C3E50;
+    background: #E74C3C;
     transition: background-color .15s linear
 }
 

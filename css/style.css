@@ -8,7 +8,7 @@
 
 /* line 12, D:/github repos/Portfolio/css/style.scss */
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Open Sans", Helvetica Neue, Arial, sans-serif;
   color: #fff;
   margin: 0; }
 
@@ -259,7 +259,7 @@ header {
   .intro h1 {
     font-size: 63px;
     margin-top: 60px;
-    font-family: "Segoe UI", sans-serif;
+    font-family: "Segoe UI", Helvetica Neue, Arial, sans-serif;
     font-weight: normal; }
   /* line 252, D:/github repos/Portfolio/css/style.scss */
   .intro p {
@@ -356,7 +356,7 @@ header {
   .project .date p {
     text-align: center;
     margin-top: 0px;
-    font-family: "Segoe UI"; }
+    font-family: "Segoe UI", Helvetica Neue, Arial, sans-serif; }
   /* line 341, D:/github repos/Portfolio/css/style.scss */
   .project h2 {
     margin-bottom: 9px; }
@@ -463,7 +463,7 @@ header {
 /* line 449, D:/github repos/Portfolio/css/style.scss */
 .icons8-codepen:before, .icons8-github2:before, .icons8-linkedin:before, .icons8-twitter:before {
   font-size: 1.5em;
-  background: tomato;
+  background: #ff6347;
   border-radius: 50%;
   color: #fff;
   border: 2px solid #fff;
@@ -579,7 +579,7 @@ header {
 /* line 573, D:/github repos/Portfolio/css/style.scss */
 .icons8-codepen:hover:before, .icons8-github2:hover:before, .icons8-linkedin:hover:before, .icons8-twitter:hover:before {
   color: #fff;
-  background: #2C3E50;
+  background: #E74C3C;
   transition: background-color 0.15s linear; }
 
 @media (min-width: 1299px) {
