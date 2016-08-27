@@ -342,13 +342,23 @@ header {
 		margin-bottom: 9px;
 	}
 }
-.section-proficiency {
-  background: #E74C3C;
-  color: #eee;
-  h1 {
-  color: #eee;
-  border-color: #eee;
-}
+.section-hire {
+	display: flex;
+    flex-wrap: wrap;
+	justify-content: center;
+    flex-flow: column;
+	background: #E74C3C;
+	color: #eee;
+	padding: 50px 0px;
+	h2 {
+		font-weight: normal;
+	}
+	.btn-l {
+		margin: 0 auto;
+		border-color: #fff;
+		color: #fff;
+		line-height: 1;
+	}
 }
 @media screen and (max-width: 768px) {
 	.boxy {
