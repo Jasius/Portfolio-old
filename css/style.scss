@@ -1,17 +1,17 @@
 /* base */
 $font-stack: 'Open Sans',Helvetica Neue,Arial,sans-serif;
 $font-secondary: 'Segoe UI',Helvetica Neue,Arial,sans-serif;
-$primary-color: #fff;
+$light-blue: #3498DB;
 
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700);
 @import url(http://weloveiconfonts.com/api/?family=entypo);
 [class*="entypo-"]:before {
   font-family: 'entypo', sans-serif;
-  color: #3498DB;
+  color: $light-blue;
 }
 body {
   font-family: $font-stack;
-  color: $primary-color;
+  color: #fff;
   margin: 0;
 }
 a {
@@ -25,8 +25,10 @@ h2 {
 	max-width: 100%;
 	display: block;
 	margin: 0 auto;
+	border: 1px solid transparent;
 	&:hover {
 		opacity: .9;
+		border: 1px solid $light-blue;
 	}
 }
 .anchor:before {
@@ -49,7 +51,7 @@ nav {
 	line-height: 3.125em;
 	overflow: visible;
 	border-bottom: 1px solid #DCDDD8;
-	transition: top 0.5s;
+	transition: top .5s;
 	z-index: 99;
 	a {
 		text-decoration: none;
@@ -70,7 +72,7 @@ nav {
 		color: #1d6fa5;
 		li>a {
 			padding: 0px 20px;
-			color: #3498DB;
+			color: $light-blue;
 			font-weight: 600;
 			display: block;
 			li > a span {
@@ -93,7 +95,7 @@ nav {
 }
 .nav-hide {
   top: -51px;
-  transition: 0.5s;
+  transition: .5s;
 }
 @media only screen and (max-width: 62.5em) {
   nav {
@@ -174,7 +176,7 @@ nav {
   float: left;
   width: 100%;
   font-weight: 600;
-  color: #3498DB;
+  color: $light-blue;
   border-bottom: 1px solid #EFEFEF;
 }
 @media only screen and (max-width: 45em) {
@@ -196,7 +198,7 @@ nav ul li:hover > a {
   padding: 0 15px;
   font-size: 1.25em;
   font-weight: 600;
-  color: #3498DB;
+  color: $light-blue;
 }
 .logo a:hover {
    background: #f2f2f2;
@@ -238,7 +240,7 @@ nav ul li:hover > a {
   position: absolute;
 }
 #active {
-  color: #3498DB;
+  color: $light-blue;
 }
 /* */
 header {
@@ -268,7 +270,7 @@ header {
 }
 .about-me {
   flex: 1 400px;
-  background: #3498DB;
+  background: $light-blue;
   padding: 60px 80px 30px 10%;
   flex: 3;
 	h1 a {
@@ -277,7 +279,7 @@ header {
 }
 .profile {
   flex: 1 400px;
-  background: #2C3E50;
+  background: #225378;
   padding: 60px 20px;
   flex: 2;
 	li {
@@ -326,19 +328,19 @@ header {
   background: #ECF0F1;
   color: #222;
 	a {
-		color: #3498DB;
+		color: $light-blue;
 	}
 }
 .section-name {
   width: 100%;
   text-align: center;
   h1 {
-  border-color: #3498DB;
-  color: #3498DB;
+  border-color: $light-blue;
+  color: $light-blue;
   margin: 15px;
   }
   a{
-  color: #3498DB;
+  color: $light-blue;
   }
 }
 .project {
@@ -622,8 +624,8 @@ header {
 
 .btn-l {
   background: 0 0;
-  border: 2px solid #3498DB;
-  color: #3498DB;
+  border: 2px solid $light-blue;
+  color: $light-blue;
   transition: all .5s;
   padding: 7px 16px;
   font-size: 18px;
@@ -634,7 +636,7 @@ header {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   &:hover, &:focus {
     color: #fff;
-    background: #3498DB;
+    background: $light-blue;
   }
 }
 /* footer */
@@ -736,4 +738,5 @@ footer {
 		background: #93dab4;
 	}
 }
-/*# sourceMappingURL=styles.css.map */
+
+/*# sourceMappingURL=style.css.map */
