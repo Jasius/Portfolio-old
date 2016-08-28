@@ -51,11 +51,12 @@ nav {
   line-height: 3.125em;
   overflow: visible;
   border-bottom: 1px solid #DCDDD8;
+  transition: top 0.5s;
   z-index: 99; }
-  /* line 53, D:/github repos/Portfolio/css/style.scss */
+  /* line 54, D:/github repos/Portfolio/css/style.scss */
   nav a {
     text-decoration: none; }
-  /* line 56, D:/github repos/Portfolio/css/style.scss */
+  /* line 57, D:/github repos/Portfolio/css/style.scss */
   nav ul {
     margin: 0;
     padding: 0;
@@ -70,57 +71,62 @@ nav {
     -webkit-flex-flow: row wrap;
     justify-content: center;
     color: #1d6fa5; }
-    /* line 70, D:/github repos/Portfolio/css/style.scss */
+    /* line 71, D:/github repos/Portfolio/css/style.scss */
     nav ul li > a {
       padding: 0px 20px;
       color: #3498DB;
       font-weight: 600;
       display: block; }
-      /* line 75, D:/github repos/Portfolio/css/style.scss */
+      /* line 76, D:/github repos/Portfolio/css/style.scss */
       nav ul li > a li > a span {
         margin-right: 4px;
         color: #0078D7; }
-  /* line 81, D:/github repos/Portfolio/css/style.scss */
+  /* line 82, D:/github repos/Portfolio/css/style.scss */
   nav ul li {
     float: right;
     margin: 0;
     padding: 0;
     text-align: center;
     cursor: pointer; }
-    /* line 88, D:/github repos/Portfolio/css/style.scss */
+    /* line 89, D:/github repos/Portfolio/css/style.scss */
     nav ul li:hover,
     nav ul li:active {
       background: #f2f2f2; }
 
+/* line 94, D:/github repos/Portfolio/css/style.scss */
+.nav-hide {
+  top: -51px;
+  transition: 0.5s; }
+
 @media only screen and (max-width: 62.5em) {
-  /* line 94, D:/github repos/Portfolio/css/style.scss */
+  /* line 99, D:/github repos/Portfolio/css/style.scss */
   nav {
     position: fixed;
     margin-top: 0;
     border: 0; } }
 
 @media only screen and (max-width: 45em) {
-  /* line 101, D:/github repos/Portfolio/css/style.scss */
+  /* line 106, D:/github repos/Portfolio/css/style.scss */
   nav ul {
     display: none; }
-  /* line 104, D:/github repos/Portfolio/css/style.scss */
+  /* line 109, D:/github repos/Portfolio/css/style.scss */
   #indicator {
     display: none; } }
 
 @media only screen and (max-width: 45em) {
-  /* line 109, D:/github repos/Portfolio/css/style.scss */
+  /* line 114, D:/github repos/Portfolio/css/style.scss */
   nav ul li {
     display: block;
     width: 100%;
     text-align: left;
     border-bottom: 1px solid #f2f2f2; } }
 
-/* line 116, D:/github repos/Portfolio/css/style.scss */
+/* line 121, D:/github repos/Portfolio/css/style.scss */
 .has-child {
   position: relative;
   left: 0; }
 
-/* line 120, D:/github repos/Portfolio/css/style.scss */
+/* line 125, D:/github repos/Portfolio/css/style.scss */
 .has-child:after {
   position: absolute;
   margin-top: -5px;
@@ -134,7 +140,7 @@ nav {
   border-color: #0078D7 transparent transparent transparent; }
 
 @media only screen and (max-width: 45em) {
-  /* line 133, D:/github repos/Portfolio/css/style.scss */
+  /* line 138, D:/github repos/Portfolio/css/style.scss */
   .has-child:after {
     position: absolute;
     margin-top: -5px;
@@ -147,7 +153,7 @@ nav {
     border-width: 10px 5px 0 5px;
     border-color: #0078D7 transparent transparent transparent; } }
 
-/* line 146, D:/github repos/Portfolio/css/style.scss */
+/* line 151, D:/github repos/Portfolio/css/style.scss */
 .has-child .dropdown {
   position: absolute;
   left: -40px;
@@ -159,7 +165,7 @@ nav {
   border-top: none; }
 
 @media only screen and (max-width: 45em) {
-  /* line 157, D:/github repos/Portfolio/css/style.scss */
+  /* line 162, D:/github repos/Portfolio/css/style.scss */
   .has-child .dropdown {
     position: relative;
     left: 0;
@@ -169,7 +175,7 @@ nav {
     width: 100%;
     border-radius: 0; } }
 
-/* line 168, D:/github repos/Portfolio/css/style.scss */
+/* line 173, D:/github repos/Portfolio/css/style.scss */
 .has-child .dropdown > li {
   float: left;
   width: 100%;
@@ -178,20 +184,20 @@ nav {
   border-bottom: 1px solid #EFEFEF; }
 
 @media only screen and (max-width: 45em) {
-  /* line 176, D:/github repos/Portfolio/css/style.scss */
+  /* line 181, D:/github repos/Portfolio/css/style.scss */
   .has-child .dropdown > li {
     padding-left: 20px;
     background: #fff; } }
 
-/* line 181, D:/github repos/Portfolio/css/style.scss */
+/* line 186, D:/github repos/Portfolio/css/style.scss */
 .has-child .dropdown li a {
   display: block; }
 
-/* line 184, D:/github repos/Portfolio/css/style.scss */
+/* line 189, D:/github repos/Portfolio/css/style.scss */
 nav ul li:hover > a {
   color: #1d6fa5; }
 
-/* line 188, D:/github repos/Portfolio/css/style.scss */
+/* line 193, D:/github repos/Portfolio/css/style.scss */
 .logo a {
   float: left;
   margin: 0;
@@ -200,24 +206,24 @@ nav ul li:hover > a {
   font-weight: 600;
   color: #3498DB; }
 
-/* line 196, D:/github repos/Portfolio/css/style.scss */
+/* line 201, D:/github repos/Portfolio/css/style.scss */
 .logo a:hover {
   background: #f2f2f2;
   color: #1d6fa5; }
 
 @media only screen and (max-width: 45em) {
-  /* line 201, D:/github repos/Portfolio/css/style.scss */
+  /* line 206, D:/github repos/Portfolio/css/style.scss */
   .logo {
     width: 100%;
     border: 0;
     border-radius: 0; } }
 
 @media only screen and (max-width: 62.5em) {
-  /* line 208, D:/github repos/Portfolio/css/style.scss */
+  /* line 213, D:/github repos/Portfolio/css/style.scss */
   .logo {
     border-radius: 0; } }
 
-/* line 213, D:/github repos/Portfolio/css/style.scss */
+/* line 218, D:/github repos/Portfolio/css/style.scss */
 #toggle-menu {
   position: absolute;
   right: 0em;
@@ -229,11 +235,11 @@ nav ul li:hover > a {
   color: #FFF4E1; }
 
 @media only screen and (max-width: 45em) {
-  /* line 224, D:/github repos/Portfolio/css/style.scss */
+  /* line 229, D:/github repos/Portfolio/css/style.scss */
   #toggle-menu {
     display: block; } }
 
-/* line 228, D:/github repos/Portfolio/css/style.scss */
+/* line 233, D:/github repos/Portfolio/css/style.scss */
 #indicator {
   bottom: 0;
   margin: 0;
@@ -241,66 +247,66 @@ nav ul li:hover > a {
   transition: all 0.2s ease-out;
   position: absolute; }
 
-/* line 235, D:/github repos/Portfolio/css/style.scss */
+/* line 240, D:/github repos/Portfolio/css/style.scss */
 #active {
   color: #3498DB; }
 
 /* */
-/* line 239, D:/github repos/Portfolio/css/style.scss */
+/* line 244, D:/github repos/Portfolio/css/style.scss */
 header {
   background: #E74C3C;
   height: 200px; }
 
-/* line 243, D:/github repos/Portfolio/css/style.scss */
+/* line 248, D:/github repos/Portfolio/css/style.scss */
 .intro {
   background: #ECF0F1;
   padding-top: 40px;
   padding-bottom: 10px;
   color: #000;
   text-align: center; }
-  /* line 249, D:/github repos/Portfolio/css/style.scss */
+  /* line 254, D:/github repos/Portfolio/css/style.scss */
   .intro h1 {
     font-size: 63px;
     margin-top: 60px;
     font-family: "Segoe UI", Helvetica Neue, Arial, sans-serif;
     font-weight: normal; }
-  /* line 255, D:/github repos/Portfolio/css/style.scss */
+  /* line 260, D:/github repos/Portfolio/css/style.scss */
   .intro p {
     margin-top: -25px;
     margin: -25px 0px 0px 0px; }
 
-/* line 260, D:/github repos/Portfolio/css/style.scss */
+/* line 265, D:/github repos/Portfolio/css/style.scss */
 .section-about {
   display: flex;
   flex-wrap: wrap; }
 
-/* line 264, D:/github repos/Portfolio/css/style.scss */
+/* line 269, D:/github repos/Portfolio/css/style.scss */
 .about-me {
   flex: 1 400px;
   background: #3498DB;
   padding: 60px 80px 30px 10%;
   flex: 3; }
-  /* line 269, D:/github repos/Portfolio/css/style.scss */
+  /* line 274, D:/github repos/Portfolio/css/style.scss */
   .about-me h1 a {
     color: #eee; }
 
-/* line 273, D:/github repos/Portfolio/css/style.scss */
+/* line 278, D:/github repos/Portfolio/css/style.scss */
 .profile {
   flex: 1 400px;
   background: #2C3E50;
   padding: 60px 20px;
   flex: 2; }
-  /* line 278, D:/github repos/Portfolio/css/style.scss */
+  /* line 283, D:/github repos/Portfolio/css/style.scss */
   .profile li {
     margin: 0;
     font-size: 1.15em;
     color: #ecf0f1;
     list-style: none; }
-  /* line 284, D:/github repos/Portfolio/css/style.scss */
+  /* line 289, D:/github repos/Portfolio/css/style.scss */
   .profile ul p {
     font-size: 1.25em;
     margin: 0; }
-  /* line 288, D:/github repos/Portfolio/css/style.scss */
+  /* line 293, D:/github repos/Portfolio/css/style.scss */
   .profile .small-line {
     border-color: #69D2E7;
     margin: 10px 0 50px;
@@ -308,18 +314,18 @@ header {
     width: 20px;
     border-top: 2px solid #69D2E7;
     margin-bottom: 30px; }
-  /* line 296, D:/github repos/Portfolio/css/style.scss */
+  /* line 301, D:/github repos/Portfolio/css/style.scss */
   .profile .boxy {
     margin-left: 35px;
     color: #69D2E7;
     border-color: #69D2E7; }
 
-/* line 303, D:/github repos/Portfolio/css/style.scss */
+/* line 308, D:/github repos/Portfolio/css/style.scss */
 .about-me,
 .profile {
   text-align: left; }
 
-/* line 307, D:/github repos/Portfolio/css/style.scss */
+/* line 312, D:/github repos/Portfolio/css/style.scss */
 .boxy {
   font-size: 1.7em;
   text-align: center;
@@ -331,44 +337,44 @@ header {
   line-height: 1;
   font-weight: 500; }
 
-/* line 318, D:/github repos/Portfolio/css/style.scss */
+/* line 323, D:/github repos/Portfolio/css/style.scss */
 .section-projects {
   display: flex;
   flex-wrap: wrap;
   background: #ECF0F1;
   color: #222; }
-  /* line 323, D:/github repos/Portfolio/css/style.scss */
+  /* line 328, D:/github repos/Portfolio/css/style.scss */
   .section-projects a {
     color: #3498DB; }
 
-/* line 327, D:/github repos/Portfolio/css/style.scss */
+/* line 332, D:/github repos/Portfolio/css/style.scss */
 .section-name {
   width: 100%;
   text-align: center; }
-  /* line 330, D:/github repos/Portfolio/css/style.scss */
+  /* line 335, D:/github repos/Portfolio/css/style.scss */
   .section-name h1 {
     border-color: #3498DB;
     color: #3498DB;
     margin: 15px; }
-  /* line 335, D:/github repos/Portfolio/css/style.scss */
+  /* line 340, D:/github repos/Portfolio/css/style.scss */
   .section-name a {
     color: #3498DB; }
 
-/* line 339, D:/github repos/Portfolio/css/style.scss */
+/* line 344, D:/github repos/Portfolio/css/style.scss */
 .project {
   flex: 1 500px;
   padding: 0px 30px; }
-  /* line 342, D:/github repos/Portfolio/css/style.scss */
+  /* line 347, D:/github repos/Portfolio/css/style.scss */
   .project .date p {
     text-align: center;
     margin-top: 0px;
     font-family: "Segoe UI", Helvetica Neue, Arial, sans-serif; }
-  /* line 347, D:/github repos/Portfolio/css/style.scss */
+  /* line 352, D:/github repos/Portfolio/css/style.scss */
   .project h2 {
     margin-bottom: 9px;
     font-weight: 600; }
 
-/* line 352, D:/github repos/Portfolio/css/style.scss */
+/* line 357, D:/github repos/Portfolio/css/style.scss */
 .section-hire {
   display: flex;
   flex-wrap: wrap;
@@ -377,10 +383,10 @@ header {
   background: #E74C3C;
   color: #eee;
   padding: 50px 0px; }
-  /* line 360, D:/github repos/Portfolio/css/style.scss */
+  /* line 365, D:/github repos/Portfolio/css/style.scss */
   .section-hire h2 {
     font-weight: normal; }
-  /* line 363, D:/github repos/Portfolio/css/style.scss */
+  /* line 368, D:/github repos/Portfolio/css/style.scss */
   .section-hire .btn-l {
     margin: 0 auto;
     border-color: #fff;
@@ -388,28 +394,28 @@ header {
     line-height: 1; }
 
 @media screen and (max-width: 768px) {
-  /* line 371, D:/github repos/Portfolio/css/style.scss */
+  /* line 376, D:/github repos/Portfolio/css/style.scss */
   .boxy {
     display: block;
     border: none;
     border-bottom: 3px solid;
     margin: 0px; }
-  /* line 378, D:/github repos/Portfolio/css/style.scss */
+  /* line 383, D:/github repos/Portfolio/css/style.scss */
   .profile ul {
     padding-left: 0px; }
-  /* line 381, D:/github repos/Portfolio/css/style.scss */
+  /* line 386, D:/github repos/Portfolio/css/style.scss */
   .profile .boxy {
     margin-left: 0px; }
-  /* line 386, D:/github repos/Portfolio/css/style.scss */
+  /* line 391, D:/github repos/Portfolio/css/style.scss */
   .about-me,
   .profile {
     padding: 15px 50px; }
-  /* line 389, D:/github repos/Portfolio/css/style.scss */
+  /* line 394, D:/github repos/Portfolio/css/style.scss */
   .section-name h1 {
     margin: 0px 50px; } }
 
 /* profile */
-/* line 395, D:/github repos/Portfolio/css/style.scss */
+/* line 400, D:/github repos/Portfolio/css/style.scss */
 .img-circle.img-responsive {
   -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
@@ -438,11 +444,11 @@ header {
     font-family: Portfolio;
     src: url(./Portfolio_c06695c5ca5f8c11d36489dba17bd333.svg#Portfolio) format("svg"); } }
 
-/* line 427, D:/github repos/Portfolio/css/style.scss */
+/* line 432, D:/github repos/Portfolio/css/style.scss */
 [data-icon]:before {
   content: attr(data-icon); }
 
-/* line 431, D:/github repos/Portfolio/css/style.scss */
+/* line 436, D:/github repos/Portfolio/css/style.scss */
 .icons8-codepen:before, .icons8-github2:before, .icons8-github:before, .icons8-linkedin:before, .icons8-twitter:before, [data-icon]:before {
   display: inline-block;
   font-family: Portfolio;
@@ -457,27 +463,27 @@ header {
   -webkit-font-smoothing: antialiased;
   font-smoothing: antialiased; }
 
-/* line 446, D:/github repos/Portfolio/css/style.scss */
+/* line 451, D:/github repos/Portfolio/css/style.scss */
 .icons8-codepen:before {
   content: "\f100"; }
 
-/* line 450, D:/github repos/Portfolio/css/style.scss */
+/* line 455, D:/github repos/Portfolio/css/style.scss */
 .icons8-github:before {
   content: "\f101"; }
 
-/* line 454, D:/github repos/Portfolio/css/style.scss */
+/* line 459, D:/github repos/Portfolio/css/style.scss */
 .icons8-github2:before {
   content: "\f102"; }
 
-/* line 458, D:/github repos/Portfolio/css/style.scss */
+/* line 463, D:/github repos/Portfolio/css/style.scss */
 .icons8-linkedin:before {
   content: "\f103"; }
 
-/* line 462, D:/github repos/Portfolio/css/style.scss */
+/* line 467, D:/github repos/Portfolio/css/style.scss */
 .icons8-twitter:before {
   content: "\f104"; }
 
-/* line 466, D:/github repos/Portfolio/css/style.scss */
+/* line 471, D:/github repos/Portfolio/css/style.scss */
 .icons8-codepen:before, .icons8-github2:before, .icons8-linkedin:before, .icons8-twitter:before {
   font-size: 1.5em;
   background: #ff6347;
@@ -488,35 +494,35 @@ header {
   height: 63px;
   line-height: 60px; }
 
-/* line 477, D:/github repos/Portfolio/css/style.scss */
+/* line 482, D:/github repos/Portfolio/css/style.scss */
 .universal-inline-block {
   display: inline; }
 
-/* line 481, D:/github repos/Portfolio/css/style.scss */
+/* line 486, D:/github repos/Portfolio/css/style.scss */
 .social-icons {
   text-align: center;
   font-family: "Open Sans";
   font-weight: 300;
   font-size: 1.5em;
   color: #448aaf; }
-  /* line 487, D:/github repos/Portfolio/css/style.scss */
+  /* line 492, D:/github repos/Portfolio/css/style.scss */
   .social-icons h1 {
     margin: 40px 0; }
-  /* line 490, D:/github repos/Portfolio/css/style.scss */
+  /* line 495, D:/github repos/Portfolio/css/style.scss */
   .social-icons ul {
     list-style: none;
     margin: 0;
     padding: 15px 0 0; }
-  /* line 495, D:/github repos/Portfolio/css/style.scss */
+  /* line 500, D:/github repos/Portfolio/css/style.scss */
   .social-icons ul li {
     display: inline-block; }
-  /* line 498, D:/github repos/Portfolio/css/style.scss */
+  /* line 503, D:/github repos/Portfolio/css/style.scss */
   .social-icons ul li a {
     display: block;
     font-size: 1.4em;
     margin: 0 5px;
     text-decoration: none; }
-  /* line 504, D:/github repos/Portfolio/css/style.scss */
+  /* line 509, D:/github repos/Portfolio/css/style.scss */
   .social-icons ul li a i {
     color: #448aaf;
     -webkit-transition: all 0.2s ease-in;
@@ -525,11 +531,11 @@ header {
     -ms-transition: all 0.2s ease-in;
     transition: all 0.2s ease-in; }
 
-/* line 514, D:/github repos/Portfolio/css/style.scss */
+/* line 519, D:/github repos/Portfolio/css/style.scss */
 #about-me p, #profile {
   font-family: Raleway,helvetica; }
 
-/* line 518, D:/github repos/Portfolio/css/style.scss */
+/* line 523, D:/github repos/Portfolio/css/style.scss */
 .mepic {
   width: 200px;
   height: 200px;
@@ -543,7 +549,7 @@ header {
   top: 80px; }
 
 @media screen and (max-width: 607px) {
-  /* line 532, D:/github repos/Portfolio/css/style.scss */
+  /* line 537, D:/github repos/Portfolio/css/style.scss */
   .mepic {
     width: 100px;
     height: 100px;
@@ -551,19 +557,19 @@ header {
     margin-right: 10px;
     margin-top: 43px;
     top: 37px; }
-  /* line 540, D:/github repos/Portfolio/css/style.scss */
+  /* line 545, D:/github repos/Portfolio/css/style.scss */
   header {
     height: 150px; }
-  /* line 543, D:/github repos/Portfolio/css/style.scss */
+  /* line 548, D:/github repos/Portfolio/css/style.scss */
   .intro h1 {
     margin-top: 0px; }
-  /* line 547, D:/github repos/Portfolio/css/style.scss */
+  /* line 552, D:/github repos/Portfolio/css/style.scss */
   .social-icons ul li a {
     height: 0; }
-  /* line 551, D:/github repos/Portfolio/css/style.scss */
+  /* line 556, D:/github repos/Portfolio/css/style.scss */
   .social-icons {
     font-size: 1.2em; }
-  /* line 555, D:/github repos/Portfolio/css/style.scss */
+  /* line 560, D:/github repos/Portfolio/css/style.scss */
   .icons8-codepen:before, .icons8-github2:before, .icons8-linkedin:before, .icons8-twitter:before {
     font-size: 1.4em;
     height: 50px;
@@ -571,7 +577,7 @@ header {
     line-height: 50px; } }
 
 @media screen and (max-width: 376px) {
-  /* line 564, D:/github repos/Portfolio/css/style.scss */
+  /* line 569, D:/github repos/Portfolio/css/style.scss */
   .mepic {
     width: 80px;
     height: 80px;
@@ -579,28 +585,28 @@ header {
     margin-right: 10px;
     margin-top: 60px;
     top: 34px; }
-  /* line 573, D:/github repos/Portfolio/css/style.scss */
+  /* line 578, D:/github repos/Portfolio/css/style.scss */
   .social-icons ul li a {
     height: 0;
     margin-top: 45px; }
-  /* line 578, D:/github repos/Portfolio/css/style.scss */
+  /* line 583, D:/github repos/Portfolio/css/style.scss */
   .social-icons {
     font-size: .8em; }
-  /* line 582, D:/github repos/Portfolio/css/style.scss */
+  /* line 587, D:/github repos/Portfolio/css/style.scss */
   .icons8-codepen:before, .icons8-github2:before, .icons8-linkedin:before, .icons8-twitter:before {
     font-size: 1.3em;
     height: 35px;
     width: 35px;
     line-height: 36px; } }
 
-/* line 590, D:/github repos/Portfolio/css/style.scss */
+/* line 595, D:/github repos/Portfolio/css/style.scss */
 .icons8-codepen:hover:before, .icons8-github2:hover:before, .icons8-linkedin:hover:before, .icons8-twitter:hover:before {
   color: #fff;
   background: #E74C3C;
   transition: background-color 0.15s linear; }
 
 @media (min-width: 1299px) {
-  /* line 597, D:/github repos/Portfolio/css/style.scss */
+  /* line 602, D:/github repos/Portfolio/css/style.scss */
   .icons8-codepen:before, .icons8-github2:before, .icons8-linkedin:before, .icons8-twitter:before {
     font-size: 2em;
     border: 2px solid #fff;
@@ -608,16 +614,16 @@ header {
     height: 90px;
     line-height: 85px;
     margin-left: 30px; }
-  /* line 607, D:/github repos/Portfolio/css/style.scss */
+  /* line 612, D:/github repos/Portfolio/css/style.scss */
   .social-icons ul li a {
     height: 70px;
     margin: 0 20px; }
-  /* line 611, D:/github repos/Portfolio/css/style.scss */
+  /* line 616, D:/github repos/Portfolio/css/style.scss */
   .social-icons ul {
     padding: 20px 0 0; } }
 
 /* buttons */
-/* line 618, D:/github repos/Portfolio/css/style.scss */
+/* line 623, D:/github repos/Portfolio/css/style.scss */
 .btn-l {
   background: 0 0;
   border: 2px solid #3498DB;
@@ -630,25 +636,25 @@ header {
   height: 20px;
   margin: 5px;
   -webkit-tap-highlight-color: transparent; }
-  /* line 630, D:/github repos/Portfolio/css/style.scss */
+  /* line 635, D:/github repos/Portfolio/css/style.scss */
   .btn-l:hover, .btn-l:focus {
     color: #fff;
     background: #3498DB; }
 
 /* footer */
-/* line 636, D:/github repos/Portfolio/css/style.scss */
+/* line 641, D:/github repos/Portfolio/css/style.scss */
 #Made with {
   float: right;
   margin-right: 100px; }
 
-/* line 641, D:/github repos/Portfolio/css/style.scss */
+/* line 646, D:/github repos/Portfolio/css/style.scss */
 .jaska-foot {
   color: #E74C3C; }
-  /* line 643, D:/github repos/Portfolio/css/style.scss */
+  /* line 648, D:/github repos/Portfolio/css/style.scss */
   .jaska-foot:hover {
     color: #fff; }
 
-/* line 648, D:/github repos/Portfolio/css/style.scss */
+/* line 653, D:/github repos/Portfolio/css/style.scss */
 footer {
   position: relative;
   background: #2C3E50;
@@ -656,13 +662,13 @@ footer {
   width: 100%;
   margin-top: 0;
   border-top: 1px solid #fff; }
-  /* line 655, D:/github repos/Portfolio/css/style.scss */
+  /* line 660, D:/github repos/Portfolio/css/style.scss */
   footer .copyright {
     width: 45%;
     padding-left: 5%;
     float: left;
     background: #2C3E50; }
-    /* line 660, D:/github repos/Portfolio/css/style.scss */
+    /* line 665, D:/github repos/Portfolio/css/style.scss */
     footer .copyright p {
       color: #fff;
       font-size: .7em;
@@ -670,11 +676,11 @@ footer {
       margin: 0px;
       text-transform: capitalize;
       letter-spacing: 1px; }
-  /* line 669, D:/github repos/Portfolio/css/style.scss */
+  /* line 674, D:/github repos/Portfolio/css/style.scss */
   footer .social {
     width: 50%;
     float: right; }
-    /* line 672, D:/github repos/Portfolio/css/style.scss */
+    /* line 677, D:/github repos/Portfolio/css/style.scss */
     footer .social a {
       float: left;
       line-height: 70px;
@@ -683,7 +689,7 @@ footer {
       text-align: center;
       font-weight: 700;
       transition: background 0.33s ease-out, color 0.33s ease-out, fill 0.33s ease-out; }
-      /* line 680, D:/github repos/Portfolio/css/style.scss */
+      /* line 685, D:/github repos/Portfolio/css/style.scss */
       footer .social a:hover {
         -moz-transition: all, 0.3s;
         -o-transition: all, 0.3s;
@@ -691,10 +697,10 @@ footer {
         transition: all, 0.3s; }
 
 @media (max-width: 600px) {
-  /* line 691, D:/github repos/Portfolio/css/style.scss */
+  /* line 696, D:/github repos/Portfolio/css/style.scss */
   footer .copyright {
     width: 95%; }
-    /* line 692, D:/github repos/Portfolio/css/style.scss */
+    /* line 697, D:/github repos/Portfolio/css/style.scss */
     footer .copyright p {
       text-align: center;
       padding: 0;
@@ -702,34 +708,34 @@ footer {
       margin-left: 5px; } }
 
 @media (max-width: 600px) {
-  /* line 703, D:/github repos/Portfolio/css/style.scss */
+  /* line 708, D:/github repos/Portfolio/css/style.scss */
   footer .social {
     width: 100%; } }
 
-/* line 708, D:/github repos/Portfolio/css/style.scss */
+/* line 713, D:/github repos/Portfolio/css/style.scss */
 .linkedin {
   background-color: #ff5700;
   font-size: 1.2em;
   width: 40%; }
-  /* line 712, D:/github repos/Portfolio/css/style.scss */
+  /* line 717, D:/github repos/Portfolio/css/style.scss */
   .linkedin:hover {
     background: #ff7934; }
 
-/* line 717, D:/github repos/Portfolio/css/style.scss */
+/* line 722, D:/github repos/Portfolio/css/style.scss */
 .tweet {
   background-color: #3DACDD;
   font-size: 1.2em;
   width: 20%; }
-  /* line 721, D:/github repos/Portfolio/css/style.scss */
+  /* line 726, D:/github repos/Portfolio/css/style.scss */
   .tweet:hover {
     background: #68bfe5; }
 
-/* line 726, D:/github repos/Portfolio/css/style.scss */
+/* line 731, D:/github repos/Portfolio/css/style.scss */
 .support {
   background-color: #6dcd9a;
   font-size: .8em;
   width: 40%; }
-  /* line 730, D:/github repos/Portfolio/css/style.scss */
+  /* line 735, D:/github repos/Portfolio/css/style.scss */
   .support:hover {
     background: #93dab4; }
 
