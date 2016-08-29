@@ -95,7 +95,7 @@ nav {
 }
 .nav-hide {
   top: -51px;
-  transition: .5s;
+  transition-delay: 2s;
 }
 @media only screen and (max-width: 62.5em) {
   nav {
@@ -481,10 +481,6 @@ header {
     line-height: 60px
 }
 
-.universal-inline-block {
-    display: inline;
-}
-
 .social-icons {
     text-align: center;
     font-family: "Open Sans";
@@ -654,7 +650,6 @@ header {
 
 footer {
   position: relative;
-  background: #2C3E50;
   bottom: 0;
   width: 100%;
   margin-top: 0;
@@ -663,7 +658,7 @@ footer {
     width: 45%;
     padding-left: 5%;
     float: left;
-    background: #2C3E50;
+    background: #225378;
     p {
       color: #fff;
       font-size: .7em;
