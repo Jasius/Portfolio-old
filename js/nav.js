@@ -54,59 +54,6 @@ function moveIndicator($elm){
   })
 }
 
-/* dark mode */
-
-
-$(function () {
-
-  // Check for stored value right away
-  loadMode();
-
-  var button = $('.changeBg');
-
-  button.click(function() {
-    $('body').toggleClass('darkSwitch');
-    saveMode();
-    setText();
-  })
-
-});
-
-function loadMode() {
-
-  var $darkmode = JSON.parse( localStorage.getItem('darkSwitch') );
-
-  if( $darkmode )
-    $('body').addClass('darkSwitch');
-
-}
-
-function saveMode() {
-
-  var $darkmode = getMode();
-
-  localStorage.setItem('darkSwitch', JSON.stringify($darkmode));
-
-}
-
-function getMode() {
-
-  if( !$('body').hasClass('darkSwitch') )
-    return false;
-
-  return true;
-}
-
-function setText() {
-
-  var $text = 'Dark mode';
-
-  if( getMode() )
-    $text = 'Light mode';
-
-  $('.changeBg').attr('value', $text);
-
-}
 /* hiding */
 $(function(){
     var lastScrollTop = 0, delta = 5;
