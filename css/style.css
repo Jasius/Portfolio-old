@@ -70,6 +70,7 @@ nav {
     display: -ms-flexbox;
     display: -webkit-flex;
     display: flex;
+    flex-flow: row wrap;
     -webkit-flex-flow: row wrap;
     justify-content: center;
     color: #1d6fa5; }
@@ -466,9 +467,7 @@ header {
   text-decoration: inherit;
   text-rendering: optimizeLegibility;
   text-transform: none;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
-  font-smoothing: antialiased; }
+ }
 
 /* line 508, D:/github repos/Portfolio/css/style.scss */
 .icons8-codepen:before {
