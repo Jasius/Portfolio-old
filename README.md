@@ -1,2 +1,2 @@
 # Desktop
-![Portfolio](https://raw.githubusercontent.com/Jasius/Portfolio/gh-pages/images/portfolio.png)
+![Portfolio](https://raw.githubusercontent.com/Jasius/Portfolio/gh-pages/images/portfolio.PNG)
