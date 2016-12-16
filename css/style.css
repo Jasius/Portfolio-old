@@ -1,5 +1,4 @@
 @charset "UTF-8";
-/* base */
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700);
 @import url(http://weloveiconfonts.com/api/?family=entypo);
 [class*="entypo-"]:before {
@@ -34,7 +33,6 @@ h2 {
   height: 75px;
   visibility: hidden; }
 
-/* nav */
 nav {
   position: absolute;
   top: 0px;
@@ -180,7 +178,8 @@ nav {
   #toggle-menu {
     display: block; }
 
-  nav ul, #indicator {
+  nav ul,
+  #indicator {
     display: none; }
 
   nav ul li {
@@ -198,7 +197,6 @@ nav {
     position: fixed;
     margin-top: 0;
     border: 0; } }
-/* */
 header {
   background: #E74C3C;
   height: 200px; }
@@ -333,7 +331,6 @@ header {
 
   .section-name h1 {
     margin: 0px 50px; } }
-/* profile */
 .img-circle.img-responsive {
   -webkit-transition: all .4s ease;
   transition: all .4s ease;
@@ -530,7 +527,6 @@ header {
     margin: 0 20px; }
   .social-icons ul {
     padding: 20px 0 0; } }
-/* buttons */
 .btn-l {
   background: 0 0;
   border: 2px solid #3498DB;
@@ -547,7 +543,6 @@ header {
     color: #fff;
     background: #3498DB; }
 
-/* footer */
 #Made with {
   float: right;
   margin-right: 100px; }
