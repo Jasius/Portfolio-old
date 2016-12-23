@@ -34,6 +34,7 @@ h2 {
 	display: block;
 	margin: 0 auto;
 	border: 1px solid transparent;
+	transition: all .2s;
 	&:hover {
 		opacity: .9;
 		border: 1px solid $light-blue;
