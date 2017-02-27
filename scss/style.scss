@@ -492,7 +492,8 @@ header {
 	border: 2px solid #fff;
 	width: 63px;
 	height: 63px;
-	line-height: 60px
+	line-height: 60px;
+	transition: background-color .15s linear
 }
 
 .contact-icons {
@@ -613,7 +614,6 @@ header {
 .icons8-twitter:hover:before {
 	color: #fff;
 	background: #E74C3C;
-	transition: background-color .15s linear
 }
 
 @media (min-width: 1299px) {

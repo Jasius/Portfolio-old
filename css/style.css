@@ -405,7 +405,8 @@ header {
   border: 2px solid #fff;
   width: 63px;
   height: 63px;
-  line-height: 60px; }
+  line-height: 60px;
+  transition: background-color 0.15s linear; }
 
 .contact-icons {
   text-align: center;
@@ -508,8 +509,7 @@ header {
 .icons8-linkedin:hover:before,
 .icons8-twitter:hover:before {
   color: #fff;
-  background: #E74C3C;
-  transition: background-color 0.15s linear; }
+  background: #E74C3C; }
 
 @media (min-width: 1299px) {
   .icons8-codepen:before,
