@@ -382,6 +382,12 @@ header {
 }
 
 @media screen and (max-width: 768px) {
+	.project {
+		padding: 0;
+		p {
+			padding: 0 30px;
+		}
+	}
 	.boxy {
 		display: block;
 		border: none;
