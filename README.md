@@ -1,2 +1,2 @@
 # Desktop
-![Portfolio]("\src\images\portfolio.png")
+![Portfolio](https://raw.githubusercontent.com/Jasius/Portfolio/master/src/images/portfolio.png)
