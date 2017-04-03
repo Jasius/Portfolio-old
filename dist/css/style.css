@@ -283,7 +283,7 @@ header {
     color: #3498DB; }
 
 .project {
-  flex: 1 500px;
+  flex: 1 450px;
   padding: 0px 30px; }
   .project .date p {
     text-align: center;
