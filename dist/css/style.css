@@ -200,7 +200,7 @@ header {
 .intro {
   background: #ECF0F1;
   padding-top: 40px;
-  padding-bottom: 10px;
+  padding-bottom: 40px;
   color: #000;
   text-align: center; }
   .intro h1 {
@@ -283,8 +283,8 @@ header {
     color: #3498DB; }
 
 .project {
-  flex: 1 450px;
-  padding: 0px 30px; }
+  flex: 1 445px;
+  padding: 8px 30px; }
   .project .date p {
     text-align: center;
     margin-top: 0px;
