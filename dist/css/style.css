@@ -268,7 +268,8 @@ header {
   display: flex;
   flex-wrap: wrap;
   background: #ECF0F1;
-  color: #222; }
+  color: #222;
+  padding: 8px 0px; }
   .section-projects a {
     color: #3498DB; }
 

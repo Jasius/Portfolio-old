@@ -1,0 +1,1 @@
+now=new Date,theYear=now.getYear(),theYear<1900&&(theYear+=1900),document.write(theYear);

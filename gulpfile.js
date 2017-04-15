@@ -5,6 +5,7 @@ var uglify = require('gulp-uglify');
 var livereload = require('gulp-livereload');
 var jimp = require('gulp-jimp-resize');
 var imagemin = require('gulp-imagemin');
+var htmlmin = require('gulp-html-minifier');
 var pump = require('pump');
 
 gulp.task('sass', function () {
@@ -24,7 +25,13 @@ gulp.task('compress', function (cb) {
         cb
     );
 });
-
+gulp.task('minify', function () {
+    gulp.src('./src/*.html')
+        .pipe(htmlmin({
+            collapseWhitespace: true
+        }))
+        .pipe(gulp.dest('.'))
+});
 gulp.task('images', () =>
     gulp.src('src/images/*.png')
     .pipe(imagemin())
@@ -53,4 +60,5 @@ gulp.task('compile', ['sass'], function () {
     gulp.watch('./src/scss/*.scss', ['sass']);
     gulp.watch('./src/js/*.js', ['compress']);
     gulp.watch('./src/images/*.png', ['images'], ['resize']);
+    gulp.watch('./src/*.html', ['minify']);
 })

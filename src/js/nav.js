@@ -19,7 +19,7 @@ $(function () {
 
 $(window).resize(function () {
   if (w > 320 && menu.is(':hidden')) {
-    menu.removeAttr('style');
+    menu.removeAttr('style'); 
   }
 });
 

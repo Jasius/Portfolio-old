@@ -22,6 +22,11 @@
             "taskName": "resize",
             "isBuildCommand": true,
             "isBackground": true
+        },
+        {
+            "taskName": "minify",
+            "isBuildCommand": true,
+            "isBackground": true
         }
     ]
 }
