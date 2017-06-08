@@ -2,7 +2,7 @@
 @import url(http://weloveiconfonts.com/api/?family=entypo);
 [class*="entypo-"]:before {
   font-family: 'entypo', sans-serif;
-  color: #3498DB; }
+  color: #3498db; }
 
 body {
   font-family: "Open Sans", Helvetica Neue, Arial, sans-serif;
@@ -25,7 +25,7 @@ h2 {
   box-sizing: border-box; }
   .img-responsive:hover {
     opacity: .9;
-    border: 1px solid #3498DB; }
+    border: 1px solid #3498db; }
 
 .anchor:before {
   display: block;
@@ -60,7 +60,7 @@ nav {
     color: #1d6fa5; }
     nav ul li > a {
       padding: 0px 20px;
-      color: #3498DB;
+      color: #3498db;
       font-weight: 600;
       display: block; }
       nav ul li > a li > a span {
@@ -108,7 +108,7 @@ nav {
   float: left;
   width: 100%;
   font-weight: 600;
-  color: #3498DB;
+  color: #3498db;
   border-bottom: 1px solid #EFEFEF; }
 
 .has-child .dropdown li a {
@@ -120,7 +120,7 @@ nav {
   padding: 0 15px;
   font-size: 1.25em;
   font-weight: 600;
-  color: #3498DB; }
+  color: #3498db; }
   .logo a:hover {
     background: #f2f2f2;
     color: #1d6fa5; }
@@ -143,7 +143,7 @@ nav {
   position: absolute; }
 
 #active {
-  color: #3498DB; }
+  color: #3498db; }
 
 @media only screen and (max-width: 45em) {
   .has-child .dropdown {
@@ -218,7 +218,7 @@ header {
 
 .about-me {
   flex: 1 400px;
-  background: #3498DB;
+  background: #225378;
   padding: 60px 80px 30px 10%;
   flex: 3; }
   .about-me h1 a {
@@ -226,7 +226,7 @@ header {
 
 .profile {
   flex: 1 400px;
-  background: #225378;
+  background: #3498DB;
   padding: 60px 20px;
   flex: 2; }
   .profile li {
@@ -246,8 +246,8 @@ header {
     margin-bottom: 30px; }
   .profile .boxy {
     margin-left: 35px;
-    color: #69D2E7;
-    border-color: #69D2E7; }
+    color: #eee;
+    border-color: #eee; }
 
 .about-me,
 .profile {
@@ -271,17 +271,17 @@ header {
   color: #222;
   padding: 8px 0px; }
   .section-projects a {
-    color: #3498DB; }
+    color: #3498db; }
 
 .section-name {
   width: 100%;
   text-align: center; }
   .section-name h1 {
-    border-color: #3498DB;
-    color: #3498DB;
+    border-color: #3498db;
+    color: #3498db;
     margin: 15px; }
   .section-name a {
-    color: #3498DB; }
+    color: #3498db; }
 
 .project {
   flex: 1 445px;
@@ -527,8 +527,8 @@ header {
 
 .btn-l {
   background: 0 0;
-  border: 2px solid #3498DB;
-  color: #3498DB;
+  border: 2px solid #3498db;
+  color: #3498db;
   transition: all .5s;
   padding: 7px 16px;
   font-size: 18px;
@@ -539,7 +539,7 @@ header {
   -webkit-tap-highlight-color: transparent; }
   .btn-l:hover, .btn-l:focus {
     color: #fff;
-    background: #3498DB; }
+    background: #3498db; }
 
 #Made with {
   float: right;

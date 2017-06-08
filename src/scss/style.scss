@@ -6,7 +6,7 @@ $font-secondary: 'Segoe UI',
 Helvetica Neue,
 Arial,
 sans-serif;
-$light-blue: #3498DB;
+$light-blue: #3498db;
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700);
 @import url(http://weloveiconfonts.com/api/?family=entypo);
 [class*="entypo-"]:before {
@@ -273,7 +273,7 @@ header {
 
 .about-me {
 	flex: 1 400px;
-	background: $light-blue;
+	background: #225378;
 	padding: 60px 80px 30px 10%;
 	flex: 3;
 	h1 a {
@@ -283,7 +283,7 @@ header {
 
 .profile {
 	flex: 1 400px;
-	background: #225378;
+	background: #3498DB;
 	padding: 60px 20px;
 	flex: 2;
 	li {
@@ -306,8 +306,8 @@ header {
 	}
 	.boxy {
 		margin-left: 35px;
-		color: #69D2E7;
-		border-color: #69D2E7;
+		color: #eee;
+		border-color: #eee;
 	}
 }
 
