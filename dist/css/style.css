@@ -329,7 +329,9 @@ header {
     padding: 15px 50px;
     flex: 1 100%; }
   .section-name h1 {
-    margin: 0px 50px; } }
+    margin: 0px 50px; }
+  .tools {
+    text-align: center; } }
 
 .img-circle.img-responsive {
   -webkit-transition: all .4s ease;
@@ -620,3 +622,18 @@ footer {
     background: #93dab4; }
 
 /*# sourceMappingURL=style.css.map */
+.tools {
+  list-style-type: none;
+  margin: 10px 0 -10px 0px;
+  padding-left: 0px; }
+  .tools li {
+    background: #225378;
+    color: #fff;
+    margin: 0px 3px;
+    padding: 5px;
+    border-radius: 3px;
+    font-size: .75em;
+    display: inline-block; }
+
+.role {
+  color: #225378; }
