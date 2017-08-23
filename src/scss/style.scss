@@ -277,7 +277,7 @@ header {
 	padding: 60px 80px 30px 10%;
 	flex: 3;
 	h1 a {
-		color: #eee;
+		color: #ede;
 	}
 }
 
@@ -306,8 +306,8 @@ header {
 	}
 	.boxy {
 		margin-left: 35px;
-		color: #eee;
-		border-color: #eee;
+		color: #ede;
+		border-color: #ede;
 	}
 }
 
@@ -319,8 +319,8 @@ header {
 .boxy {
 	font-size: 1.7em;
 	text-align: center;
-	color: #eee;
-	border: 3px solid #eee;
+	color: #ede;
+	border: 3px solid #ede;
 	padding: 15px;
 	display: inline-block;
 	margin: 0 0 30px;
@@ -382,6 +382,7 @@ header {
 		border-color: #fff;
 		color: #fff;
 		line-height: 1;
+		box-shadow: 0 4px 6px rgba(50, 50, 93, .11), 0 1px 3px rgba(0, 0, 0, .08);
 	}
 }
 
@@ -672,7 +673,9 @@ header {
 	&:hover,
 	&:focus {
 		color: #fff;
-		background: $light-blue;
+		background: #6dcd9a;
+		transform: translateY(-1px);
+		box-shadow: 0 7px 14px rgba(50, 50, 93, .1), 0 3px 6px rgba(0, 0, 0, .08);
 	}
 }
 

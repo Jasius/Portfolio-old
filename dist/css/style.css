@@ -222,7 +222,7 @@ header {
   padding: 60px 80px 30px 10%;
   flex: 3; }
   .about-me h1 a {
-    color: #eee; }
+    color: #ede; }
 
 .profile {
   flex: 1 400px;
@@ -246,8 +246,8 @@ header {
     margin-bottom: 30px; }
   .profile .boxy {
     margin-left: 35px;
-    color: #eee;
-    border-color: #eee; }
+    color: #ede;
+    border-color: #ede; }
 
 .about-me,
 .profile {
@@ -256,8 +256,8 @@ header {
 .boxy {
   font-size: 1.7em;
   text-align: center;
-  color: #eee;
-  border: 3px solid #eee;
+  color: #ede;
+  border: 3px solid #ede;
   padding: 15px;
   display: inline-block;
   margin: 0 0 30px;
@@ -308,7 +308,8 @@ header {
     margin: 0 auto;
     border-color: #fff;
     color: #fff;
-    line-height: 1; }
+    line-height: 1;
+    box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08); }
 
 @media screen and (max-width: 768px) {
   .project {
@@ -541,7 +542,9 @@ header {
   -webkit-tap-highlight-color: transparent; }
   .btn-l:hover, .btn-l:focus {
     color: #fff;
-    background: #3498db; }
+    background: #6dcd9a;
+    transform: translateY(-1px);
+    box-shadow: 0 7px 14px rgba(50, 50, 93, 0.1), 0 3px 6px rgba(0, 0, 0, 0.08); }
 
 #Made with {
   float: right;
