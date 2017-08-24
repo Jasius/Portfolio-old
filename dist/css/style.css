@@ -220,7 +220,8 @@ header {
   flex: 1 400px;
   background: #225378;
   padding: 60px 80px 30px 10%;
-  flex: 3; }
+  flex: 3;
+  line-height: 1.5; }
   .about-me h1 a {
     color: #ede; }
 
@@ -285,7 +286,8 @@ header {
 
 .project {
   flex: 1 445px;
-  padding: 8px 30px; }
+  padding: 8px 30px;
+  line-height: 1.5; }
   .project .date p {
     text-align: center;
     margin-top: 0px;
