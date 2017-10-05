@@ -1,3 +1,14 @@
+//hire button handling
+function thankingForHiring() {
+    var thanksWindow = $("#thanksWindow");
+    setTimeout(function () {
+        thanksWindow.fadeIn("300", "linear");
+    }, 100);
+    setTimeout(function () {
+        thanksWindow.fadeOut("1000", "swing");
+    }, 3000);
+}
+
 // projects truncating
 $(document).ready(function () {
     (function () {
