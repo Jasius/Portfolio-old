@@ -1,9 +1,4 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700);
-@import url(http://weloveiconfonts.com/api/?family=entypo);
-[class*="entypo-"]:before {
-  font-family: 'entypo', sans-serif;
-  color: #3498db; }
-
 body {
   font-family: "Open Sans", Helvetica Neue, Arial, sans-serif;
   color: #fff;
@@ -128,12 +123,10 @@ nav {
 #toggle-menu {
   position: absolute;
   right: 0;
-  padding: 0 20px;
+  padding: 1em;
   top: 0;
   display: none;
-  cursor: pointer;
-  font-size: 1.5em;
-  color: #FFF4E1; }
+  cursor: pointer; }
 
 #indicator {
   bottom: 0;
@@ -293,23 +286,6 @@ header {
   .project h2 {
     margin-bottom: 9px;
     font-weight: 600; }
-
-.section-hire {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  flex-flow: column;
-  background: #E74C3C;
-  color: #eee;
-  padding: 50px 0; }
-  .section-hire h2 {
-    font-weight: normal; }
-  .section-hire .btn-l {
-    margin: 0 auto;
-    border-color: #fff;
-    color: #fff;
-    line-height: 1;
-    box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08); }
 
 @media screen and (max-width: 768px) {
   .project {
@@ -557,20 +533,15 @@ header {
 
 footer {
   position: relative;
-  bottom: 0;
-  width: 100%;
-  margin-top: 0;
-  border-top: 1px solid #fff; }
+  line-height: 70px; }
   footer .copyright {
-    width: 45%;
-    padding-left: 5%;
+    width: 50%;
     float: left;
     background: #2D4059; }
     footer .copyright p {
       color: #fff;
       font-size: .7em;
-      line-height: 70px;
-      margin: 0;
+      margin: 0 5em;
       text-transform: capitalize;
       letter-spacing: 1px; }
   footer .social {
@@ -578,7 +549,6 @@ footer {
     float: right; }
     footer .social a {
       float: left;
-      line-height: 70px;
       text-decoration: none;
       color: #fff;
       text-align: center;
@@ -592,12 +562,13 @@ footer {
 
 @media (max-width: 600px) {
   footer .copyright {
-    width: 95%; }
+    width: 100%; }
     footer .copyright p {
       text-align: center;
       padding: 0;
       width: 300px;
-      margin-left: 5px; } }
+      margin-left: 5px;
+      letter-spacing: 0px; } }
 
 @media (max-width: 600px) {
   footer .social {
@@ -639,3 +610,60 @@ footer {
 
 .role {
   color: #2D4059; }
+
+.proposals {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  flex-flow: column;
+  background: #E74C3C;
+  color: #eee;
+  padding: 40px 0; }
+  .proposals h2 {
+    font-weight: normal;
+    margin: 0; }
+  .proposals .split {
+    display: grid;
+    grid-template-columns: repeat(2, 47.5%);
+    grid-template-rows: repeat(1, 100%);
+    grid-gap: 0 5%; }
+
+.formSpree {
+  text-align: initial;
+  margin: 0 26%;
+  padding: 0 0.5em; }
+  .formSpree label {
+    font-size: 0.8em;
+    font-weight: 600; }
+  .formSpree input,
+  .formSpree .message {
+    padding: 0.45em 0.5em;
+    margin: 0.3em 0;
+    border: 0;
+    min-width: 100%; }
+  .formSpree .message {
+    min-height: 11em;
+    padding-top: 0.3em;
+    margin-bottom: -0.43em;
+    resize: none; }
+  .formSpree .is-hidden {
+    display: none; }
+  .formSpree button {
+    width: calc(100% + 1em);
+    text-align: center;
+    padding: 0.35em;
+    background: #6dcd9a;
+    color: #ecf0f1;
+    border: 0;
+    font-weight: 400;
+    cursor: pointer;
+    border-radius: 0 0 5px 5px; }
+    .formSpree button:hover {
+      background: #75d09f; }
+
+@media screen and (max-width: 780px) {
+  .proposals .split {
+    grid-template-columns: repeat(1, 100%); }
+  .formSpree {
+    margin: 0 4%; } }

@@ -4,7 +4,7 @@ Arial,
 sans-serif;
 $font-secondary: 'Segoe UI',
 Helvetica Neue,
-Arial, 
+Arial,
 sans-serif;
 $light-blue: #3498db;
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700);
@@ -194,7 +194,7 @@ nav {
 		top: 25px;
 		right: 20px;
 		content: "";
-		width:0;
+		width: 0;
 		height: 0;
 		border-style: solid;
 		border-width: 10px 5px 0 5px;
@@ -356,26 +356,6 @@ header {
 	h2 {
 		margin-bottom: 9px;
 		font-weight: 600;
-	}
-}
-
-.section-hire {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-	flex-flow: column;
-	background: #E74C3C;
-	color: #eee;
-	padding: 50px 0;
-	h2 {
-		font-weight: normal;
-	}
-	.btn-l {
-		margin: 0 auto;
-		border-color: #fff;
-		color: #fff;
-		line-height: 1;
-		box-shadow: 0 4px 6px rgba(50, 50, 93, .11), 0 1px 3px rgba(0, 0, 0, .08);
 	}
 }
 
@@ -687,20 +667,15 @@ header {
 
 footer {
 	position: relative;
-	bottom: 0;
-	width: 100%;
-	margin-top: 0;
-	border-top: 1px solid #fff;
+	line-height: 70px;
 	.copyright {
-		width: 45%;
-		padding-left: 5%;
+		width: 50%;
 		float: left;
 		background: #2D4059;
 		p {
 			color: #fff;
 			font-size: .7em;
-			line-height: 70px;
-			margin: 0;
+			margin: 0 5em;
 			text-transform: capitalize;
 			letter-spacing: 1px;
 		}
@@ -710,7 +685,6 @@ footer {
 		float: right;
 		a {
 			float: left;
-			line-height: 70px;
 			text-decoration: none;
 			color: #fff;
 			text-align: center;
@@ -733,8 +707,9 @@ footer {
 			padding: 0;
 			width: 300px;
 			margin-left: 5px;
+			letter-spacing: 0px;
 		}
-		width: 95%;
+		width: 100%;
 	}
 }
 
@@ -788,4 +763,75 @@ footer {
 
 .role {
 	color: #2D4059;
+}
+
+// proposals
+.proposals {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	text-align: center;
+	flex-flow: column;
+	background: #E74C3C;
+	color: #eee;
+	padding: 40px 0;
+	h2 {
+		font-weight: normal;
+		margin: 0;
+	}
+	.split {
+		display: grid;
+		grid-template-columns: repeat(2, 47.5%);
+		grid-template-rows: repeat(1, 100%);
+		grid-gap: 0 5%;
+	}
+}
+
+.formSpree {
+	text-align: initial;
+	margin: 0 26%;
+	padding: 0 0.5em;
+	label {
+		font-size: 0.8em;
+		font-weight: 600;
+	}
+	input,
+	.message {
+		padding: 0.45em 0.5em;
+		margin: 0.3em 0;
+		border: 0;
+		min-width: 100%;
+	}
+	.message {
+		min-height: 11em;
+		padding-top: 0.3em;
+		margin-bottom: -0.43em;
+		resize: none;
+	}
+	.is-hidden {
+		display: none;
+	}
+	button {
+		width: calc(100% + 1em);
+		text-align: center;
+		padding: 0.35em;
+		background: #6dcd9a;
+		color: #ecf0f1;
+		border: 0;
+		font-weight: 400;
+		cursor: pointer;
+		border-radius: 0 0 5px 5px; 		
+		&:hover {
+			background: lighten($color: #6dcd9a, $amount: 2%);
+		}
+	}
+}
+
+@media screen and (max-width: 780px) {
+	.proposals .split {
+		grid-template-columns: repeat(1, 100%);
+	}
+	.formSpree {
+		margin: 0 4%;
+	}
 }
