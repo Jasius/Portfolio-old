@@ -4,7 +4,6 @@
     <app-header></app-header>
     <app-projects></app-projects>
     <app-footer></app-footer>
-    <router-view/>
   </div>
 </template>
 
