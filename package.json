@@ -2,6 +2,7 @@
   "name": "portfolio",
   "version": "1.0.0",
   "description": "Portfolio website for my work, projects, contacts.",
+  "homepage": "https://github.com/jasius/portfolio-vue",
   "author": "Mindaugas Jasiulis <jasius@outlook.com>",
   "private": true,
   "scripts": {
@@ -11,10 +12,12 @@
     "e2e": "node test/e2e/runner.js",
     "test": "npm run unit && npm run e2e",
     "lint": "eslint --ext .js,.vue src test/unit/specs test/e2e/specs",
-    "build": "node build/build.js"
+    "build": "node build/build.js",
+    "deploy": "node ./node_modules/vue-gh-pages/index.js"
   },
   "dependencies": {
     "vue": "^2.5.2",
+    "vue-gh-pages": "^1.7.0",
     "vue-moment": "^3.1.0",
     "vue-router": "^3.0.1"
   },

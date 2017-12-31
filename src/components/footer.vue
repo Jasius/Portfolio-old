@@ -2,8 +2,7 @@
   <footer>
 		<div class="copyright">
 			<p>
-				© Jaska 2015 -&nbsp; 
-				<!-- <script src="dist/js/copyright.js"></script> -->
+				© Jaska 2015 - {{(new Date()).getFullYear()}}
 				<span style="padding-left:20px">Made with <a href="https://vuejs.org/">Vue.js</a></span>
 			</p>
 		</div>
@@ -15,13 +14,13 @@
 	</footer>
 </template>
 
-<style lang="scss" scoped>
-//footer
-#Made with {
-  float: right;
-  margin-right: 100px;
-}
+<script>
+// eslint-disable-next-line
 
+</script>
+
+
+<style lang="scss" scoped>
 .jaska-foot {
   color: #e74c3c;
   &:hover {

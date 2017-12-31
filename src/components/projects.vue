@@ -1,7 +1,27 @@
 <template>
   	<div class="section-projects">
-		<div class="section-name">
+                  <div class="section-name">
 			<h1 class="boxy"><a class="anchor" id="projects">Projects</a></h1>
+		</div>
+        <div class="spotlight">
+			<h2>Omnisend</h2>
+			<div class="date">
+				<p>2017 - Present</p>
+			</div>
+			<a href="../assets/w10.png" target="_blank"><img src="../assets/omnisend.png" alt="Windows 10 community forum" class="img-responsive"></a>
+			<ul class="tools">
+				<li>AngularJS</li>
+				<li>JS</li>
+				<li>Grunt</li>
+				<li>Gulp</li>
+				<li>HTML5</li>
+				<li>Less</li>
+				<li>Sass</li>
+			</ul>
+			<p>
+				<span class="role">Front end developer</span><br>
+				Internationalization, localization scopes owner on <a href="https://app.omnisend.com/" target="_blank">Omnisend application</a>, supporting developer on <a href="https://omnisend.com/" target="_blank">Omnisend website</a>.
+			</p>
 		</div>
 		<div class="project">
 			<h2>Windows Community</h2>
@@ -12,10 +32,10 @@
 			<ul class="tools">
 				<li>CSS3</li>
 				<li>Gulp</li>
-				<li>SASS</li>
+				<li>Sass</li>
 			</ul>
 			<p>
-				<span class="role">Developer & contractor.</span></br>
+				<span class="role">Developer & contractor</span></br>
 				My main task on this community forum as a front end developer was to increase community interaction and come up with a way
 				to highlight certain content which people enjoy. I've managed to do that by enforcing flairs system with a help of an
 				automated bot and automatically highlighting threads based on their flairs so it's easier to distinguish content.
@@ -32,7 +52,7 @@
 				<li>HTML5</li>
 				<li>CSS3</li>
 				<li>JS</li>
-				<li>LESS</li>
+				<li>Less</li>
 				<li>JQUERY</li>
 			</ul>
 			<p>
@@ -42,24 +62,26 @@
 				so betting took off really quickly once skins were introduced to the game.
 			</p>
 		</div>
-		<div class="project">
-			<h2>Invisibars extension</h2>
+        		<div class="project">
+			<h2>Frontpage</h2>
 			<div class="date">
-				<p>2017</p>
+				<p>2016</p>
 			</div>
-			<a href="../assets/invisibars.png" target="_blank"><img src="../assets/invisibars.png" alt="Invisibars Chrome extension" class="img-responsive"></a>
+			<a href="../assets/frontpage.png" target="_blank"><img src="../assets/frontpage.png" alt="Frontpage for links" class="img-responsive"></a>
 			<ul class="tools">
+				<li>ReactJS</li>
+				<li>Webpack</li>
+				<li>Sass</li>
 				<li>HTML5</li>
 				<li>CSS3</li>
-				<li>JS</li>
-				<li>SASS</li>
-				<li>Gulp</li>
 			</ul>
 			<p>
-				<span class="role">Developer & contractor.</span></br>
-				<strong><a href="https://chrome.google.com/webstore/detail/invisibars/ekpmfomajcjeadhhcnpjabkfncbgligp">Invisibars</a></strong>				is a Chrome extension which removes wasteful scrolls bars to give you more real estate while browsing the web. It is
-				a simple extension with very low footprint and unlike other similar extensions Invisibars does not break custom modals
-				and scrollbars on websites.
+				<span class="role">Developer & contractor</span></br>
+				<strong><a href="https://github.com/Jasius/Frontpage">Frontpage</a></strong> responsive bookmarks page was specifically
+				made for myself but upon sharing it with a few people and seeing their positive reaction and interest I published it
+				to <a href="https://github.com/Jasius/Frontpage">GitHub</a> so anyone who wanted to reuse or improve it could do so easilly.
+				<br>Because of other people interest I created several variations of Frontpage for those who don't like dark color scheme
+				like I do.
 			</p>
 		</div>
 		<div class="project">
@@ -79,7 +101,7 @@
 			</ul>
 			<div class="truncate">
 				<p>
-					<span class="role">Developer & contractor.</span></br>
+					<span class="role">Developer & contractor</span></br>
 					<a href="https://jasius.github.io/ClearShift/"><strong>ClearShift</strong></a> is a site for the promotion of fourth
 					major version of my Reddit theme which I originally made for Microsoft Band community. I put a lot of hours into it,
 					so I wanted to outsource it and make it easy to customize, set up with pre-set code snippets so even people with little
@@ -91,29 +113,28 @@
 				</p>
 			</div>
 		</div>
-		<div class="project">
-			<h2>Frontpage</h2>
+        	<div class="project">
+			<h2>Invisibars extension</h2>
 			<div class="date">
-				<p>2016</p>
+				<p>2017</p>
 			</div>
-			<a href="../assets/frontpage.png" target="_blank"><img src="../assets/frontpage.png" alt="Frontpage for links" class="img-responsive"></a>
+			<a href="../assets/invisibars.png" target="_blank"><img src="../assets/invisibars.png" alt="Invisibars Chrome extension" class="img-responsive"></a>
 			<ul class="tools">
-				<li>ReactJS</li>
-				<li>Webpack</li>
-				<li>SASS</li>
 				<li>HTML5</li>
 				<li>CSS3</li>
+				<li>JS</li>
+				<li>Sass</li>
+				<li>Gulp</li>
 			</ul>
 			<p>
-				<span class="role">Developer & contractor.</span></br>
-				<strong><a href="https://github.com/Jasius/Frontpage">Frontpage</a></strong> responsive bookmarks page was specifically
-				made for myself but upon sharing it with a few people and seeing their positive reaction and interest I published it
-				to <a href="https://github.com/Jasius/Frontpage">GitHub</a> so anyone who wanted to reuse or improve it could do so easilly.
-				<br>Because of other people interest I created several variations of Frontpage for those who don't like dark color scheme
-				like I do.
+				<span class="role">Developer & contractor</span></br>
+				<strong><a href="https://chrome.google.com/webstore/detail/invisibars/ekpmfomajcjeadhhcnpjabkfncbgligp">Invisibars</a></strong>				is a Chrome extension which removes wasteful scrolls bars to give you more real estate while browsing the web. It is
+				a simple extension with very low footprint and unlike other similar extensions Invisibars does not break custom modals
+				and scrollbars on websites.
 			</p>
 		</div>
 	</div>
+
 </template>
 
 <style lang="scss" scoped>
@@ -159,6 +180,7 @@ $light-blue: #3498db;
   flex: 1 445px;
   padding: 8px 30px;
   line-height: 1.5;
+
   .date p {
     text-align: center;
     margin-top: 0;
@@ -169,6 +191,20 @@ $light-blue: #3498db;
     font-weight: 600;
   }
 }
+  .spotlight {
+      padding: 0 280px;
+    line-height: 1.5;
+
+  .date p {
+    text-align: center;
+    margin-top: 0;
+    font-family: $font-secondary;
+  }
+  h2 {
+    margin-bottom: 9px;
+    font-weight: 600;
+  }
+  }
 .boxy {
 	font-size: 1.7em;
 	text-align: center;
