@@ -3,6 +3,7 @@
     <app-navbar></app-navbar>
     <app-header></app-header>
     <app-projects></app-projects>
+    <app-forms></app-forms>
     <app-footer></app-footer>
   </div>
 </template>
@@ -12,11 +13,13 @@ import header from '@/components/test.vue'
 import navbar from '@/components/navbar.vue'
 import projects from '@/components/projects.vue'
 import footer from '@/components/footer.vue'
+import forms from '@/components/forms.vue'
 export default {
   components: {
     'app-navbar': navbar,
     'app-header': header,
     'app-projects': projects,
+    'app-forms': forms,
     'app-footer': footer
   }
 }
@@ -55,3 +58,6 @@ h2 {
 	text-align: center;
 }
 </style>
+
+
+

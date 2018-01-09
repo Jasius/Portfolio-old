@@ -1,6 +1,6 @@
 <template>
   	<div class="section-projects">
-                  <div class="section-name">
+        <div class="section-name">
 			<h1 class="boxy"><a class="anchor" id="projects">Projects</a></h1>
 		</div>
         <div class="spotlight">
