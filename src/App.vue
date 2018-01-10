@@ -9,7 +9,7 @@
 </template>
 
 <script>
-import header from '@/components/test.vue'
+import header from '@/components/header.vue'
 import navbar from '@/components/navbar.vue'
 import projects from '@/components/projects.vue'
 import footer from '@/components/footer.vue'
@@ -36,10 +36,10 @@ Helvetica Neue,
 Arial,
 sans-serif;
 $light-blue: #3498db;
-  * {
-    outline: 2px solid pink;
-    outline-style: dashed;
-  }
+  // * {
+  //   outline: 2px solid pink;
+  //   outline-style: dashed;
+  // }
   body {
     margin: 0;
     font-family: $font-stack;

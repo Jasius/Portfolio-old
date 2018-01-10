@@ -10,13 +10,13 @@
 			</div>
 			<a href="../assets/w10.png" target="_blank"><img src="../assets/omnisend.png" alt="Windows 10 community forum" class="img-responsive"></a>
 			<ul class="tools">
-				<li>AngularJS</li>
-				<li>JS</li>
-				<li>Grunt</li>
-				<li>Gulp</li>
-				<li>HTML5</li>
-				<li>Less</li>
-				<li>Sass</li>
+				<li style="border-color:#dd0031;">AngularJS</li>
+				<li style="border-color:#f0db4f">JS</li>
+				<li style="border-color:#fba919">Grunt</li>
+				<li style="border-color:#CF4647">Gulp</li>
+				<li style="border-color:#f16529">HTML5</li>
+				<li style="border-color:#1d365d">Less</li>
+				<li style="border-color:#c6538c">Sass</li>
 			</ul>
 			<p>
 				<span class="role">Front end developer</span><br>
@@ -30,9 +30,9 @@
 			</div>
 			<a href="../assets/w10.png" target="_blank"><img src="../assets/w10.png" alt="Windows 10 community forum" class="img-responsive"></a>
 			<ul class="tools">
-				<li>CSS3</li>
-				<li>Gulp</li>
-				<li>Sass</li>
+				<li style="border-color:#2965f1">CSS3</li>
+				<li style="border-color:#CF4647">Gulp</li>
+				<li style="border-color:#c6538c">Sass</li>
 			</ul>
 			<p>
 				<span class="role">Developer & contractor</span></br>
@@ -49,10 +49,10 @@
 			</div>
 			<a href="../assets/bookie.png" target="_blank"><img src="../assets/bookie.png" alt="Bookie.GG gambling site" class="img-responsive"></a>
 			<ul class="tools">
-				<li>HTML5</li>
-				<li>CSS3</li>
-				<li>JS</li>
-				<li>Less</li>
+				<li style="border-color:#f16529">HTML5</li>
+				<li style="border-color:#2965f1">CSS3</li>
+				<li style="border-color:#f0db4f">JS</li>
+				<li style="border-color:#1d365d">Less</li>
 				<li>JQUERY</li>
 			</ul>
 			<p>
@@ -69,11 +69,11 @@
 			</div>
 			<a href="../assets/frontpage.png" target="_blank"><img src="../assets/frontpage.png" alt="Frontpage for links" class="img-responsive"></a>
 			<ul class="tools">
-				<li>ReactJS</li>
-				<li>Webpack</li>
-				<li>Sass</li>
-				<li>HTML5</li>
-				<li>CSS3</li>
+				<li style="border-color:#61dafb">React</li>
+				<li style="border-color:#55a7dd">Webpack</li>
+				<li style="border-color:#c6538c">Sass</li>
+				<li style="border-color:#f16529">HTML5</li>
+				<li style="border-color:#2965f1">CSS3</li>
 			</ul>
 			<p>
 				<span class="role">Developer & contractor</span></br>
@@ -91,11 +91,11 @@
 			</div>
 			<a href="../assets/clearshift.png" target="_blank"><img src="../assets/clearshift.png" alt="ClearShift site" class="img-responsive"></a>
 			<ul class="tools">
-				<li>HTML5</li>
-				<li>CSS3</li>
-				<li>JS</li>
-				<li>Gulp</li>
-				<li>SASS</li>
+				<li style="border-color:#f16529">HTML5</li>
+				<li style="border-color:#2965f1">CSS3</li>
+				<li style="border-color:#f0db4f">JS</li>
+				<li style="border-color:#CF4647">Gulp</li>
+				<li style="border-color:#c6538c">Sass</li>
 				<li>Bootstrap</li>
 				<li>Jquery</li>
 			</ul>
@@ -120,11 +120,11 @@
 			</div>
 			<a href="../assets/invisibars.png" target="_blank"><img src="../assets/invisibars.png" alt="Invisibars Chrome extension" class="img-responsive"></a>
 			<ul class="tools">
-				<li>HTML5</li>
-				<li>CSS3</li>
-				<li>JS</li>
-				<li>Sass</li>
-				<li>Gulp</li>
+				<li style="border-color:#f16529">HTML5</li>
+				<li style="border-color:#2965f1">CSS3</li>
+				<li style="border-color:#f0db4f">JS</li>
+				<li style="border-color:#c6538c">Sass</li>
+				<li style="border-color:#CF4647">Gulp</li>
 			</ul>
 			<p>
 				<span class="role">Developer & contractor</span></br>
@@ -134,7 +134,6 @@
 			</p>
 		</div>
 	</div>
-
 </template>
 
 <style lang="scss" scoped>
@@ -146,7 +145,7 @@ $light-blue: #3498db;
   flex-wrap: wrap;
   background: #ecf0f1;
   color: #222;
-  padding: 8px 0;
+  padding: 28px 0 8px;
   a {
     color: $light-blue;
   }
@@ -221,18 +220,27 @@ $light-blue: #3498db;
 	margin: 10px 0 -10px;
 	padding-left: 0;
 	li {
-		background: #2D4059;
-		color: #fff;
+		border-top: 2px solid #2D4059;
+		color: #222;
 		margin: 0 3px;
 		padding: 5px;
-		border-radius: 3px;
+		border-radius: 0;
 		font-size: .75em;
 		display: inline-block;
+		text-align: center;
+// 		&:after {
+//     border-bottom: 3px solid red;
+//     content: "";
+//     width: 20px;
+//     margin: 3px auto;
+//     display: block;
+// }
 	}
 }
 
 .role {
 	color: #2D4059;
+	font-weight: 600;
 }
 
 @media screen and (max-width: 768px) {
@@ -268,5 +276,4 @@ $light-blue: #3498db;
     text-align: center;
   }
 }
-
 </style>

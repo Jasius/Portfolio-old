@@ -13,7 +13,7 @@
 						<div class="icons8-github2"></div>
 					</a>
 				</li>
-				<li><img link rel="preload" src="../assets/logo.png" class="mepic" alt="My picture">
+				<li><img link rel="preload" src="../assets/jaska.png" class="mepic" alt="My picture">
 				</li>
 				<li>
 					<a href="https://twitter.com/JaskaJasius">
@@ -36,16 +36,15 @@
 	<div class="section-about">
 		<div class="about-me">
 			<h1 class="boxy"><a class="anchor" id="about">About me</a></h1>
-			<p>Hi, my name is <strong>Mindaugas Jasiulis</strong>, I am a {{'1997-03-19' | moment("from", true)}} old self taught front end developer who currently lives in Lithuania.
+			<p>Hi, my name is <strong>Mindaugas Jasiulis</strong>, I am a {{'1997-03-19' | moment("from", true)}} old self taught front end developer who currently lives in Lithuania, Vilnius.
 			</p>
-			<p>
-				I am a front end developer who enjoys what he does, one of the most memorable and enjoyable volunteer experiences was on
+			<p>I am a front end developer who enjoys what he does, one of the most memorable and enjoyable volunteer experiences was on
 				Reddit platform for which I am thankful because my work there reaches over 1 million unique users every month on <a href="https://windows10.reddit.com"
 				    target="_blank">Windows Community</a> alone while on /r/Olympics subreddit during 2016 Olympic games month my work has been seen 22 million times. Thanks to my work on Microsoft Community, I have had plenty of interaction with
 				Microsoft engineers, prominent developers and lots of other interesting people.
 			</p>
 			<p>
-				Apart from Web development related work I was involved in translating websites such as <a href="http://onefootball.com/">OneFootball</a>				into Lithuanian and Russian languages.
+			Apart from Web development related work I was involved in translating websites such as <a href="http://onefootball.com/">OneFootball</a>				into Lithuanian and Russian languages.
 			</p>
 		</div>
 		<div class="profile">
@@ -107,7 +106,7 @@ header {
   background: #ecf0f1;
   padding: {
     top: 40px;
-    bottom: 40px;
+    bottom: 50px;
   }
   color: #000;
   text-align: center;
