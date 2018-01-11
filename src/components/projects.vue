@@ -35,7 +35,7 @@
 				<li style="border-color:#c6538c">Sass</li>
 			</ul>
 			<p>
-				<span class="role">Developer & contractor</span></br>
+				<span class="role">Lead developer & Community manager</span></br>
 				My main task on this community forum as a front end developer was to increase community interaction and come up with a way
 				to highlight certain content which people enjoy. I've managed to do that by enforcing flairs system with a help of an
 				automated bot and automatically highlighting threads based on their flairs so it's easier to distinguish content.
@@ -56,7 +56,7 @@
 				<li>JQUERY</li>
 			</ul>
 			<p>
-				<span class="role">Junior front end developer, community manager.</span></br>
+				<span class="role">Junior front end developer & Community manager.</span></br>
 				<strong>Bookie.GG</strong> is a gambling site on which you were able to bet Counter-Strike: Global Offensive weapon skins,
 				which can be traded and sold on Steam market or third party services. CS:GO skins hold monetary value on the market,
 				so betting took off really quickly once skins were introduced to the game.
@@ -146,6 +146,7 @@ $light-blue: #3498db;
   background: #ecf0f1;
   color: #222;
   padding: 28px 0 8px;
+  justify-content: center;
   a {
     color: $light-blue;
   }
@@ -190,8 +191,12 @@ $light-blue: #3498db;
     font-weight: 600;
   }
 }
+.project, .spotlight {
+	 max-width: 650px;
+}
   .spotlight {
-      padding: 0 280px;
+		flex: 1 100%;
+    padding: 8px 30px;
     line-height: 1.5;
 
   .date p {
@@ -228,6 +233,9 @@ $light-blue: #3498db;
 		font-size: .75em;
 		display: inline-block;
 		text-align: center;
+		&:first-of-type, &:last-of-type {
+			margin: 0;
+		}
 // 		&:after {
 //     border-bottom: 3px solid red;
 //     content: "";
@@ -244,7 +252,7 @@ $light-blue: #3498db;
 }
 
 @media screen and (max-width: 768px) {
-  .project {
+  .project, .spotlight {
     padding: 0;
     p {
       padding: 0 30px;
@@ -255,19 +263,6 @@ $light-blue: #3498db;
     border: none;
     border-bottom: 3px solid;
     margin: 0;
-  }
-  .profile {
-    ul {
-      padding-left: 0;
-    }
-    .boxy {
-      margin-left: 0;
-    }
-  }
-  .about-me,
-  .profile {
-    padding: 15px 50px;
-    flex: 1 100%;
   }
   .section-name h1 {
     margin: 0 50px;

@@ -308,6 +308,31 @@ header {
   top: 80px;
 }
 
+@media screen and (max-width: 768px) {
+  .boxy {
+    display: block;
+    border: none;
+    border-bottom: 3px solid;
+    margin: 0;
+  }
+  .profile {
+    ul {
+      padding-left: 0;
+    }
+    .boxy {
+      margin-left: 0;
+    }
+  }
+  .about-me,
+  .profile {
+    padding: 15px 50px;
+    flex: 1 100%;
+  }
+  .section-name h1 {
+    margin: 0 50px;
+  }
+}
+
 @media screen and (max-width: 607px) {
   .mepic {
     width: 100px;
