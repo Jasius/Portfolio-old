@@ -8,7 +8,9 @@
 			<div class="date">
 				<p>2017 - Present</p>
 			</div>
-			<a href="../assets/w10.png" target="_blank"><img src="../assets/omnisend.png" alt="Windows 10 community forum" class="img-responsive"></a>
+			<a href="../assets/w10.png" target="_blank">
+				<img src="../assets/omnisend.png" alt="Omnisend website" class="img-responsive">
+			</a>
 			<ul class="tools">
 				<li style="border-color:#dd0031;">AngularJS</li>
 				<li style="border-color:#f0db4f">JS</li>
@@ -28,7 +30,9 @@
 			<div class="date">
 				<p>2016</p>
 			</div>
-			<a href="../assets/w10.png" target="_blank"><img src="../assets/w10.png" alt="Windows 10 community forum" class="img-responsive"></a>
+			<a href="../assets/w10.png" target="_blank">
+				<img src="../assets/w10.png" alt="Windows 10 community forum" class="img-responsive">
+			</a>
 			<ul class="tools">
 				<li style="border-color:#2965f1">CSS3</li>
 				<li style="border-color:#CF4647">Gulp</li>
@@ -47,7 +51,9 @@
 			<div class="date">
 				<p>2015</p>
 			</div>
-			<a href="../assets/bookie.png" target="_blank"><img src="../assets/bookie.png" alt="Bookie.GG gambling site" class="img-responsive"></a>
+			<a href="../assets/bookie.png" target="_blank">
+				<img src="../assets/bookie.png" alt="Bookie.GG gambling site" class="img-responsive">
+			</a>
 			<ul class="tools">
 				<li style="border-color:#f16529">HTML5</li>
 				<li style="border-color:#2965f1">CSS3</li>
@@ -56,18 +62,20 @@
 				<li>JQUERY</li>
 			</ul>
 			<p>
-				<span class="role">Junior front end developer & Community manager.</span></br>
+				<span class="role">Junior front end developer & Community manager.</span><br>
 				<strong>Bookie.GG</strong> is a gambling site on which you were able to bet Counter-Strike: Global Offensive weapon skins,
 				which can be traded and sold on Steam market or third party services. CS:GO skins hold monetary value on the market,
 				so betting took off really quickly once skins were introduced to the game.
 			</p>
 		</div>
-        		<div class="project">
+    <div class="project">
 			<h2>Frontpage</h2>
 			<div class="date">
 				<p>2016</p>
 			</div>
-			<a href="../assets/frontpage.png" target="_blank"><img src="../assets/frontpage.png" alt="Frontpage for links" class="img-responsive"></a>
+			<a href="../assets/frontpage.png" target="_blank">
+				<img src="../assets/frontpage.png" alt="Frontpage for links" class="img-responsive">
+			</a>
 			<ul class="tools">
 				<li style="border-color:#61dafb">React</li>
 				<li style="border-color:#55a7dd">Webpack</li>
@@ -76,7 +84,7 @@
 				<li style="border-color:#2965f1">CSS3</li>
 			</ul>
 			<p>
-				<span class="role">Developer & contractor</span></br>
+				<span class="role">Developer & contractor</span><br>
 				<strong><a href="https://github.com/Jasius/Frontpage">Frontpage</a></strong> responsive bookmarks page was specifically
 				made for myself but upon sharing it with a few people and seeing their positive reaction and interest I published it
 				to <a href="https://github.com/Jasius/Frontpage">GitHub</a> so anyone who wanted to reuse or improve it could do so easilly.
@@ -89,7 +97,9 @@
 			<div class="date">
 				<p>2015</p>
 			</div>
-			<a href="../assets/clearshift.png" target="_blank"><img src="../assets/clearshift.png" alt="ClearShift site" class="img-responsive"></a>
+			<a href="../assets/clearshift.png" target="_blank">
+				<img src="../assets/clearshift.png" alt="ClearShift site" class="img-responsive">
+			</a>
 			<ul class="tools">
 				<li style="border-color:#f16529">HTML5</li>
 				<li style="border-color:#2965f1">CSS3</li>
@@ -101,7 +111,7 @@
 			</ul>
 			<div class="truncate">
 				<p>
-					<span class="role">Developer & contractor</span></br>
+					<span class="role">Developer & contractor</span><br>
 					<a href="https://jasius.github.io/ClearShift/"><strong>ClearShift</strong></a> is a site for the promotion of fourth
 					major version of my Reddit theme which I originally made for Microsoft Band community. I put a lot of hours into it,
 					so I wanted to outsource it and make it easy to customize, set up with pre-set code snippets so even people with little
@@ -118,7 +128,9 @@
 			<div class="date">
 				<p>2017</p>
 			</div>
-			<a href="../assets/invisibars.png" target="_blank"><img src="../assets/invisibars.png" alt="Invisibars Chrome extension" class="img-responsive"></a>
+			<a href="../assets/invisibars.png" target="_blank">
+				<img src="../assets/invisibars.png" alt="Invisibars Chrome extension" class="img-responsive">
+			</a>
 			<ul class="tools">
 				<li style="border-color:#f16529">HTML5</li>
 				<li style="border-color:#2965f1">CSS3</li>
@@ -127,10 +139,8 @@
 				<li style="border-color:#CF4647">Gulp</li>
 			</ul>
 			<p>
-				<span class="role">Developer & contractor</span></br>
-				<strong><a href="https://chrome.google.com/webstore/detail/invisibars/ekpmfomajcjeadhhcnpjabkfncbgligp">Invisibars</a></strong>				is a Chrome extension which removes wasteful scrolls bars to give you more real estate while browsing the web. It is
-				a simple extension with very low footprint and unlike other similar extensions Invisibars does not break custom modals
-				and scrollbars on websites.
+				<span class="role">Developer & contractor</span><br>
+				<strong><a href="https://chrome.google.com/webstore/detail/invisibars/ekpmfomajcjeadhhcnpjabkfncbgligp">Invisibars</a></strong> is a Chrome extension which removes wasteful scrolls bars to give you more real estate while browsing the web. It is a simple extension with very low footprint and unlike other similar extensions Invisibars does not break custom modals and scrollbars on websites.
 			</p>
 		</div>
 	</div>
@@ -145,10 +155,13 @@ $light-blue: #3498db;
   flex-wrap: wrap;
   background: #ecf0f1;
   color: #222;
-  padding: 28px 0 8px;
+  padding: 40px 0;
   justify-content: center;
   a {
     color: $light-blue;
+		&:hover {
+			color: #2D4059;
+		}
   }
 }
 
@@ -189,6 +202,7 @@ $light-blue: #3498db;
   h2 {
     margin-bottom: 9px;
     font-weight: 600;
+		font-weight: 500;		
   }
 }
 .project, .spotlight {
@@ -206,7 +220,7 @@ $light-blue: #3498db;
   }
   h2 {
     margin-bottom: 9px;
-    font-weight: 600;
+		font-weight: 500;
   }
   }
 .boxy {

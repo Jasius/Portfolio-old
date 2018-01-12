@@ -44,6 +44,7 @@ $light-blue: #3498db;
     margin: 0;
     font-family: $font-stack;
 	  color: #fff;
+    text-rendering: optimizeLegibility;
   }
 
 a {

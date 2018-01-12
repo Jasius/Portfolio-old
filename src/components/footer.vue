@@ -14,11 +14,6 @@
 	</footer>
 </template>
 
-<script>
-// eslint-disable-next-line
-
-</script>
-
 
 <style lang="scss" scoped>
 .jaska-foot {

@@ -117,6 +117,7 @@ header {
     font-weight: normal;
   }
   p {
+    font-size: 1.2em;
     margin-top: -25px;
     margin: -25px 0 0 0;
   }

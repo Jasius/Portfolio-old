@@ -19,21 +19,7 @@
 		  <input class="is-hidden" type="text" name="_gotcha" netlify-honeypot>
 		  <input type="hidden" name="_next" value="#" />
 		</form>
-    <form name="contact" netlify>
-  <p>
-    <label>Your Name: <input type="text" name="name"></label>   
-  </p>
-  <p>
-    <label>Your Email: <input type="email" name="email"></label>
-  </p>
-  <p>
-    <label>Message: <textarea name="message"></textarea></label>
-  </p>
-  <p>
-    <button type="submit">Send</button>
-  </p>
-</form>
-	  </div>
+	</div>
 </template>
 
 <style lang="scss" scoped>
@@ -46,10 +32,12 @@
   flex-flow: column;
   background: #e74c3c;
   color: #eee;
-  padding: 40px 0;
+  padding: 40px 0	60px;
   h2 {
     font-weight: normal;
-    margin: 0;
+  }
+  p {
+    margin: 0 26% 40px;
   }
   .split {
     display: grid;
@@ -103,7 +91,7 @@
   .proposals .split {
     grid-template-columns: repeat(1, 100%);
   }
-  .formSpree {
+  .formSpree, .proposals p {
     margin: 0 4%;
   }
 }
