@@ -7,7 +7,7 @@
 			</p>
 		</div>
 		<div class="social">
-			<a href="mailto:Mindaugas.Jasiulis.com" class="support" target="_top">Contact Me</a>
+			<a href="mailto:Mindaugas@Jasiulis.com" class="support" target="_top">Contact Me</a>
 			<a href="https://twitter.com/JaskaJasius" class="tweet">t</a>
 			<a href="https://linkedin.com/in/Jasius" class="linkedin">in</a>
 		</div> 
