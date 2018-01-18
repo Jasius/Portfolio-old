@@ -109,7 +109,7 @@
         </svg> -->
         <svg xmlns="http://www.w3.org/2000/svg" clip-path="url(#_clipPath_lORQyloYM9y6xpEbYrbHZN7kP0HR4uv6)" class="react" aria-hidden="true"  data-icon="react" role="img" viewBox="0 0 255 200">
         <path d=" M 204.8 0 L 256 0 L 128 220.8 L 0 0 L 50.56 0 L 97.92 0 L 128 51.2 L 157.44 0 L 204.8 0 L 204.8 0 Z " fill="rgb(65,184,131)"/>
-        <path d=" M 0 0 L 128 220.8 L 256 0 L 204.8 0 L 128 132.48 L 50.56 0 L 0 0 L 0 0 Z " fill="rgb(65,184,131)"/>
+        <path d=" M 0 0 L 128 220.8 L 256 0 L 204.8 0 L 128 132.48 L 50.56 0 L 0 0 L 0 0 Z " fill="rgb(236, 240, 241)"/>
         <path d=" M 50.56 0 L 128 133.12 L 204.8 0 L 157.44 0 L 128 51.2 L 97.92 0 L 50.56 0 Z " fill="rgb(53,73,94)"/>
         </svg>
         <span>
@@ -151,8 +151,8 @@ $light-blue: #3498db;
   flex-wrap: wrap;
   color: #ecf0f1;
   padding: 8px 0;
-  align-items: start;
-  justify-content: start;
+  align-items: center;
+  justify-content: center;
   h3 {
     width: 100%;
     text-align: center;
@@ -168,9 +168,9 @@ $light-blue: #3498db;
       height: 3em;
       padding: 0 0.5em;
       color: #ecf0f1;
-      &.html {
-        // color: #f16529;
-      }
+      // &.html {
+      //   color: #f16524;
+      // }
     }
     span {
       vertical-align: 20px;

@@ -1,9 +1,10 @@
 <template>
+
   	<nav role="navigation">
-		<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAA9SURBVDhPY6AaMJ5xq5wamMFkxu3/1MBQd40CugDj6bd3UwNTz6BRQEeALQOSgxlMpt/uoAaGuotSwMAAAFHfAhzFXIuJAAAAAElFTkSuQmCC" id="toggle-menu"/>
+		<img onclick="switchertemp()" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAA9SURBVDhPY6AaMJ5xq5wamMFkxu3/1MBQd40CugDj6bd3UwNTz6BRQEeALQOSgxlMpt/uoAaGuotSwMAAAFHfAhzFXIuJAAAAAElFTkSuQmCC" id="toggle-menu"/>
 		<div class="logo"><a href="/">Jaska</a>
 		</div>
-		<ul>
+		<ul id="panel">
 			<li class="targeted" id="active"><a href="#">Home</a></li>
 			<li class="targeted"><a href="#about">About</a></li>
 			<li class="targeted"><a href="#projects">Featured Projects</a></li>
@@ -11,6 +12,11 @@
 		</ul>
 	</nav>
 </template>
+
+
+<script>
+
+</script>
 
 <style scoped lang="scss">
 $font-stack: "Open Sans", Helvetica Neue, Arial, sans-serif;

@@ -2,38 +2,22 @@
   <div class="proposals">
 		<h2>Seriously, get in touch.</h2>
 		<p>I am on the lookout for any kind of meaningful work. If you have something in mind or just want to say hi, drop me a line.</p>
-		<form class="formSpree" action="https://formspree.io/Mindaugas@Jasiulis.com" method="POST">
-		  <div class="split">
-			<div>
-			  <label>Your name</label>
-			  <input type="text" name="Name" placeholder="John Doe" required>
-			</div>
-			<div>
-			  <label>Your email</label>
-			  <input type="email" name="_replyto" placeholder="Example@domain.com" required>
-			</div>
-		  </div>
-		  <label>Message</label>
-		  <textarea class="message" type="text" name="Message" placeholder="Hi Mindaugas.." required></textarea>
-		  <button type="submit" value="Send">Send</button>
-		  <input class="is-hidden" type="text" name="_gotcha">
-		  <input type="hidden" name="_next" value="#" />
-		</form>
     <input type="hidden" name="form-name" value="contact" />
     <form class="formSpree" method="post">
-          <input type="hidden" name="form-name" value="contact" />
-            <div class="split">
-			      <div>
-            <label>Your name<input type="text" name="name" placeholder="John Doe" required/></label>
+      <input type="hidden" name="form-name" value="contact" />
+        <div class="split">
+		      <div>
+            <label>Your name</label>
+              <input type="text" name="name" placeholder="John Doe" required/>
 			      </div>
             <div>
-            <label>Your email<input type="email" name="email" placeholder="Example@domain.com" required/></label>
+              <label>Your email</label><input type="email" name="email" placeholder="Example@domain.com" required/>
             </div>
             </div>
             <label>Message</label>
             <textarea class="message" type="text" name="message" placeholder="Hi Mindaugas.." required></textarea>
             <button type="submit">Send</button>
-        </form>
+    </form>
 	</div>
 </template>
 
