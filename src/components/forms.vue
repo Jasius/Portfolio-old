@@ -19,6 +19,22 @@
 		  <input class="is-hidden" type="text" name="_gotcha" netlify-honeypot>
 		  <input type="hidden" name="_next" value="#" />
 		</form>
+    <input type="hidden" name="form-name" value="contact" />
+    <form method="post">
+          <input type="hidden" name="form-name" value="contact" />
+          <p>
+            <label>Your Name: <input type="text" name="name"/></label>
+          </p>
+          <p>
+            <label>Your Email: <input type="email" name="email"/></label>
+          </p>
+          <p>
+            <label>Message: <textarea name="message"></textarea></label>
+          </p>
+          <p>
+            <button type="submit">Send</button>
+          </p>
+        </form>
 	</div>
 </template>
 
