@@ -158,7 +158,7 @@ $light-blue: #3498db;
     text-align: center;
   }
   .skill {
-    padding: 30px;
+    padding: 30px 30px 30px 0;
     flex: 0 auto;
     // padding: 8px 30px;
     // line-height: 1.5;
@@ -168,9 +168,9 @@ $light-blue: #3498db;
       height: 3em;
       padding: 0 0.5em;
       color: #ecf0f1;
-      // &.html {
-      //   // color: #f16529;
-      // }
+      &.html {
+        // color: #f16529;
+      }
     }
     span {
       vertical-align: 20px;

@@ -2,7 +2,7 @@
   <div class="proposals">
 		<h2>Seriously, get in touch.</h2>
 		<p>I am on the lookout for any kind of meaningful work. If you have something in mind or just want to say hi, drop me a line.</p>
-		<form class="formSpree" action="https://formspree.io/Mindaugas@Jasiulis.com" method="POST" data-netlify="true">
+		<form class="formSpree" action="https://formspree.io/Mindaugas@Jasiulis.com" method="POST">
 		  <div class="split">
 			<div>
 			  <label>Your name</label>
@@ -16,24 +16,23 @@
 		  <label>Message</label>
 		  <textarea class="message" type="text" name="Message" placeholder="Hi Mindaugas.." required></textarea>
 		  <button type="submit" value="Send">Send</button>
-		  <input class="is-hidden" type="text" name="_gotcha" netlify-honeypot>
+		  <input class="is-hidden" type="text" name="_gotcha">
 		  <input type="hidden" name="_next" value="#" />
 		</form>
     <input type="hidden" name="form-name" value="contact" />
-    <form method="post">
+    <form class="formSpree" method="post">
           <input type="hidden" name="form-name" value="contact" />
-          <p>
-            <label>Your Name: <input type="text" name="name"/></label>
-          </p>
-          <p>
-            <label>Your Email: <input type="email" name="email"/></label>
-          </p>
-          <p>
-            <label>Message: <textarea name="message"></textarea></label>
-          </p>
-          <p>
+            <div class="split">
+			      <div>
+            <label>Your name<input type="text" name="name" placeholder="John Doe" required/></label>
+			      </div>
+            <div>
+            <label>Your email<input type="email" name="email" placeholder="Example@domain.com" required/></label>
+            </div>
+            </div>
+            <label>Message</label>
+            <textarea class="message" type="text" name="message" placeholder="Hi Mindaugas.." required></textarea>
             <button type="submit">Send</button>
-          </p>
         </form>
 	</div>
 </template>
@@ -48,7 +47,7 @@
   flex-flow: column;
   background: #e74c3c;
   color: #eee;
-  padding: 40px 0	60px;
+  padding: 40px 0 60px;
   h2 {
     font-weight: normal;
   }
@@ -107,7 +106,8 @@
   .proposals .split {
     grid-template-columns: repeat(1, 100%);
   }
-  .formSpree, .proposals p {
+  .formSpree,
+  .proposals p {
     margin: 0 4%;
   }
 }
