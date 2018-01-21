@@ -39,7 +39,7 @@
 				<li style="border-color:#c6538c">Sass</li>
 			</ul>
 			<p>
-				<span class="role">Lead developer & Community manager</span></br>
+				<span class="role">Lead developer & Community manager</span><br>
 				My main task on this community forum as a front end developer was to increase community interaction and come up with a way
 				to highlight certain content which people enjoy. I've managed to do that by enforcing flairs system with a help of an
 				automated bot and automatically highlighting threads based on their flairs so it's easier to distinguish content.
@@ -62,7 +62,7 @@
 				<li>JQUERY</li>
 			</ul>
 			<p>
-				<span class="role">Junior front end developer & Community manager.</span><br>
+				<span class="role">Junior front end developer & Community manager</span><br>
 				<strong>Bookie.GG</strong> is a gambling site on which you were able to bet Counter-Strike: Global Offensive weapon skins,
 				which can be traded and sold on Steam market or third party services. CS:GO skins hold monetary value on the market,
 				so betting took off really quickly once skins were introduced to the game.
@@ -159,9 +159,9 @@ $light-blue: #3498db;
   justify-content: center;
   a {
     color: $light-blue;
-		&:hover {
-			color: #2D4059;
-		}
+    &:hover {
+      color: #2d4059;
+    }
   }
 }
 
@@ -202,16 +202,17 @@ $light-blue: #3498db;
   h2 {
     margin-bottom: 9px;
     font-weight: 600;
-		font-weight: 500;		
+    font-weight: 500;
   }
 }
-.project, .spotlight {
-	 max-width: 650px;
+.project {
+  max-width: 650px;
 }
-  .spotlight {
-		flex: 1 100%;
-    padding: 8px 30px;
-    line-height: 1.5;
+.spotlight {
+  flex: 1 100%;
+  max-width: 80%;
+  padding: 8px 30px;
+  line-height: 1.5;
 
   .date p {
     text-align: center;
@@ -220,53 +221,55 @@ $light-blue: #3498db;
   }
   h2 {
     margin-bottom: 9px;
-		font-weight: 500;
+    font-weight: 500;
   }
-  }
+}
 .boxy {
-	font-size: 1.7em;
-	text-align: center;
-	color: #ede;
-	border: 3px solid #ede;
-	padding: 15px;
-	display: inline-block;
-	margin: 0 0 30px;
-	line-height: 1;
-	font-weight: 500;
+  font-size: 1.7em;
+  text-align: center;
+  color: #ede;
+  border: 3px solid #ede;
+  padding: 15px;
+  display: inline-block;
+  margin: 0 0 30px;
+  line-height: 1;
+  font-weight: 500;
 }
 .tools {
-	list-style-type: none;
-	margin: 10px 0 -10px;
-	padding-left: 0;
-	li {
-		border-top: 2px solid #2D4059;
-		color: #222;
-		margin: 0 3px;
-		padding: 5px;
-		border-radius: 0;
-		font-size: .75em;
-		display: inline-block;
-		text-align: center;
-		&:first-of-type, &:last-of-type {
-			margin: 0;
-		}
-// 		&:after {
-//     border-bottom: 3px solid red;
-//     content: "";
-//     width: 20px;
-//     margin: 3px auto;
-//     display: block;
-// }
-	}
+  list-style-type: none;
+  margin: 10px 0 -10px;
+  padding-left: 0;
+  li {
+    border-top: 2px solid #2d4059;
+    color: #222;
+    margin: 0 3px;
+    padding: 5px;
+    border-radius: 0;
+    font-size: 0.75em;
+    display: inline-block;
+    text-align: center;
+    &:first-of-type,
+    &:last-of-type {
+      margin: 0;
+    }
+    // 		&:after {
+    //     border-bottom: 3px solid red;
+    //     content: "";
+    //     width: 20px;
+    //     margin: 3px auto;
+    //     display: block;
+    // }
+  }
 }
 
 .role {
-	color: #2D4059;
-	font-weight: 600;
+  color: #2d4059;
+  font-weight: 600;
 }
 
 @media screen and (max-width: 768px) {
-  .project, .spotlight {
+  .project,
+  .spotlight {
     padding: 0;
     p {
       padding: 0 30px;

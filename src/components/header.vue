@@ -214,15 +214,14 @@ header {
   color: #000;
   text-align: center;
   h1 {
-    font-size: 63px;
+    font-size: 70px;
     margin-top: 60px;
-    font-family: $font-secondary;
+    font-family: "Segoe UI Light", "Helvetica Neue", Arial, sans-serif;
     font-weight: normal;
   }
   p {
     font-size: 1.2em;
-    margin-top: -25px;
-    margin: -25px 0 0 0;
+    margin-top: -45px;
   }
 }
 
@@ -233,7 +232,7 @@ header {
 
 .about-me {
   background: #2d4059;
-  padding: 60px 80px 30px 10%;
+  padding: 60px 80px 60px 10%;
   flex: 3;
   line-height: 1.5;
   h1 a {
