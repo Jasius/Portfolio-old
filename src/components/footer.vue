@@ -3,7 +3,7 @@
 		<div class="copyright">
 			<p>
 				© Jaska 2015 - {{(new Date()).getFullYear()}}
-				<span style="padding-left:20px">Made with <a href="https://vuejs.org/">Vue.js</a></span>
+				<span style="padding-left:20px">Made with <a target="_blank" href="https://vuejs.org/">Vue.js</a></span>
 			</p>
 		</div>
 		<div class="social">

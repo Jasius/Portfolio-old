@@ -4,24 +4,24 @@
 		<div class="contact-icons">
 			<ul>
 				<li>
-					<a href="https://linkedin.com/in/Jasius">
+					<a target="_new" href="https://linkedin.com/in/Jasius">
 						<div class="icons8-linkedin"></div>
 					</a>
 				</li>
 				<li>
-					<a href="https://github.com/Jasius">
+					<a target="_new" href="https://github.com/Jasius">
 						<div class="icons8-github2"></div>
 					</a>
 				</li>
 				<li><img link rel="preload" src="../assets/jaska.png" class="mepic" alt="My picture">
 				</li>
 				<li>
-					<a href="https://twitter.com/JaskaJasius">
+					<a target="_new" href="https://twitter.com/JaskaJasius">
 						<div class="icons8-twitter"></div>
 					</a>
 				</li>
 				<li>
-					<a href="http://codepen.io/Jasius/">
+					<a target="_new" href="http://codepen.io/Jasius/">
 						<div class="icons8-codepen"></div>
 					</a>
 				</li>
@@ -36,7 +36,7 @@
 	<div class="section-about">
 		<div class="about-me">
 			<h1 class="boxy"><a class="anchor" id="about">About me</a></h1>
-			<p>Hi, my name is <strong>Mindaugas Jasiulis</strong>, I am a {{'1997-03-19' | moment("from", true)}} old self taught front end developer who currently lives in Lithuania, Vilnius.
+			<p>Hi, my name is <strong>Mindaugas Jasiulis</strong>, I am a {{'1998-03-19' | moment("from", true)}} old self taught front end developer who currently lives in Lithuania, Vilnius.
 			</p>
 			<p>One of the most memorable and enjoyable volunteer experiences was on Reddit platform for which I am thankful because my work there reaches over 1 million unique users every month on <a href="https://windows10.reddit.com"
 				    target="_blank">Windows Community</a> alone while on /r/Olympics subreddit during 2016 Olympic games month my work has been seen 22 million times. Thanks to my work on Microsoft Community, I have had plenty of interaction with
@@ -132,6 +132,10 @@
 				<li class="profile-list">Work experience
 					<p>{{'2016-04-01' | moment("from", true)}}</p>
 				</li>
+				<div class="small-line"></div>
+        <li class="profile-list">Partnered with
+          <p><a target="_blank" href="https://discordapp.com/">Discord</a></p>
+        </li> 
 				<div class="small-line"></div>
 				<li class="profile-list">Hobbies<p>Football | Gaming</p></li> 
 				<div class="small-line"></div>

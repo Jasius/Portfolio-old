@@ -8,7 +8,7 @@
 			<div class="date">
 				<p>2017 - Present</p>
 			</div>
-			<a href="../assets/w10.png" target="_blank">
+			<a href="../assets/omnisend.png" target="_new">
 				<img src="../assets/omnisend.png" alt="Omnisend website" class="img-responsive">
 			</a>
 			<ul class="tools">
@@ -22,7 +22,7 @@
 			</ul>
 			<p>
 				<span class="role">Front end developer</span><br>
-				Internationalization, localization scopes owner on <a href="https://app.omnisend.com/" target="_blank">Omnisend application</a>, supporting developer on <a href="https://omnisend.com/" target="_blank">Omnisend website</a>.
+				Internationalization, localization scopes owner on <a href="https://app.omnisend.com/" target="_new">Omnisend application</a>, supporting developer on <a href="https://omnisend.com/" target="_new">Omnisend website</a>.
 			</p>
 		</div>
 		<div class="project">
@@ -205,15 +205,17 @@ $light-blue: #3498db;
     font-weight: 500;
   }
 }
-.project {
-  max-width: 650px;
-}
+// .project {
+  // max-width: 650px;
+// }
 .spotlight {
   flex: 1 100%;
   max-width: 80%;
   padding: 8px 30px;
   line-height: 1.5;
-
+  @media screen and (max-width: 768px) {
+    max-width: 100%;
+  }
   .date p {
     text-align: center;
     margin-top: 0;

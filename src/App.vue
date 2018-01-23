@@ -36,6 +36,12 @@ Helvetica Neue,
 Arial,
 sans-serif;
 $light-blue: #3498db;
+// @mixin minView($size) {
+//   @media only screen and (min-width: $size + px) { @content; }
+// }
+// @mixin maxView($size) {
+//   @media only screen and (min-width: $size + px) { @content; }
+// }
   // * {
   //   outline: 2px solid pink;
   //   outline-style: dashed;
