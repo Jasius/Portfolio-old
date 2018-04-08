@@ -8,7 +8,7 @@
 			<div class="date">
 				<p>2017 - Present</p>
 			</div>
-			<a href="../assets/omnisend.png" target="_new">
+			<a href="../assets/omnisend.png" target="_blank">
 				<img src="../assets/omnisend.png" alt="Omnisend website" class="img-responsive">
 			</a>
 			<ul class="tools">
@@ -19,10 +19,11 @@
 				<li style="border-color:#f16529">HTML5</li>
 				<li style="border-color:#1d365d">Less</li>
 				<li style="border-color:#c6538c">Sass</li>
-			</ul>
+			</ul>			
 			<p>
-				<span class="role">Front end developer</span><br>
-				Internationalization, localization scopes owner on <a href="https://app.omnisend.com/" target="_new">Omnisend application</a>, supporting developer on <a href="https://omnisend.com/" target="_new">Omnisend website</a>.
+				<span class="role">🌟 Front end developer</span><br>
+				<span><img src="../assets/location.svg" alt="location symbol">Vilnius, Lithuania</span><br>
+				Internationalization, localization scopes owner on <a href="https://app.omnisend.com/" target="_blank">Omnisend application</a>, supporting developer on <a href="https://omnisend.com/" target="_blank">Omnisend website</a>.
 			</p>
 		</div>
 		<div class="project">
@@ -40,6 +41,7 @@
 			</ul>
 			<p>
 				<span class="role">Lead developer & Community manager</span><br>
+				<span><img src="../assets/location.svg" alt="location symbol">Ignalina, Lithuania</span><br>				
 				My main task on this community forum as a front end developer was to increase community interaction and come up with a way
 				to highlight certain content which people enjoy. I've managed to do that by enforcing flairs system with a help of an
 				automated bot and automatically highlighting threads based on their flairs so it's easier to distinguish content.
@@ -63,6 +65,7 @@
 			</ul>
 			<p>
 				<span class="role">Junior front end developer & Community manager</span><br>
+				<span><img src="../assets/location.svg" alt="location symbol">Otawa, Canada</span><br>				
 				<strong>Bookie.GG</strong> is a gambling site on which you were able to bet Counter-Strike: Global Offensive weapon skins,
 				which can be traded and sold on Steam market or third party services. CS:GO skins hold monetary value on the market,
 				so betting took off really quickly once skins were introduced to the game.
@@ -84,7 +87,8 @@
 				<li style="border-color:#2965f1">CSS3</li>
 			</ul>
 			<p>
-				<span class="role">Developer & contractor</span><br>
+				<span class="role">Front end developer & Contractor</span><br>
+				<span><img src="../assets/location.svg" alt="location symbol">Vilnius, Lithuania</span><br>				
 				<strong><a href="https://github.com/Jasius/Frontpage">Frontpage</a></strong> responsive bookmarks page was specifically
 				made for myself but upon sharing it with a few people and seeing their positive reaction and interest I published it
 				to <a href="https://github.com/Jasius/Frontpage">GitHub</a> so anyone who wanted to reuse or improve it could do so easilly.
@@ -111,7 +115,8 @@
 			</ul>
 			<div class="truncate">
 				<p>
-					<span class="role">Developer & contractor</span><br>
+					<span class="role">Front end developer & Contractor</span><br>
+				<span><img src="../assets/location.svg" alt="location symbol">Ignalina, Lithuania</span><br>									
 					<a href="https://jasius.github.io/ClearShift/"><strong>ClearShift</strong></a> is a site for the promotion of fourth
 					major version of my Reddit theme which I originally made for Microsoft Band community. I put a lot of hours into it,
 					so I wanted to outsource it and make it easy to customize, set up with pre-set code snippets so even people with little
@@ -139,7 +144,8 @@
 				<li style="border-color:#CF4647">Gulp</li>
 			</ul>
 			<p>
-				<span class="role">Developer & contractor</span><br>
+				<span class="role">Front end developer & Contractor</span><br>
+				<span><img src="../assets/location.svg" alt="location symbol">Ignalina, Lithuania</span><br>								
 				<strong><a href="https://chrome.google.com/webstore/detail/invisibars/ekpmfomajcjeadhhcnpjabkfncbgligp">Invisibars</a></strong> is a Chrome extension which removes wasteful scrolls bars to give you more real estate while browsing the web. It is a simple extension with very low footprint and unlike other similar extensions Invisibars does not break custom modals and scrollbars on websites.
 			</p>
 		</div>
@@ -206,7 +212,7 @@ $light-blue: #3498db;
   }
 }
 // .project {
-  // max-width: 650px;
+// max-width: 650px;
 // }
 .spotlight {
   flex: 1 100%;
@@ -268,7 +274,15 @@ $light-blue: #3498db;
   color: #2d4059;
   font-weight: 600;
 }
-
+.spotlight,
+.project {
+  span:nth-of-type(2) {
+    img {
+      vertical-align: text-bottom;
+      margin-right: 7px;
+    }
+  }
+}
 @media screen and (max-width: 768px) {
   .project,
   .spotlight {
