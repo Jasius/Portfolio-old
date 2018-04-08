@@ -8,7 +8,7 @@
 			<div class="date">
 				<p>2017 - Present</p>
 			</div>
-			<a href="../assets/omnisend.png" target="_new">
+			<a href="../assets/omnisend.png" target="_blank">
 				<img src="../assets/omnisend.png" alt="Omnisend website" class="img-responsive">
 			</a>
 			<ul class="tools">
@@ -19,10 +19,18 @@
 				<li style="border-color:#f16529">HTML5</li>
 				<li style="border-color:#1d365d">Less</li>
 				<li style="border-color:#c6538c">Sass</li>
-			</ul>
+				<li>JQUERY</li>				
+			</ul>			
 			<p>
-				<span class="role">Front end developer</span><br>
-				Internationalization, localization scopes owner on <a href="https://app.omnisend.com/" target="_new">Omnisend application</a>, supporting developer on <a href="https://omnisend.com/" target="_new">Omnisend website</a>.
+				<span class="role"><img src="../assets/role.svg" alt="briefcase symbol">Front end developer</span><br>
+				<span><img src="../assets/location.svg" alt="location symbol">Vilnius, Lithuania</span>
+			</p>
+			<p class="description">				
+				Omnisend is a powerful email marketing platform for ecommerce. We help you to convert the visitors of your online store and retain your customers.
+					<ul>
+								<li>Internationalization, localization scopes owner on <a href="https://app.omnisend.com/" target="_blank">Omnisend application</a>.</li>
+								<li>Supporting developer on <a href="https://omnisend.com/" target="_blank">Omnisend website</a>.</li>
+					</ul>
 			</p>
 		</div>
 		<div class="project">
@@ -39,7 +47,10 @@
 				<li style="border-color:#c6538c">Sass</li>
 			</ul>
 			<p>
-				<span class="role">Lead developer & Community manager</span><br>
+				<span class="role"><img src="../assets/role.svg" alt="briefcase symbol">Lead developer & Community manager</span><br>
+				<span><img src="../assets/location.svg" alt="location symbol">Ignalina, Lithuania</span>
+			</p>
+			<p>		
 				My main task on this community forum as a front end developer was to increase community interaction and come up with a way
 				to highlight certain content which people enjoy. I've managed to do that by enforcing flairs system with a help of an
 				automated bot and automatically highlighting threads based on their flairs so it's easier to distinguish content.
@@ -62,7 +73,10 @@
 				<li>JQUERY</li>
 			</ul>
 			<p>
-				<span class="role">Junior front end developer & Community manager</span><br>
+				<span class="role"><img src="../assets/role.svg" alt="briefcase symbol">Junior front end developer & Community manager</span><br>
+				<span><img src="../assets/location.svg" alt="location symbol">Otawa, Canada</span>
+			</p>
+			<p>
 				<strong>Bookie.GG</strong> is a gambling site on which you were able to bet Counter-Strike: Global Offensive weapon skins,
 				which can be traded and sold on Steam market or third party services. CS:GO skins hold monetary value on the market,
 				so betting took off really quickly once skins were introduced to the game.
@@ -84,7 +98,10 @@
 				<li style="border-color:#2965f1">CSS3</li>
 			</ul>
 			<p>
-				<span class="role">Developer & contractor</span><br>
+				<span class="role"><img src="../assets/role.svg" alt="briefcase symbol">Front end developer & Contractor</span><br>
+				<span><img src="../assets/location.svg" alt="location symbol">Vilnius, Lithuania</span>
+			</p>
+			<p>
 				<strong><a href="https://github.com/Jasius/Frontpage">Frontpage</a></strong> responsive bookmarks page was specifically
 				made for myself but upon sharing it with a few people and seeing their positive reaction and interest I published it
 				to <a href="https://github.com/Jasius/Frontpage">GitHub</a> so anyone who wanted to reuse or improve it could do so easilly.
@@ -111,15 +128,18 @@
 			</ul>
 			<div class="truncate">
 				<p>
-					<span class="role">Developer & contractor</span><br>
+				<span class="role"><img src="../assets/role.svg" alt="briefcase symbol">Front end developer & Contractor</span><br>
+				<span><img src="../assets/location.svg" alt="location symbol">Ignalina, Lithuania</span>
+				</p>
+				<p>							
 					<a href="https://jasius.github.io/ClearShift/"><strong>ClearShift</strong></a> is a site for the promotion of fourth
-					major version of my Reddit theme which I originally made for Microsoft Band community. I put a lot of hours into it,
+					major version of my Reddit theme which I made for Microsoft Band community. I put a lot of hours into it,
 					so I wanted to outsource it and make it easy to customize, set up with pre-set code snippets so even people with little
 					to no CSS knowledge could use ClearShift and customize it to their own needs.
 				</p>
 				<p>
-					During 2016 Olympic games my theme was being used on /r/Olympics community so it theme was seen by 3 million unique users
-					and was viewed 22 million times for the duration of the 2016 Olympics.
+					During 2016 Olympic games my theme was used on /r/Olympics community, It was seen by 3 million unique users
+					and viewed 22 million times for the duration of the 2016 Olympics.
 				</p>
 			</div>
 		</div>
@@ -139,7 +159,10 @@
 				<li style="border-color:#CF4647">Gulp</li>
 			</ul>
 			<p>
-				<span class="role">Developer & contractor</span><br>
+				<span class="role"><img src="../assets/role.svg" alt="briefcase symbol">Front end developer & Contractor</span><br>
+				<span><img src="../assets/location.svg" alt="location symbol">Ignalina, Lithuania</span>
+			</p>
+			<p>							
 				<strong><a href="https://chrome.google.com/webstore/detail/invisibars/ekpmfomajcjeadhhcnpjabkfncbgligp">Invisibars</a></strong> is a Chrome extension which removes wasteful scrolls bars to give you more real estate while browsing the web. It is a simple extension with very low footprint and unlike other similar extensions Invisibars does not break custom modals and scrollbars on websites.
 			</p>
 		</div>
@@ -206,13 +229,18 @@ $light-blue: #3498db;
   }
 }
 // .project {
-  // max-width: 650px;
+// max-width: 650px;
 // }
 .spotlight {
   flex: 1 100%;
   max-width: 80%;
   padding: 8px 30px;
   line-height: 1.5;
+  a {
+    &:nth-of-type(1) {
+      pointer-events: none;
+    }
+  }
   @media screen and (max-width: 768px) {
     max-width: 100%;
   }
@@ -224,6 +252,12 @@ $light-blue: #3498db;
   h2 {
     margin-bottom: 9px;
     font-weight: 500;
+  }
+}
+.description {
+  ul {
+    margin-top: 0;
+    padding-left: 20px;
   }
 }
 .boxy {
@@ -268,7 +302,15 @@ $light-blue: #3498db;
   color: #2d4059;
   font-weight: 600;
 }
-
+.spotlight,
+.project {
+  // span:nth-of-type(2) {
+  img {
+    vertical-align: text-bottom;
+    margin-right: 7px;
+  }
+  // }
+}
 @media screen and (max-width: 768px) {
   .project,
   .spotlight {
