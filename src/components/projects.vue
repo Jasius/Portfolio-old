@@ -316,7 +316,13 @@ $light-blue: #3498db;
     margin-right: 7px;
   }
   // }
+		p {
+		span img {
+			max-width: 20px;
+		}
+	}
 }
+
 @media screen and (max-width: 768px) {
   .project,
   .spotlight {
