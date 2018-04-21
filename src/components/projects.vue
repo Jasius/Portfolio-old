@@ -8,9 +8,9 @@
 			<div class="date">
 				<p>2017 - Present</p>
 			</div>
-			<a href="../assets/omnisend.png" target="_blank">
+			<!-- <a href="../assets/omnisend.png" target="_blank"> -->
 				<img src="../assets/omnisend.png" alt="Omnisend website" class="img-responsive">
-			</a>
+			<!-- </a> -->
 			<ul class="tools">
 				<li style="border-color:#dd0031;">AngularJS</li>
 				<li style="border-color:#f0db4f">JS</li>
@@ -39,9 +39,9 @@
 			<div class="date">
 				<p>2016</p>
 			</div>
-			<a href="../assets/w10.png" target="_blank">
+			<!-- <a href="../assets/w10.png" target="_blank"> -->
 				<img src="../assets/w10.png" alt="Windows 10 community forum" class="img-responsive">
-			</a>
+			<!-- </a> -->
 			<ul class="tools">
 				<li style="border-color:#2965f1">CSS3</li>
 				<li style="border-color:#CF4647">Gulp</li>
@@ -67,9 +67,9 @@
 			<div class="date">
 				<p>2015</p>
 			</div>
-			<a href="../assets/bookie.png" target="_blank">
+			<!-- <a href="../assets/bookie.png" target="_blank"> -->
 				<img src="../assets/bookie.png" alt="Bookie.GG gambling site" class="img-responsive">
-			</a>
+			<!-- </a> -->
 			<ul class="tools">
 				<li style="border-color:#f16529">HTML5</li>
 				<li style="border-color:#2965f1">CSS3</li>
@@ -95,9 +95,9 @@
 			<div class="date">
 				<p>2016</p>
 			</div>
-			<a href="../assets/frontpage.png" target="_blank">
+			<!-- <a href="../assets/frontpage.png" target="_blank"> -->
 				<img src="../assets/frontpage.png" alt="Frontpage for links" class="img-responsive">
-			</a>
+			<!-- </a> -->
 			<ul class="tools">
 				<li style="border-color:#61dafb">React</li>
 				<li style="border-color:#55a7dd">Webpack</li>
@@ -122,9 +122,9 @@
 			<div class="date">
 				<p>2015</p>
 			</div>
-			<a href="../assets/clearshift.png" target="_blank">
+			<!-- <a href="../assets/clearshift.png" target="_blank"> -->
 				<img src="../assets/clearshift.png" alt="ClearShift site" class="img-responsive">
-			</a>
+			<!-- </a> -->
 			<ul class="tools">
 				<li style="border-color:#f16529">HTML5</li>
 				<li style="border-color:#2965f1">CSS3</li>
@@ -154,9 +154,9 @@
 			<div class="date">
 				<p>2017</p>
 			</div>
-			<a href="../assets/invisibars.png" target="_blank">
+			<!-- <a href="../assets/invisibars.png" target="_blank"> -->
 				<img src="../assets/invisibars.png" alt="Invisibars Chrome extension" class="img-responsive">
-			</a>
+			<!-- </a> -->
 			<ul class="tools">
 				<li style="border-color:#f16529">HTML5</li>
 				<li style="border-color:#2965f1">CSS3</li>
@@ -242,11 +242,11 @@ $light-blue: #3498db;
   max-width: 80%;
   padding: 8px 30px;
   line-height: 1.5;
-  a {
-    &:nth-of-type(1) {
-      pointer-events: none;
-    }
-  }
+  // a {	
+  //   &:nth-of-type(1) {
+  //     pointer-events: none;
+  //   }
+  // }
   @media screen and (max-width: 768px) {
     max-width: 100%;
   }
