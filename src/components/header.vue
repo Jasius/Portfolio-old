@@ -36,15 +36,9 @@
 	<div class="section-about">
 		<div class="about-me">
 			<h1 class="boxy"><a class="anchor" id="about">About me</a></h1>
-			<p>Hi, my name is <strong>Mindaugas Jasiulis</strong>, I am a {{'1997-03-19' | moment("from", true)}} old self taught front end developer who currently lives in Lithuania, Vilnius.
-			</p>
-			<p>One of the most memorable and enjoyable volunteer experiences was on Reddit platform for which I am thankful because my work there reaches over 1 million unique users every month on <a href="https://windows10.reddit.com"
-				    target="_blank">Windows Community</a> alone while on /r/Olympics subreddit during 2016 Olympic games month my work has been seen 22 million times. Thanks to my work on Microsoft Community, I have had plenty of interaction with
-				Microsoft engineers, prominent developers and lots of other interesting people.
-			</p>
-			<p>
-			Apart from Web development related work I was involved in translating websites such as <a href="http://onefootball.com/">OneFootball</a>				into Lithuanian and Russian languages.
-			</p>
+			<p>Hi, my name is <strong>Mindaugas Jasiulis</strong>. I am a {{'1997-03-19' | moment("from", true)}} old self taught front end developer who currently lives in <a href="http://www.govilnius.lt/" target="_blank">Lithuania, Vilnius.</a></p>
+			<p>One of the most memorable, enjoyable experiences to me was working on Microsoft community. I had opportunity to talk with Microsoft employees, prominent developers, journalists.</p>
+			<p>Apart from Web development, community management related experiences, I contributed to translation of <a href="https://onefootball.com" target="_blank">OneFootball application</a> into Lithuanian, Russian languages.</p>
       <div class="skillsWrapper">
         <h3>Languages and tech</h3>
     <div class="skill">

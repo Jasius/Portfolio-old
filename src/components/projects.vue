@@ -30,6 +30,7 @@
 					<ul>
 								<li>Internationalization, localization scopes owner on <a href="https://app.omnisend.com/" target="_blank">Omnisend application</a>.</li>
 								<li>Supporting developer on <a href="https://omnisend.com/" target="_blank">Omnisend website</a>.</li>
+								<li>Helping out with technical support queries within the company.</li>
 					</ul>
 			</p>
 		</div>
@@ -50,10 +51,14 @@
 				<span class="role"><img src="../assets/role.svg" alt="briefcase symbol">Lead developer & Community manager</span><br>
 				<span><img src="../assets/location.svg" alt="location symbol">Ignalina, Lithuania</span>
 			</p>
-			<p>		
-				My main task on this community forum as a front end developer was to increase community interaction and come up with a way
-				to highlight certain content which people enjoy. I've managed to do that by enforcing flairs system with a help of an
-				automated bot and automatically highlighting threads based on their flairs so it's easier to distinguish content.
+			<p class="description">		
+				Community which is hosted on Reddit platform for Windows, Microsoft products enthusiasts.
+<ul>
+	<li>Lead developer of community design.</li>
+	<li>Responsible for verification of Microsoft employees, journalists and prominent developers.</li>
+	<li>Recruiter for the community moderation team.</li>
+	<li>Observing team's activity, projects/events that we set out to do.</li>
+</ul>
 			</p>
 
 		</div>
@@ -76,10 +81,13 @@
 				<span class="role"><img src="../assets/role.svg" alt="briefcase symbol">Junior front end developer & Community manager</span><br>
 				<span><img src="../assets/location.svg" alt="location symbol">Otawa, Canada</span>
 			</p>
-			<p>
-				<strong>Bookie.GG</strong> is a gambling site on which you were able to bet Counter-Strike: Global Offensive weapon skins,
-				which can be traded and sold on Steam market or third party services. CS:GO skins hold monetary value on the market,
-				so betting took off really quickly once skins were introduced to the game.
+			<p class="description">
+				Bookie.GG gambling website which allows to bet <a href="https://store.steampowered.com/app/730/CounterStrike_Global_Offensive/" target="_blank">Counter-Strike: Global Offensive</a> weapon skins.
+				<ul>
+					<li>Supporting developer on the web application design team.</li>
+					<li>Primary designer and community manager on community forum.</li>
+					<li>Tester for our partner's Esports statistics mobile application.</li>
+				</ul>
 			</p>
 		</div>
     <div class="project">
@@ -131,15 +139,13 @@
 				<span class="role"><img src="../assets/role.svg" alt="briefcase symbol">Front end developer & Contractor</span><br>
 				<span><img src="../assets/location.svg" alt="location symbol">Ignalina, Lithuania</span>
 				</p>
-				<p>							
-					<a href="https://jasius.github.io/ClearShift/"><strong>ClearShift</strong></a> is a site for the promotion of fourth
-					major version of my Reddit theme which I made for Microsoft Band community. I put a lot of hours into it,
-					so I wanted to outsource it and make it easy to customize, set up with pre-set code snippets so even people with little
-					to no CSS knowledge could use ClearShift and customize it to their own needs.
-				</p>
-				<p>
-					During 2016 Olympic games my theme was used on /r/Olympics community, It was seen by 3 million unique users
-					and viewed 22 million times for the duration of the 2016 Olympics.
+				<p class="description">							
+					Website for highlighting unique features of ClearShift Reddit theme. Main goal of this theme was to make modernized version of Reddit's design which wouldn't detract from original experience.
+					<ul>
+						<li>Sole maintainer of the theme since 2015.</li>
+						<li>Helping out people to install theme on their communities, make customized versions.</li>
+					</ul>
+					Since tracking got added<em>(2017 march)</em> theme got installed on over 1,500 communities and seen by thousands of users monthly.
 				</p>
 			</div>
 		</div>
@@ -163,7 +169,7 @@
 				<span><img src="../assets/location.svg" alt="location symbol">Ignalina, Lithuania</span>
 			</p>
 			<p>							
-				<strong><a href="https://chrome.google.com/webstore/detail/invisibars/ekpmfomajcjeadhhcnpjabkfncbgligp">Invisibars</a></strong> is a Chrome extension which removes wasteful scrolls bars to give you more real estate while browsing the web. It is a simple extension with very low footprint and unlike other similar extensions Invisibars does not break custom modals and scrollbars on websites.
+				<strong><a href="https://chrome.google.com/webstore/detail/invisibars/ekpmfomajcjeadhhcnpjabkfncbgligp">Invisibars</a></strong> is a Chrome extension which removes wasteful scrolls bars to give you more real estate while browsing the web. Unlike other similar extensions Invisibars has very low footprint and does not break custom modals and scrollbars.
 			</p>
 		</div>
 	</div>
