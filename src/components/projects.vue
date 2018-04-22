@@ -9,7 +9,7 @@
 				<p>2017 - Present</p>
 			</div>
 			<!-- <a href="../assets/omnisend.png" target="_blank"> -->
-				<img src="../assets/omnisend.png" alt="Omnisend website" class="img-responsive">
+				<img v-lazyload data-src="../assets/omnisend.png" data-err="../assets/omnisend.png" src="../assets/omnisend.png" alt="Omnisend website" class="img-responsive">
 			<!-- </a> -->
 			<ul class="tools">
 				<li style="border-color:#dd0031;">AngularJS</li>

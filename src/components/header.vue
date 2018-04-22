@@ -13,8 +13,7 @@
 						<div class="icons8-github2"></div>
 					</a>
 				</li>
-				<li><img link rel="preload" src="../assets/jaska.png" class="mepic" alt="My picture">
-				</li>
+				<li><img link rel="preload" src="../assets/jaska.png" class="mepic" alt="My picture"></li>
 				<li>
 					<a target="_new" href="https://twitter.com/JaskaJasius">
 						<div class="icons8-twitter"></div>
