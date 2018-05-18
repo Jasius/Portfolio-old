@@ -116,10 +116,10 @@
 		<div class="profile">
 			<h1 class="boxy">Profile</h1> 
 			<ul>
-				<li class="profile-list">Working at
+				<!-- <li class="profile-list">Working at
 					<p><a target="_blank" href="https://omnisend.com">Omnisend</a></p>
-				</li>
 				<div class="small-line"></div>
+				</li> -->
 				<li class="profile-list">Position
 					<p>Front end developer</p>
 				</li>

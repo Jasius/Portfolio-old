@@ -6,7 +6,7 @@
         <div class="spotlight">
 			<h2>Omnisend</h2>
 			<div class="date">
-				<p>2017 - Present</p>
+				<p>2017</p>
 			</div>
 			<!-- <a href="../assets/omnisend.png" target="_blank"> -->
 				<img src="../assets/omnisend.png" alt="Omnisend website" class="img-responsive">
@@ -29,7 +29,7 @@
 				Omnisend is a powerful email marketing platform for ecommerce. We help you to convert the visitors of your online store and retain your customers.
 					<ul>
 								<li>Internationalization, localization scopes owner on <a href="https://app.omnisend.com/" target="_blank">Omnisend application</a>.</li>
-								<li>Supporting developer on <a href="https://omnisend.com/" target="_blank">Omnisend website</a>.</li>
+								<li>Supporting developer for marketing team on <a href="https://omnisend.com/" target="_blank">Omnisend website</a>.</li>
 								<li>Helping out with technical support queries within the company.</li>
 					</ul>
 			</p>
