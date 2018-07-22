@@ -31,14 +31,14 @@
 
 	<div class="intro">
 		<h1>Jasiulis</h1>
-		<p>Lithuanian front end developer</p>
+		<p>Front end developer, designer</p>
 	</div>
 	<div class="section-about">
 		<div class="about-me">
 			<h1 class="boxy"><a class="anchor" id="about">About me</a></h1>
 			<p>Hi, my name is <strong>Mindaugas Jasiulis</strong>. I am a {{'1997-03-19' | moment("from", true)}} old self taught front end developer who currently lives in <a href="http://www.govilnius.lt/" target="_blank">Lithuania, Vilnius.</a></p>
-			<p>One of the most memorable, enjoyable experiences to me was working on Microsoft community. I had opportunity to talk with Microsoft employees, prominent developers, journalists.</p>
-			<p>Apart from Web development, community management related experiences, I contributed to translation of <a href="https://onefootball.com" target="_blank">OneFootball application</a> into Lithuanian, Russian languages.</p>
+			<p>One of the most memorable, enjoyable experiences to me was working on Microsoft community forum development and community growth. I had opportunity to talk with Microsoft employees, prominent developers, journalists.</p>
+			<p>Apart from Web development, community management related experiences, I contributed to translation of OneFootball application into Lithuanian, Russian languages.</p>
       <div class="skillsWrapper">
         <h3>Languages and tech</h3>
     <div class="skill">
@@ -116,10 +116,10 @@
 		<div class="profile">
 			<h1 class="boxy">Profile</h1> 
 			<ul>
-				<!-- <li class="profile-list">Working at
-					<p><a target="_blank" href="https://omnisend.com">Omnisend</a></p>
+				<li class="profile-list">Working at
+					<p><a target="_blank" href="https://www.bazaarvoice.com/">Bazaarvoice</a></p>
 				<div class="small-line"></div>
-				</li> -->
+				</li>
 				<li class="profile-list">Position
 					<p>Front end developer</p>
 				</li>
@@ -132,7 +132,7 @@
           <p><a target="_blank" href="https://discordapp.com/">Discord</a></p>
         </li> 
 				<div class="small-line"></div>
-				<li class="profile-list">Hobbies<p>Football | Gaming</p></li> 
+				<li class="profile-list">Hobbies<p>Gaming | Singing in a shower</p></li> 
 				<div class="small-line"></div>
 			</ul>
 		</div>

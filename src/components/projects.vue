@@ -4,6 +4,30 @@
 			<h1 class="boxy"><a class="anchor" id="projects">Projects</a></h1>
 		</div>
         <div class="spotlight">
+			<h2>Bazaarvoice</h2>
+			<div class="date">
+				<p>2018</p>
+			</div>
+			<!-- <a href="../assets/bazaarvoice.png" target="_blank"> -->
+				<img src="../assets/bazaarvoice.png" alt="bazaarvoice website" class="img-responsive">
+			<!-- </a> -->
+			<ul class="tools">
+				<li style="border-color:#f0db4f">JS</li>
+				<li style="border-color:#CF4647">Gulp</li>
+				<li style="border-color:#f16529">HTML5</li>
+			</ul>			
+			<p>
+				<span class="role"><img src="../assets/role.svg" alt="briefcase symbol">Quality Assurance Implementation Analyst</span><br>
+				<span><img src="../assets/location.svg" alt="location symbol">Vilnius, Lithuania</span>
+			</p>
+			<p class="description">				
+				Bazaarvoice is a digital marketing company. It provides software that allows retailers to add customer reviews to their websites.
+					<ul>
+								<li>Making tools to make internal QA processes automated, faster.</li>
+					</ul>
+			</p>
+		</div>
+		<div class="project">
 			<h2>Omnisend</h2>
 			<div class="date">
 				<p>2017</p>
@@ -145,32 +169,9 @@
 						<li>Sole maintainer of the theme since 2015.</li>
 						<li>Helping out people to install theme on their communities, make customized versions.</li>
 					</ul>
-					Since tracking got added<em>(2017 march)</em> theme got installed on over 1,500 communities and seen by thousands of users monthly.
+					Since tracking got added<em>(2017 march)</em> theme got installed on over 1,700 communities and seen by thousands of users monthly.
 				</p>
 			</div>
-		</div>
-        	<div class="project">
-			<h2>Invisibars extension</h2>
-			<div class="date">
-				<p>2017</p>
-			</div>
-			<!-- <a href="../assets/invisibars.png" target="_blank"> -->
-				<img src="../assets/invisibars.png" alt="Invisibars Chrome extension" class="img-responsive">
-			<!-- </a> -->
-			<ul class="tools">
-				<li style="border-color:#f16529">HTML5</li>
-				<li style="border-color:#2965f1">CSS3</li>
-				<li style="border-color:#f0db4f">JS</li>
-				<li style="border-color:#c6538c">Sass</li>
-				<li style="border-color:#CF4647">Gulp</li>
-			</ul>
-			<p>
-				<span class="role"><img src="../assets/role.svg" alt="briefcase symbol">Front end developer & Contractor</span><br>
-				<span><img src="../assets/location.svg" alt="location symbol">Ignalina, Lithuania</span>
-			</p>
-			<p>							
-				<strong><a href="https://chrome.google.com/webstore/detail/invisibars/ekpmfomajcjeadhhcnpjabkfncbgligp">Invisibars</a></strong> is a Chrome extension which removes wasteful scrolls bars to give you more real estate while browsing the web. Unlike other similar extensions Invisibars has very low footprint and does not break custom modals and scrollbars.
-			</p>
 		</div>
 	</div>
 </template>
@@ -184,9 +185,9 @@ $light-blue: #3498db;
   flex-wrap: wrap;
   background: #ecf0f1;
   color: #222;
-	@media screen and (min-width: 1405px) {
-		  padding: 40px 200px;
-	}
+  @media screen and (min-width: 1405px) {
+    padding: 40px 200px;
+  }
   padding: 40px 0;
   justify-content: center;
   a {
@@ -245,7 +246,7 @@ $light-blue: #3498db;
   max-width: 80%;
   padding: 8px 30px;
   line-height: 1.5;
-  // a {	
+  // a {
   //   &:nth-of-type(1) {
   //     pointer-events: none;
   //   }
@@ -319,11 +320,11 @@ $light-blue: #3498db;
     margin-right: 7px;
   }
   // }
-		p {
-		span img {
-			max-width: 20px;
-		}
-	}
+  p {
+    span img {
+      max-width: 20px;
+    }
+  }
 }
 
 @media screen and (max-width: 768px) {
