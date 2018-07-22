@@ -184,6 +184,9 @@ $light-blue: #3498db;
   flex-wrap: wrap;
   background: #ecf0f1;
   color: #222;
+	@media screen and (min-width: 1405px) {
+		  padding: 40px 200px;
+	}
   padding: 40px 0;
   justify-content: center;
   a {
