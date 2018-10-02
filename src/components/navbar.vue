@@ -8,6 +8,7 @@
 			<li class="targeted" id="active"><a href="#">Home</a></li>
 			<li class="targeted"><a href="#about">About</a></li>
 			<li class="targeted"><a href="#projects">Featured Projects</a></li>
+			<li class="targeted"><a href="#travel">Travel pictures(WIP)</a></li>
 			<figure id="indicator"></figure>
 		</ul>
 	</nav>
