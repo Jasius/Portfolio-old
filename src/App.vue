@@ -5,6 +5,7 @@
     <app-projects></app-projects>
     <app-forms></app-forms>
     <app-footer></app-footer>
+    <!-- <travel></travel> -->
   </div>
 </template>
 
@@ -14,13 +15,15 @@ import navbar from '@/components/navbar.vue'
 import projects from '@/components/projects.vue'
 import footer from '@/components/footer.vue'
 import forms from '@/components/forms.vue'
+import travel from '@/components/travelPhotos.vue'
 export default {
   components: {
     'app-navbar': navbar,
     'app-header': header,
     'app-projects': projects,
     'app-forms': forms,
-    'app-footer': footer
+    'app-footer': footer,
+    'travel': travel
   }
 }
 </script>
