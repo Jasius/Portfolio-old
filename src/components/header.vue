@@ -36,7 +36,7 @@
 	<div class="section-about">
 		<div class="about-me">
 			<h1 class="boxy"><a class="anchor" id="about">About me</a></h1>
-			<p>Hi, my name is <strong>Mindaugas Jasiulis</strong>. I am a {{'1997-03-19' | moment("from", true)}} old self taught front end developer who currently lives in <a href="http://www.govilnius.lt/" target="_blank">Lithuania, Vilnius.</a></p>
+			<p>Hi, my name is <strong>Mindaugas Jasiulis</strong>. I am a {{'1998-03-19' | moment("from", true)}} old self taught front end developer who currently lives in <a href="http://www.govilnius.lt/" target="_blank">Lithuania, Vilnius.</a></p>
 			<p>One of the most memorable, enjoyable experiences to me was working on Microsoft community forum development and community growth. I had opportunity to talk with Microsoft employees, prominent developers, journalists.</p>
 			<p>Apart from Web development, community management related experiences, I contributed to translation of OneFootball application into Lithuanian, Russian languages.</p>
       <div class="skillsWrapper">
