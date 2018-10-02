@@ -12,18 +12,23 @@
 				<img src="../assets/bazaarvoice.png" alt="bazaarvoice website" class="img-responsive">
 			<!-- </a> -->
 			<ul class="tools">
+				<li style="border-color:#61dafb">React</li>
+				<li style="border-color:#55a7dd">Webpack</li>
+				<li style="border-color:#c6538c">Sass</li>
 				<li style="border-color:#f0db4f">JS</li>
 				<li style="border-color:#CF4647">Gulp</li>
 				<li style="border-color:#f16529">HTML5</li>
+				<li>Bootstrap</li>
 			</ul>			
 			<p>
-				<span class="role"><img src="../assets/role.svg" alt="briefcase symbol">Quality Assurance Implementation Analyst</span><br>
+				<span class="role"><img src="../assets/role.svg" alt="briefcase symbol">Internal tools developer & Quality Assurance Implementation Analyst</span><br>
 				<span><img src="../assets/location.svg" alt="location symbol">Vilnius, Lithuania</span>
 			</p>
 			<p class="description">				
-				Bazaarvoice is a digital marketing company. It provides software that allows retailers to add customer reviews to their websites.
+				Bazaarvoice is a digital marketing company. It provides software that allows retailers to add customer reviews to their websites. BazaarVoice is third biggest company in the world by traffic just behind Google and Facebook.
 					<ul>
-								<li>Making tools to make internal QA processes automated, faster.</li>
+								<li>Working on internal automation tools for QA.</li>
+								<li>Leading QA teams work distribution, estimation.</li>
 					</ul>
 			</p>
 		</div>
