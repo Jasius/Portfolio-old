@@ -17,7 +17,7 @@
   },
   "dependencies": {
     "npm": "^6.2.0",
-    "vue": "^2.5.2",
+    "vue": "^2.5.17",
     "vue-gallery": "^1.4.0",
     "vue-gh-pages": "^1.7.0",
     "vue-moment": "^3.1.0",
