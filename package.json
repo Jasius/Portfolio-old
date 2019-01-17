@@ -16,7 +16,7 @@
     "deploy": "node ./node_modules/vue-gh-pages/index.js"
   },
   "dependencies": {
-    "npm": "^6.2.0",
+    "npm": "^6.6.0",
     "vue": "^2.5.17",
     "vue-gallery": "^1.4.0",
     "vue-gh-pages": "^1.7.0",
