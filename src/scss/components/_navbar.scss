@@ -138,7 +138,7 @@ nav {
   font-weight: 600;
   color: $light-blue;
   &:before {
-    background: url(src/assets/logo-Jaska.svg) no-repeat;
+    background: url('../../src/assets/logo-Jaska.svg') no-repeat;
     padding: 5px 25px;
     opacity: 0.9;
     content: "";

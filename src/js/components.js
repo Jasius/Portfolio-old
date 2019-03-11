@@ -1,5 +1,7 @@
 "use strict";
+import images from './../assets/*.png'
 import { technologiesList, highlightsList } from "./utils";
+
 export function projectsCards(path) {
   let projectsListing = ``;
   let project;
@@ -12,7 +14,7 @@ export function projectsCards(path) {
         <div class="date">
           <p>${path[0].year}</p>
         </div>
-        <img src="src/assets/${path[0].imageUrl}.png" alt="bazaarvoice website" class="img-responsive">
+        <img src="${images[path[0].imageUrl]}" alt="bazaarvoice website" class="img-responsive">
             ${technologiesList(path[0].technologies)}
         <p>
             <i class="fas fa-briefcase"></i><span class="role"> ${path[0].role}</span><br>
@@ -31,7 +33,7 @@ export function projectsCards(path) {
         <div class="date">
             <p>${path[project].year}</p>
         </div>
-        <img src="src/assets/${path[project].imageUrl}.png" alt="Omnisend website" class="img-responsive">
+        <img src="${images[path[project].imageUrl]}" alt="Omnisend website" class="img-responsive">
         ${technologiesList(path[project].technologies)}
         <p>
             <i class="fas fa-briefcase"></i><span class="role"> ${
