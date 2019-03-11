@@ -1,0 +1,240 @@
+$font-stack: "Open Sans", Helvetica Neue, Arial, sans-serif;
+$font-secondary: "Segoe UI", Helvetica Neue, Arial, sans-serif;
+$light-blue: #3498db;
+
+nav {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  padding: 0;
+  background: #fff;
+  line-height: 3.125em;
+  overflow: visible;
+  border-bottom: 1px solid #dcddd8;
+  transition: top 0.5s;
+  z-index: 99;
+  a {
+    text-decoration: none;
+  }
+  ul {
+    margin: 0;
+    padding: 0;
+    width: auto;
+    height: auto !important;
+    list-style: none;
+    display: flex;
+    flex-flow: row wrap;
+    -webkit-flex-flow: row wrap;
+    justify-content: center;
+    color: #1d6fa5;
+    li {
+      transition: all 0.2s;
+    }
+    li > a {
+      padding: 0 20px;
+      color: $light-blue;
+      font-weight: 600;
+      display: inline-block;
+      vertical-align: middle;
+      -webkit-transform: perspective(1px) translateZ(0);
+      transform: perspective(1px) translateZ(0);
+      box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+      position: relative;
+      overflow: hidden;
+      &:before {
+        content: "";
+        position: absolute;
+        z-index: -1;
+        left: 51%;
+        right: 51%;
+        bottom: 0;
+        background: #2098d1;
+        height: 4px;
+        -webkit-transition-property: left, right;
+        transition-property: left, right;
+        -webkit-transition-duration: 0.3s;
+        transition-duration: 0.3s;
+        -webkit-transition-timing-function: ease-out;
+        transition-timing-function: ease-out;
+      }
+      &:hover {
+        color: #1d6fa5;
+      }
+      &:hover:before,
+      &:focus:before,
+      &:active:before {
+        left: 0;
+        right: 0;
+      }
+      li > a span {
+        margin-right: 4px;
+        color: #0078d7;
+      }
+    }
+  }
+  ul li {
+    float: right;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    cursor: pointer;
+    &:hover,
+    &:active {
+      background: #f2f2f2;
+    }
+  }
+}
+
+.nav-hide {
+  top: -51px;
+  transition-delay: 2s;
+}
+
+.has-child {
+  position: relative;
+  left: 0;
+  &:after {
+    position: absolute;
+    margin-top: -5px;
+    top: 27px;
+    right: 5px;
+    content: "";
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 8px 5px 0 5px;
+    border-color: #0078d7 transparent transparent transparent;
+  }
+}
+
+.has-child .dropdown {
+  position: absolute;
+  left: -40px;
+  z-index: 99;
+  display: none;
+  width: 200px;
+  background: #fff;
+  border: 1px solid #efefef;
+  border-top: none;
+}
+
+.has-child .dropdown > li {
+  float: left;
+  width: 100%;
+  font-weight: 600;
+  color: $light-blue;
+  border-bottom: 1px solid #efefef;
+}
+
+.has-child .dropdown li a {
+  display: block;
+}
+
+.logo a {
+  float: left;
+  margin: 0;
+  padding: 0 15px;
+  //   font-size: 1.25em;
+  font-weight: 600;
+  color: $light-blue;
+  &:before {
+    background: url(src/assets/logo-Jaska.svg) no-repeat;
+    padding: 5px 25px;
+    opacity: 0.9;
+    content: "";
+  }
+  &:hover {
+    background: #f2f2f2;
+    color: #1d6fa5;
+    &:before {
+      opacity: 1;
+    }
+  }
+}
+
+#toggle-menu {
+  display: none;
+  position: absolute;
+  cursor: pointer;
+  transition: background-color .2s;
+  padding: 0.9em;
+  font-size: 18px;
+  right: 0;
+  top: 0;
+  color: #3498db; 
+  &:hover, &:active {
+    background-color: #f2f2f2;
+  }
+}
+
+#indicator {
+  bottom: 0;
+  margin: 0;
+  height: 3px;
+  transition: all 0.2s ease-out;
+  position: absolute;
+}
+
+#active {
+  color: $light-blue;
+}
+
+@media only screen and (max-width: 45em) {
+  .has-child .dropdown {
+    position: relative;
+    left: 0;
+    z-index: auto;
+    margin-top: 0;
+    display: block;
+    width: 100%;
+    border-radius: 0;
+  }
+  .has-child .dropdown > li {
+    padding-left: 20px;
+    background: #fff;
+  }
+  .has-child:after {
+    position: absolute;
+    margin-top: -5px;
+    top: 25px;
+    right: 20px;
+    content: "";
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 10px 5px 0 5px;
+    border-color: #0078d7 transparent transparent transparent;
+  }
+  .logo {
+    width: 100%;
+    border: 0;
+    border-radius: 0;
+  }
+  #toggle-menu {
+    display: block;
+  }
+  nav ul,
+  #indicator {
+    display: none;
+  }
+  nav ul li {
+    display: block;
+    width: 100%;
+    text-align: left;
+    border-bottom: 1px solid #f2f2f2;
+    &:hover > a {
+      color: #1d6fa5;
+    }
+  }
+}
+
+@media only screen and (max-width: 62.5em) {
+  .logo {
+    border-radius: 0;
+  }
+  nav {
+    position: fixed;
+    margin-top: 0;
+    border: 0;
+  }
+}

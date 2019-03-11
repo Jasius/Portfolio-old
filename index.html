@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Mindaugas Jasiulis Portfolio</title>
+	<meta charset="UTF-8" />
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/solid.css" integrity="sha384-r/k8YTFqmlOaqRkZuSiE9trsrDXkh07mRaoGBMoDcmA58OHILZPsk29i2BsFng1B"
+	 crossorigin="anonymous">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/brands.css" integrity="sha384-BKw0P+CQz9xmby+uplDwp82Py8x1xtYPK3ORn/ZSoe6Dk3ETP59WCDnX+fI1XCKK"
+	 crossorigin="anonymous">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/fontawesome.css" integrity="sha384-4aon80D8rXCGx9ayDt85LbyUHeMWd3UiBaWliBlJ53yzm9hqN21A+o1pqoyK04h+"
+	 crossorigin="anonymous">
+	<script>
+	function openMobileMenu() { 
+    const displaySetting = document.getElementById("panel");
+    switch (displaySetting.style.display) { 
+		case 'block': displaySetting.style.display = 'none'; break;
+		default: displaySetting.style.display = 'block'; 
+    }
+  }
+</script>
+</head>
+
+<body>
+	<nav role="navigation">
+		<i class="fas fa-bars" id="toggle-menu" onclick="openMobileMenu()"></i>
+		<div class="logo" alt="Logo"><a href="/">Jaska</a></div>
+		<ul id="panel">
+			<li class="targeted" id="active"><a href="#">Home</a></li>
+			<li class="targeted"><a href="#about">About</a></li>
+			<li class="targeted"><a href="#projects">Featured Projects</a></li>
+			<figure id="indicator"></figure>
+		</ul>
+	</nav>
+	<main></main>
+	<div id="header">
+		<div>
+	<header>
+		<div class="contact-icons">
+			<ul>
+				<li>
+					<a target="_new" href="https://linkedin.com/in/Jasius">
+						<div class="icons8-linkedin"></div>
+					</a>
+				</li>
+				<li>
+					<a target="_new" href="https://github.com/Jasius">
+						<div class="icons8-github2"></div>
+					</a>
+				</li>
+				<li><img link rel="preload" src="./src/assets/jaska.png" class="mepic" alt="My picture"/>
+				</li>
+				<li>
+					<a target="_new" href="https://twitter.com/JaskaJasius">
+						<div class="icons8-twitter"></div>
+					</a>
+				</li>
+				<li>
+					<a target="_new" href="http://codepen.io/Jasius/">
+						<div class="icons8-codepen"></div>
+					</a>
+				</li>
+			</ul>
+		</div>
+	</header>
+
+	<div class="intro">
+		<h1>Jasiulis</h1>
+		<p>Front end developer, designer</p>
+	</div>
+	<div class="section-about">
+		<div class="about-me">
+			<h1 class="boxy"><a class="anchor" id="about">About me</a></h1>
+			<p>Hi, my name is <strong>Mindaugas Jasiulis</strong>. I am a <span id="age"></span> years old self taught front end developer who currently lives in <a href="http://www.govilnius.lt/" target="_blank">Lithuania, Vilnius.</a></p>
+			<p>One of the most memorable, enjoyable experiences to me was working on Microsoft community forum development and community growth. I had opportunity to talk with Microsoft employees, prominent developers, journalists.</p>
+			<p>Apart from Web development, community management experience, I contributed to translation of OneFootball application into Lithuanian, Russian languages.</p>
+      <div class="skillsWrapper">
+        <h3>Experienced with</h3>
+    <div class="skill">
+        <i class="fab fa-html5"></i>
+        <span>
+            HTML5
+        </span>
+    </div>
+    <div class="skill">
+        <i class="fab fa-css3"></i>
+        <span>
+            CSS3
+        </span>
+    </div>
+    <div class="skill">
+        <i class="fab fa-js"></i>
+        <span>
+            Javascript
+        </span>
+		
+    </div>
+    <div class="skill">
+        <i class="fab fa-sass"></i>
+        <span>
+            SCSS
+        </span>
+    </div>
+    <div class="skill">
+        <i class="fab fa-git-square"></i>
+        <span>
+            Git
+        </span>
+    </div>
+    <div class="skill">
+        <i class="fab fa-gulp"></i>
+        <span>
+            Gulp
+        </span>
+    </div>
+    <div class="skill">
+        <i class="fab fa-react"></i>
+        <span>
+            React
+        </span>
+    </div>
+    <div class="skill">
+      <i class="fab fa-angular"></i>
+      <span>Angular</span>
+      </div>
+</div>
+		</div>
+		<div class="profile">
+			<h1 class="boxy">Profile</h1> 
+			<ul>
+				<li class="profile-list">Working at
+					<p><a target="_blank" href="https://www.bazaarvoice.com/">BazaarVoice</a></p>
+				<div class="small-line"></div>
+				</li>
+				<li class="profile-list">Position
+					<p>Front end developer</p>
+				</li>
+				<div class="small-line"></div>
+				<li class="profile-list">Work experience
+					<p><span id="experienceAge"></span> years</p>
+				</li>
+				<div class="small-line"></div>
+        <li class="profile-list">Partnered with
+          <p><a target="_blank" href="https://discordapp.com/">Discord</a></p>
+        </li> 
+				<div class="small-line"></div>
+				<li class="profile-list">Hobbies<p>Gaming | Shower singing</p></li> 
+				<div class="small-line"></div>
+			</ul>
+		</div>
+	</div>
+</div>
+	</div>
+	<div id="projects">
+    <div class="section-projects" id="projectsView"></div>
+	</div>
+	<div id="testimonials"></div>
+	<div id="form" class="proposals">
+				<h2>Seriously, get in touch.</h2>
+		<p>I am on the lookout for any kind of meaningful work. If you have something in mind or just want to say hi, drop me a line.</p>
+    <input type="hidden" name="form-name" value="contact" />
+    <form class="formSpree" method="post">
+      <input type="hidden" name="form-name" value="contact" />
+        <div class="split">
+		      <div>
+            <label>Your name</label>
+              <input type="text" name="name" placeholder="John Doe" required/>
+			      </div>
+            <div>
+              <label>Your email</label><input type="email" name="email" placeholder="Example@domain.com" required/>
+            </div>
+            </div>
+            <label>Message</label>
+            <textarea class="message" type="text" name="message" placeholder="Hi Mindaugas.." required></textarea>
+            <button type="submit">Send</button>
+    </form>
+	</div>
+	<form name="contact" netlify netlify-honeypot="bot-field" hidden>
+		<input type="text" name="name"/>
+		<input type="email" name="email"/>
+		<textarea name="message"></textarea>
+	</form>
+	<footer>
+<div class="copyright">
+			<p>
+				© Jaska 2015 - <span id="copyrightDate"></span>
+			</p>
+		</div>
+		<div class="social">
+			<a href="mailto:Mindaugas@Jasiulis.com" class="support" target="_top">Contact Me</a>
+			<a href="https://twitter.com/JaskaJasius" class="tweet">t</a>
+			<a href="https://linkedin.com/in/Jasius" class="linkedin">in</a>
+		</div> 
+	</footer>
+	<script src="src/index.js"></script>
+
+</body>
+<script type="application/ld+json">
+{ 
+  "@context": "http://schema.org", 
+"@type": "Person",
+      "name": "Mindaugas Jasiulis",
+	  "alternateName": "Jaska",
+	  "affiliation": "Discord app",
+	  "image": "https://jaska.co/static/img/jaska.0cf478b.png",
+	  "birthDate": "1997-03-19",
+	  "birthPlace": "Ignalina, Lithuania",
+	  "familyName": "Jasiuliai",
+	  "gender": "Male",
+	  "jobTitle": "Front end developer",
+	  "workLocation": "Vilnius, Lithuania",
+	  "worksFor": "BazaarVoice",
+	  "homeLocation": "Vilnius, Lithuania",
+	  "knowsAbout": ["Web development", "Web design", "Quality Assurance"],
+	  "knowsLanguage": ["Lithuanian", "English", "Russian"],
+	  "nationality": "Lithuanian",
+	  "parents": {
+"parent": ["Violeta Jasiuliene", "Arūnas Jasiulis"]
+	  },
+	    "sameAs": [
+    "https://github.com/Jasius",
+    "https://linkedin.com/in/Jasius",
+    "https://twitter.com/JaskaJasius",
+    "https://www.facebook.com/Jasiukas"
+  ],
+  "url": "https://jaska.co/", 
+  "description": "Lithuanian front end developer, designer portfolio page and projects showcase"
+  }
+</script>
+</html>

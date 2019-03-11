@@ -1,0 +1,72 @@
+.proposals {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  flex-flow: column;
+  background: #e74c3c;
+  color: #eee;
+  padding: 40px 0 60px;
+  h2 {
+    font-weight: normal;
+  }
+  p {
+    margin: 0 26% 40px;
+  }
+  .split {
+    display: grid;
+    grid-template-columns: repeat(2, 47.5%);
+    grid-template-rows: repeat(1, 100%);
+    grid-gap: 0 5%;
+  }
+}
+
+.formSpree {
+  text-align: initial;
+  margin: 0 26%;
+  padding: 0 0.5em;
+  label {
+    font-size: 0.8em;
+    font-weight: 600;
+  }
+  input,
+  .message {
+    padding: 0.45em 0.5em;
+    margin: 0.3em 0;
+    border: 0;
+    min-width: 100%;
+  }
+  .message {
+    min-height: 11em;
+    padding-top: 0.3em;
+    margin-bottom: -0.43em;
+    resize: none;
+  }
+  .is-hidden {
+    display: none;
+  }
+  button {
+    width: calc(100% + 1em);
+    text-align: center;
+    padding: 0.35em;
+    background: #6dcd9a;
+    color: #ecf0f1;
+    border: 0;
+    font-weight: 400;
+    cursor: pointer;
+    border-radius: 0 0 5px 5px;
+    &:hover {
+      background: lighten($color: #6dcd9a, $amount: 2%);
+    }
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .proposals .split {
+    grid-template-columns: repeat(1, 100%);
+  }
+  .formSpree,
+  .proposals p {
+    margin: 0 4%;
+  }
+}
