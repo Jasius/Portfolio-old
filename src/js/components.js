@@ -1,8 +1,8 @@
 "use strict";
 import images from './../assets/*.png'
-import { technologiesList, highlightsList } from "./utils";
+import { getTechnologiesList, getWorkplaceHighlights } from "./utils";
 
-export function projectsCards(path) {
+export function getProjectsCards (path) {
   let projectsListing = ``;
   let project;
   const spotlight = `
@@ -15,14 +15,14 @@ export function projectsCards(path) {
           <p>${path[0].year}</p>
         </div>
         <img src="${images[path[0].imageUrl]}" alt="bazaarvoice website" class="img-responsive">
-            ${technologiesList(path[0].technologies)}
+            ${getTechnologiesList(path[0].technologies)}
         <p>
             <i class="fas fa-briefcase"></i><span class="role"> ${path[0].role}</span><br>
             <span><i class="fas fa-map-marker-alt"></i> ${path[0].location}</span>
         </p>
         <p class="description">
             ${path[0].description}
-            ${highlightsList(path[0].highlights)}
+            ${getWorkplaceHighlights(path[0].highlights)}
         </p>
     </div>
     `;
@@ -34,18 +34,14 @@ export function projectsCards(path) {
             <p>${path[project].year}</p>
         </div>
         <img src="${images[path[project].imageUrl]}" alt="Omnisend website" class="img-responsive">
-        ${technologiesList(path[project].technologies)}
+        ${getTechnologiesList(path[project].technologies)}
         <p>
-            <i class="fas fa-briefcase"></i><span class="role"> ${
-              path[project].role
-            }</span><br>
-            <span><i class="fas fa-map-marker-alt"></i> ${
-              path[project].location
-            }</span>
+            <i class="fas fa-briefcase"></i><span class="role"> ${path[project].role}</span><br>
+            <span><i class="fas fa-map-marker-alt"></i> ${path[project].location}</span>
         </p>
         <p class="description">
             ${path[project].description}
-            ${highlightsList(path[project].highlights)}
+            ${getWorkplaceHighlights(path[project].highlights)}
         </p>
         </div>
     `;
