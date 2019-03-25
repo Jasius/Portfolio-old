@@ -29,8 +29,8 @@ export function getTimespan (date, node) {
     div = document.getElementById(node),
     today = new Date(),
     givenDate = new Date(date),
-    month = today.getMonth() - givenDate.getMonth();
-  let timespan = today.getFullYear() - givenDate.getFullYear();
+    month = today.getMonth() - givenDate.getMonth(),
+    timespan = today.getFullYear() - givenDate.getFullYear();
   if (month < 0 || (month === 0 && today.getDate() < givenDate.getDate())) {
     return (div.innerText = timespan - 1);
   }
