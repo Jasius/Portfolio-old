@@ -8,8 +8,8 @@ export class Render {
   }
 }
 
-let [technologiesListing, highlightsListing] = [``, ``]
 export function getTechnologiesList (path) {
+  let technologiesListing = ``;
   for (let usedTechnology in path) {
     technologiesListing += `<li class="${path[usedTechnology].toLowerCase()}">${path[usedTechnology]}</li>`;
   }
@@ -17,6 +17,7 @@ export function getTechnologiesList (path) {
 }
 
 export function getWorkplaceHighlights (path) {
+  let highlightsListing = ``;
   for (let workplaceHighlight in path) {
     highlightsListing += `<li>${path[workplaceHighlight]}</li>`;
   }
