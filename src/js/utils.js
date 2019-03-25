@@ -8,28 +8,28 @@ export class Render {
   }
 }
 
+let [technologiesListing, highlightsListing] = [``, ``]
 export function getTechnologiesList (path) {
-  let technologiesListing = ``;
-  for (let tool in path) {
-    technologiesListing += `<li class="${path[tool].toLowerCase()}">${path[tool]}</li>`;
+  for (let usedTechnology in path) {
+    technologiesListing += `<li class="${path[usedTechnology].toLowerCase()}">${path[usedTechnology]}</li>`;
   }
   return `<ul class="tools">${technologiesListing}</ul>`;
 }
 
 export function getWorkplaceHighlights (path) {
-  let highlightsListing = ``;
-  for (let tool in path) {
-    highlightsListing += `<li>${path[tool]}</li>`;
+  for (let workplaceHighlight in path) {
+    highlightsListing += `<li>${path[workplaceHighlight]}</li>`;
   }
   return `<ul>${highlightsListing}</ul>`;
 }
 
 export function getTimespan (date, node) {
-  const div = document.getElementById(node);
-  const today = new Date();
-  const givenDate = new Date(date);
+  const
+    div = document.getElementById(node),
+    today = new Date(),
+    givenDate = new Date(date),
+    month = today.getMonth() - givenDate.getMonth();
   let timespan = today.getFullYear() - givenDate.getFullYear();
-  const month = today.getMonth() - givenDate.getMonth();
   if (month < 0 || (month === 0 && today.getDate() < givenDate.getDate())) {
     return (div.innerText = timespan - 1);
   }

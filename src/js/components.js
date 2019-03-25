@@ -3,9 +3,8 @@ import images from './../assets/*.png'
 import { getTechnologiesList, getWorkplaceHighlights } from "./utils";
 
 export function getProjectsCards (path) {
-  let projectsListing = ``;
-  let project;
-  const spotlight = `
+    let [projectsListing, project] = [``]
+    const spotlight = `
     <div class="section-name">
         <h1 class="boxy"><a class="anchor" id="projects">Projects</a></h1>
     </div>
@@ -26,8 +25,8 @@ export function getProjectsCards (path) {
         </p>
     </div>
     `;
-  for (project = 1; project < path.length; project++) {
-    projectsListing += `
+    for (project = 1; project < path.length; project++) {
+        projectsListing += `
         <div class="project">
         <h2>${path[project].name}</h2>
         <div class="date">
@@ -45,6 +44,6 @@ export function getProjectsCards (path) {
         </p>
         </div>
     `;
-  }
-  return spotlight + projectsListing;
+    }
+    return spotlight + projectsListing;
 }
