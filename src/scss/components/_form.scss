@@ -16,7 +16,7 @@
   .split {
     display: grid;
     grid-template-columns: repeat(2, 47.5%);
-    grid-template-rows: repeat(1, 100%);
+    grid-template-rows: repeat(1);
     grid-gap: 0 5%;
   }
 }
@@ -63,7 +63,7 @@
 
 @media screen and (max-width: 780px) {
   .proposals .split {
-    grid-template-columns: repeat(1, 100%);
+    grid-template-columns: repeat(1);
   }
   .formSpree,
   .proposals p {
