@@ -6,6 +6,7 @@
 	<title>Mindaugas Jasiulis Portfolio</title>
 	<meta name="Description" content="Lithuanian front end developer, designer portfolio page, projects showcase, freelancer, web designer" />
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="canonical" href="https://jaska.dev" />
 	<link rel="apple-touch-icon" sizes="57x57" href="./src/assets/logo/apple-icon-57x57.png">
 	<link rel="apple-touch-icon" sizes="60x60" href="./src/assets/logo/apple-icon-60x60.png">
 	<link rel="apple-touch-icon" sizes="72x72" href="./src/assets/logo/apple-icon-72x72.png">
@@ -19,13 +20,21 @@
 	<link rel="icon" type="image/png" sizes="32x32" href="./src/assets/logo/favicon-32x32.png">
 	<link rel="icon" type="image/png" sizes="96x96" href="./src/assets/logo/favicon-96x96.png">
 	<link rel="icon" type="image/png" sizes="16x16" href="./src/assets/logo/favicon-16x16.png">
-	<link rel="manifest" href="./src/assets/logo/manifest.json">
+	<link rel="manifest" href="./src/assets/logo/manifest.webmanifest">
 	<meta name="msapplication-TileColor" content="#ffffff">
 	<meta name="msapplication-TileImage" content="./src/assets/logo/ms-icon-144x144.png">
 	<meta name="theme-color" content="#ffffff">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/solid.css" integrity="sha384-r/k8YTFqmlOaqRkZuSiE9trsrDXkh07mRaoGBMoDcmA58OHILZPsk29i2BsFng1B" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/brands.css" integrity="sha384-BKw0P+CQz9xmby+uplDwp82Py8x1xtYPK3ORn/ZSoe6Dk3ETP59WCDnX+fI1XCKK" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/fontawesome.css" integrity="sha384-4aon80D8rXCGx9ayDt85LbyUHeMWd3UiBaWliBlJ53yzm9hqN21A+o1pqoyK04h+" crossorigin="anonymous">
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-136789098-1"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag() { dataLayer.push(arguments); }
+		gtag('js', new Date());
+
+		gtag('config', 'UA-136789098-1');
+	</script>
 </head>
 
 <body>
@@ -36,8 +45,8 @@
 			<li class="targeted" id="active"><a href="#">Home</a></li>
 			<li class="targeted"><a href="#about">About</a></li>
 			<li class="targeted"><a href="#projects">Featured Projects</a></li>
-			<figure id="indicator"></figure>
 		</ul>
+		<figure id="indicator"></figure>
 	</nav>
 	<main></main>
 	<div id="header">
@@ -63,7 +72,7 @@
 							</a>
 						</li>
 						<li>
-							<a target="_new" href="http://codepen.io/Jasius/">
+							<a target="_new" href="https://codepen.io/Jasius/">
 								<div class="icons8-codepen"></div>
 							</a>
 						</li>
@@ -78,7 +87,7 @@
 			<div class="section-about">
 				<div class="about-me">
 					<h1 class="boxy"><a class="anchor" id="about">About me</a></h1>
-					<p>Hi, my name is <strong>Mindaugas Jasiulis</strong>. I am a <span id="age"></span> years old self taught front end developer who currently lives in <a href="http://www.govilnius.lt/" target="_blank">Lithuania, Vilnius.</a></p>
+					<p>Hi, my name is <strong>Mindaugas Jasiulis</strong>. I am a <span id="age"></span> years old self taught front end developer who currently lives in <a rel="noopener" href="https://govilnius.lt/" target="_blank">Lithuania, Vilnius.</a></p>
 					<p>One of the most memorable, enjoyable experiences to me was working on Microsoft community forum development and community growth. I had opportunity to talk with Microsoft employees, prominent developers, journalists.</p>
 					<p>Apart from Web development, community management experience, I contributed to translation of OneFootball application into Lithuanian, Russian languages.</p>
 					<div class="skillsWrapper">
@@ -136,7 +145,7 @@
 					<h1 class="boxy">Profile</h1>
 					<ul>
 						<li class="profile-list">Working at
-							<p><a target="_blank" href="https://www.bazaarvoice.com/">BazaarVoice</a></p>
+							<p><a target="_blank" rel="noopener" href="https://bazaarvoice.com/">BazaarVoice</a></p>
 							<div class="small-line"></div>
 						</li>
 						<li class="profile-list">Position
@@ -148,7 +157,7 @@
 						</li>
 						<div class="small-line"></div>
 						<li class="profile-list">Partnered with
-							<p><a target="_blank" href="https://discordapp.com/">Discord</a></p>
+							<p><a target="_blank" rel="noopener" href="https://discordapp.com/">Discord</a></p>
 						</li>
 						<div class="small-line"></div>
 						<li class="profile-list">Hobbies<p>Gaming | Shower singing</p>
@@ -171,15 +180,13 @@
 			<input type="hidden" name="form-name" value="contact" />
 			<div class="split">
 				<div>
-					<label>Your name</label>
-					<input type="text" name="name" placeholder="John Doe" required />
+					<label>Your name <input type="text" name="name" placeholder="John Doe" required /></label>
 				</div>
 				<div>
-					<label>Your email</label><input type="email" name="email" placeholder="Example@domain.com" required />
+					<label>Your email<input type="email" name="email" placeholder="Example@domain.com" required /></label>
 				</div>
 			</div>
-			<label>Message</label>
-			<textarea class="message" type="text" name="message" placeholder="Hi Mindaugas.." required></textarea>
+			<label>Message <textarea class="message" type="text" name="message" placeholder="Hi Mindaugas.." required></textarea></label>
 			<button type="submit">Send</button>
 		</form>
 	</div>
@@ -210,7 +217,7 @@
     "name": "Mindaugas Jasiulis",
     "alternateName": "Jaska",
     "affiliation": "Discord app",
-    "image": "https://jaska.co/static/img/jaska.0cf478b.png",
+    "image": "./src/assets/logo/android-icon-192x192.png",
     "birthDate": "1997-03-19",
     "birthPlace": "Ignalina, Lithuania",
     "familyName": "Jasiuliai",
