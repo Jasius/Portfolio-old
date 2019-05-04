@@ -47,3 +47,85 @@ export function getProjectsCards (path) {
     }
     return spotlight + projectsListing;
 }
+
+export function getTestimonialCards() {
+    const testimonialCard = 
+    `
+    
+    `
+    const testimonialsArray = [
+        {
+            key: 1,
+            avatarUrl: `https://thispersondoesnotexist.com/image`,
+            fullName: `Whatever`,
+            role: `Journalist`,
+            testimonial: `Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.`,
+            year: `2018`
+        },
+        {
+            key: 2,
+            avatarUrl: `https://thispersondoesnotexist.com/image`,
+            fullName: `Whatever`,
+            role: `Journalist`,
+            testimonial: `Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.`,
+            year: `2018`
+        },
+        {
+            key: 3,
+            avatarUrl: `https://thispersondoesnotexist.com/image`,
+            fullName: `Whatever`,
+            role: `Journalist`,
+            testimonial: `Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.`,
+            year: 2018
+        },
+        {
+            key: 4,
+            avatarUrl: `https://thispersondoesnotexist.com/image`,
+            fullName: `Whatever`,
+            role: `Journalist`,
+            testimonial: `Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.`,
+            year: 2018
+        },
+        {
+            key: 5,
+            avatarUrl: `https://thispersondoesnotexist.com/image`,
+            fullName: `Whatever`,
+            role: `Journalist`,
+            testimonial: `Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.`,
+            year: 2018
+        },
+        {
+            key: 6,
+            avatarUrl: `https://thispersondoesnotexist.com/image`,
+            fullName: `Whatever`,
+            role: `Journalist`,
+            testimonial: `Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.`,
+            year: 2018
+        }
+    ];
+
+    const testimonialsData = testimonialsArray
+        .map(obj => {
+            const testimonialsObj = {};
+            testimonialsObj[obj.key] = obj.value;
+            return `
+<div class="reviewer">
+<div class="reviewerInfo">
+<img class="Avatar" src="${obj.avatarUrl}"</img>
+  <div class="fullName"><i class="fas fa-user-tie"></i> ${obj.fullName}</div>
+  <div class="Role"><i class="fas fa-briefcase"></i> ${obj.role}</div>
+</div>
+  <div class="Text"><i class="fas fa-quote-left"></i> ${obj.testimonial} <i class="fas fa-quote-right"></i></div>
+
+  <div class="year">${obj.year}</div>
+</div>
+`;
+        })
+        .join("");
+    console.log(testimonialsData);
+    document.getElementsByTagName("testimonials")[0].innerHTML = `
+<div class="testimonialsModule">
+${testimonialsData}
+</div>
+`;
+}
