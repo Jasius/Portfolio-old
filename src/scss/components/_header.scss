@@ -32,8 +32,8 @@ $light-blue: #3498db;
     }
     span {
       // vertical-align: 20px;
-          vertical-align: 12px;
-    padding: 0 0.5em;
+      vertical-align: 12px;
+      padding: 0 0.5em;
     }
     i.fab {
       font-size: 48px;
@@ -215,21 +215,21 @@ header {
 .icons8-linkedin:before,
 .icons8-twitter:before {
   font-size: 1.5em;
-          background: #ecf0f1;
-    border-radius: 50%;
-    color: #e96052;
-    border: 2px solid #e96052!important;
-    box-shadow: 0 0 0 2px #fff;
+  background: #ecf0f1;
+  border-radius: 50%;
+  color: #e96052;
+  border: 2px solid #e96052 !important;
+  box-shadow: 0 0 0 2px #fff;
   width: 63px;
   height: 63px;
   line-height: 60px;
   transition: background-color 0.25s linear;
 }
-    // background: #ecf0f1;
-    // border-radius: 50%;
-    // color: #e74c3b;
-    // border: 2px solid #fff;
-    // box-shadow: 0 0 0 2px #e96052;
+// background: #ecf0f1;
+// border-radius: 50%;
+// color: #e74c3b;
+// border: 2px solid #fff;
+// box-shadow: 0 0 0 2px #e96052;
 .contact-icons {
   text-align: center;
   font-family: "Open Sans";
@@ -319,7 +319,7 @@ header {
   }
   header {
     height: 150px;
-  } 
+  }
   .img-responsive {
     border: 0;
   }
@@ -333,6 +333,9 @@ header {
   }
   .contact-icons {
     font-size: 1.2em;
+    ul li {
+      margin-left: 0;
+    }
   }
   .icons8-codepen:before,
   .icons8-github2:before,
