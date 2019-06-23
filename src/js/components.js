@@ -57,7 +57,7 @@ export function getTestimonialCards() {
     const testimonialsArray = [
         // {
         //     key: 1,
-        //     avatarUrl: 'https://thispersondoesnotexist.com/image',
+        //     avatarUrl: getColleaguePicture[],
         //     fullName: 'Danielius A.',
         //     role: 'Implementation Engineer',
         //     testimonial: 'Thank you for being super fast and responsive!',
@@ -65,7 +65,7 @@ export function getTestimonialCards() {
         // },
         {
             key: 2,
-            avatarUrl: 'https://thispersondoesnotexist.com/image',
+            avatarUrl: getColleaguePicture['elvyraS.png'],
             fullName: 'Elvyra S.',
             role: 'Certification Specialist',
             testimonial: 'Thanks for sharing your superpowers! :))',
@@ -73,7 +73,7 @@ export function getTestimonialCards() {
         },
         {
             key: 3,
-            avatarUrl: 'https://thispersondoesnotexist.com/image',
+            avatarUrl: getColleaguePicture['gintareS.jpg'],
             fullName: 'Gintare S.',
             role: 'QA Analyst',
             testimonial: 'Thanks for everyday cooperation and all the work with dashboards that make our life more colourful!',
@@ -89,15 +89,15 @@ export function getTestimonialCards() {
         },
         {
             key: 5,
-            avatarUrl: 'https://thispersondoesnotexist.com/image',
+            avatarUrl: getColleaguePicture['dovileM.png'],
             fullName: 'Dovile M.',
             role: 'QA Analyst',
-            testimonial: 'Thank you Mindaugas for your help! You\'re are so smart! Github was easy only because you helped :).',
+            testimonial: 'Thank you Mindaugas for your help! You\'re are so smart! GitHub was easy only because you helped :).',
             year: 2018
         },
         {
             key: 6,
-            avatarUrl: 'https://thispersondoesnotexist.com/image',
+            avatarUrl: getColleaguePicture['tomasS.jpg'],
             fullName: 'Tomas S.',
             role: 'Implementation Manager',
             testimonial: 'Thank you for your help on building QA Automation tool.',
@@ -105,9 +105,9 @@ export function getTestimonialCards() {
         },
         {
             key: 7,
-            avatarUrl: 'https://thispersondoesnotexist.com/image',
+            avatarUrl: getColleaguePicture['marthaY.jpg'],
             fullName: 'Martha Y.',
-            role: 'Engagement Manager',
+            role: 'Senior Engagement Manager',
             testimonial: 'I think your formal title should be QA Master, QA Wizard.',
             year: 2018
         }
