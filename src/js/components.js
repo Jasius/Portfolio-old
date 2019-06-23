@@ -80,7 +80,7 @@ export function getTestimonialCards() {
         },
         {
             key: 4,
-            avatarUrl: 'https://thispersondoesnotexist.com/image',
+            avatarUrl: 'src/assets/colleagues/karolisN.png',
             fullName: 'Karolis N.',
             role: 'QA Specialist',
             testimonial: 'Thanks for all the improvements, amazing work on internal tool and constant technical help!',
