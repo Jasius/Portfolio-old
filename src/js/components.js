@@ -66,7 +66,7 @@ export function getTestimonialCards() {
         // },
         {
             key: 2,
-            avatarUrl: getColleaguePicture['elvyraS'],
+            avatarUrl: getColleaguePicture['elvyraS'].png,
             fullName: 'Elvyra S.',
             role: 'Certification Specialist',
             testimonial: 'Thanks for sharing your superpowers! :))',
@@ -74,7 +74,7 @@ export function getTestimonialCards() {
         },
         {
             key: 3,
-            avatarUrl: getColleaguePicture['gintareS'],
+            avatarUrl: getColleaguePicture['gintareS'].jpg,
             fullName: 'Gintare S.',
             role: 'QA Analyst',
             testimonial: 'Thanks for everyday cooperation and all the work with dashboards that make our life more colourful!',
@@ -82,7 +82,7 @@ export function getTestimonialCards() {
         },
         {
             key: 4,
-            avatarUrl: getColleaguePicture['karolisN'],
+            avatarUrl: getColleaguePicture['karolisN'].png,
             fullName: 'Karolis N.',
             role: 'QA Specialist',
             testimonial: 'Thanks for all the improvements, amazing work on internal tool and constant technical help!',
@@ -90,7 +90,7 @@ export function getTestimonialCards() {
         },
         {
             key: 5,
-            avatarUrl: getColleaguePicture['dovileM'],
+            avatarUrl: getColleaguePicture['dovileM'].png,
             fullName: 'Dovile M.',
             role: 'QA Analyst',
             testimonial: 'Thank you Mindaugas for your help! You\'re are so smart! GitHub was easy only because you helped :).',
@@ -98,7 +98,7 @@ export function getTestimonialCards() {
         },
         {
             key: 6,
-            avatarUrl: getColleaguePicture['tomasS'],
+            avatarUrl: getColleaguePicture['tomasS'].jpg,
             fullName: 'Tomas S.',
             role: 'Implementation Manager',
             testimonial: 'Thank you for your help on building QA Automation tool.',
@@ -106,7 +106,7 @@ export function getTestimonialCards() {
         },
         {
             key: 7,
-            avatarUrl: getColleaguePicture['marthaY'],
+            avatarUrl: getColleaguePicture['marthaY'].jpg,
             fullName: 'Martha Y.',
             role: 'Senior Engagement Manager',
             testimonial: 'I think your formal title should be QA Master, QA Wizard.',
