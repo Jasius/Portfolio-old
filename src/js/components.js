@@ -57,7 +57,6 @@ export function getTestimonialCards() {
     `
     const testimonialsArray = [
         // {
-        //     key: 1,
         //     avatarUrl: getColleaguePicture[],
         //     fullName: 'Danielius A.',
         //     role: 'Implementation Engineer',
@@ -65,7 +64,6 @@ export function getTestimonialCards() {
         //     year: '2018'
         // },
         {
-            key: 2,
             avatarUrl: getColleaguePicture['elvyraS'].png,
             fullName: 'Elvyra S.',
             role: 'Certification Specialist',
@@ -73,7 +71,6 @@ export function getTestimonialCards() {
             year: '2018'
         },
         {
-            key: 3,
             avatarUrl: getColleaguePicture['gintareS'].jpg,
             fullName: 'Gintare S.',
             role: 'QA Analyst',
@@ -81,7 +78,6 @@ export function getTestimonialCards() {
             year: 2018
         },
         {
-            key: 4,
             avatarUrl: getColleaguePicture['karolisN'].png,
             fullName: 'Karolis N.',
             role: 'QA Specialist',
@@ -89,7 +85,6 @@ export function getTestimonialCards() {
             year: 2018
         },
         {
-            key: 5,
             avatarUrl: getColleaguePicture['dovileM'].png,
             fullName: 'Dovile M.',
             role: 'QA Analyst',
@@ -97,7 +92,6 @@ export function getTestimonialCards() {
             year: 2018
         },
         {
-            key: 6,
             avatarUrl: getColleaguePicture['tomasS'].jpg,
             fullName: 'Tomas S.',
             role: 'Implementation Manager',
@@ -105,7 +99,6 @@ export function getTestimonialCards() {
             year: 2018
         },
         {
-            key: 7,
             avatarUrl: getColleaguePicture['marthaY'].jpg,
             fullName: 'Martha Y.',
             role: 'Senior Engagement Manager',
