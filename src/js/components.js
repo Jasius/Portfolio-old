@@ -50,11 +50,7 @@ export function getProjectsCards (path) {
     return spotlight + projectsListing;
 }
 
-export function getTestimonialCards() {
-    const testimonialCard = 
-    `
-    
-    `
+export function getTestimonialCards () {
     const testimonialsArray = [
         // {
         //     avatarUrl: getColleaguePicture[],
@@ -71,17 +67,17 @@ export function getTestimonialCards() {
             year: '2018'
         },
         {
+            avatarUrl: getColleaguePicture['tomasS'].jpg,
+            fullName: 'Tomas S.',
+            role: 'Implementation Manager',
+            testimonial: 'Thank you for your help on building QA Automation tool.',
+            year: 2018
+        },
+        {
             avatarUrl: getColleaguePicture['gintareS'].jpg,
             fullName: 'Gintare S.',
             role: 'QA Analyst',
             testimonial: 'Thanks for everyday cooperation and all the work with dashboards that make our life more colourful!',
-            year: 2018
-        },
-        {
-            avatarUrl: getColleaguePicture['karolisN'].png,
-            fullName: 'Karolis N.',
-            role: 'QA Specialist',
-            testimonial: 'Thanks for all the improvements, amazing work on internal tool and constant technical help!',
             year: 2018
         },
         {
@@ -92,17 +88,17 @@ export function getTestimonialCards() {
             year: 2018
         },
         {
-            avatarUrl: getColleaguePicture['tomasS'].jpg,
-            fullName: 'Tomas S.',
-            role: 'Implementation Manager',
-            testimonial: 'Thank you for your help on building QA Automation tool.',
-            year: 2018
-        },
-        {
             avatarUrl: getColleaguePicture['marthaY'].jpg,
             fullName: 'Martha Y.',
             role: 'Senior Engagement Manager',
             testimonial: 'I think your formal title should be QA Master, QA Wizard.',
+            year: 2018
+        },
+        {
+            avatarUrl: getColleaguePicture['karolisN'].png,
+            fullName: 'Karolis N.',
+            role: 'QA Specialist',
+            testimonial: 'Thanks for all the improvements, amazing work on internal tool and constant technical help!',
             year: 2018
         }
     ];
@@ -114,7 +110,7 @@ export function getTestimonialCards() {
             return `
 <div class="reviewer">
 <div class="reviewerInfo">
-<img class="avatar" src="${obj.avatarUrl}"</img>
+<img class="avatar" src="${obj.avatarUrl}"/>
   <div class="fullName"><i class="fas fa-user-tie"></i> ${obj.fullName}</div>
   <div class="role"><i class="fas fa-briefcase"></i> ${obj.role}</div>
 </div>
