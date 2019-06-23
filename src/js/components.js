@@ -1,7 +1,8 @@
 "use strict";
 import getProjectImage from './../assets/*.png'
-import getColleaguePicture from './../assets/colleagues/*.png'
+import getColleaguePicture from './../assets/colleagues/*.(jpg|png)'
 import { getTechnologiesList, getWorkplaceHighlights } from "./utils";
+console.log(getColleaguePicture)
 
 export function getProjectsCards (path) {
     let [projectsListing, project] = [``]
@@ -33,7 +34,7 @@ export function getProjectsCards (path) {
         <div class="date">
             <p>${path[project].year}</p>
         </div>
-        <img src="${getProjectImage[path[project].imageUrl]}" alt="${path[project].name} project screenshot" class="img-responsive">
+        <img src="${getProjectImage[path[project].imageUrl]}" alt="${path[project].name} project screenshot" class="img-responsive"/>
         ${getTechnologiesList(path[project].technologies)}
         <p>
             <i class="fas fa-briefcase"></i><span class="role"> ${path[project].role}</span><br>
@@ -65,7 +66,7 @@ export function getTestimonialCards() {
         // },
         {
             key: 2,
-            avatarUrl: getColleaguePicture['elvyraS.png'],
+            avatarUrl: getColleaguePicture['elvyraS'],
             fullName: 'Elvyra S.',
             role: 'Certification Specialist',
             testimonial: 'Thanks for sharing your superpowers! :))',
@@ -89,7 +90,7 @@ export function getTestimonialCards() {
         },
         {
             key: 5,
-            avatarUrl: getColleaguePicture['dovileM.png'],
+            avatarUrl: getColleaguePicture['dovileM'],
             fullName: 'Dovile M.',
             role: 'QA Analyst',
             testimonial: 'Thank you Mindaugas for your help! You\'re are so smart! GitHub was easy only because you helped :).',
