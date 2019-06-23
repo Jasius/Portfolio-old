@@ -74,7 +74,7 @@ export function getTestimonialCards() {
         },
         {
             key: 3,
-            avatarUrl: getColleaguePicture['gintareS.jpg'],
+            avatarUrl: getColleaguePicture['gintareS'],
             fullName: 'Gintare S.',
             role: 'QA Analyst',
             testimonial: 'Thanks for everyday cooperation and all the work with dashboards that make our life more colourful!',
@@ -98,7 +98,7 @@ export function getTestimonialCards() {
         },
         {
             key: 6,
-            avatarUrl: getColleaguePicture['tomasS.jpg'],
+            avatarUrl: getColleaguePicture['tomasS'],
             fullName: 'Tomas S.',
             role: 'Implementation Manager',
             testimonial: 'Thank you for your help on building QA Automation tool.',
@@ -106,7 +106,7 @@ export function getTestimonialCards() {
         },
         {
             key: 7,
-            avatarUrl: getColleaguePicture['marthaY.jpg'],
+            avatarUrl: getColleaguePicture['marthaY'],
             fullName: 'Martha Y.',
             role: 'Senior Engagement Manager',
             testimonial: 'I think your formal title should be QA Master, QA Wizard.',
