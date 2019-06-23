@@ -14,10 +14,10 @@
     "start": "^5.1.0"
   },
   "devDependencies": {
-    "@babel/core": "7.3.4",
+    "@babel/core": "7.4.5",
     "cssnano": "^4.1.10",
-    "parcel-bundler": "^1.12.0",
-    "sass": "^1.17.2"
+    "parcel-bundler": "^1.12.3",
+    "sass": "^1.21.0"
   },
   "keywords": []
 }
