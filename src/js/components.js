@@ -1,5 +1,6 @@
 "use strict";
-import images from './../assets/*.png'
+import getProjectImage from './../assets/*.png'
+import getColleaguePicture from './../assets/colleagues/*.png'
 import { getTechnologiesList, getWorkplaceHighlights } from "./utils";
 
 export function getProjectsCards (path) {
@@ -13,7 +14,7 @@ export function getProjectsCards (path) {
         <div class="date">
           <p>${path[0].year}</p>
         </div>
-        <img src="${images[path[0].imageUrl]}" alt="${path[0].name} project screenshot" class="img-responsive">
+        <img src="${getProjectImage[path[0].imageUrl]}" alt="${path[0].name} project screenshot" class="img-responsive">
             ${getTechnologiesList(path[0].technologies)}
         <p>
             <i class="fas fa-briefcase"></i><span class="role"> ${path[0].role}</span><br>
@@ -32,7 +33,7 @@ export function getProjectsCards (path) {
         <div class="date">
             <p>${path[project].year}</p>
         </div>
-        <img src="${images[path[project].imageUrl]}" alt="${path[project].name} project screenshot" class="img-responsive">
+        <img src="${getProjectImage[path[project].imageUrl]}" alt="${path[project].name} project screenshot" class="img-responsive">
         ${getTechnologiesList(path[project].technologies)}
         <p>
             <i class="fas fa-briefcase"></i><span class="role"> ${path[project].role}</span><br>
@@ -80,7 +81,7 @@ export function getTestimonialCards() {
         },
         {
             key: 4,
-            avatarUrl: 'src/assets/colleagues/karolisN.png',
+            avatarUrl: getColleaguePicture['karolisN'],
             fullName: 'Karolis N.',
             role: 'QA Specialist',
             testimonial: 'Thanks for all the improvements, amazing work on internal tool and constant technical help!',
