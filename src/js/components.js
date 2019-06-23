@@ -54,52 +54,60 @@ export function getTestimonialCards() {
     
     `
     const testimonialsArray = [
-        {
-            key: 1,
-            avatarUrl: `https://thispersondoesnotexist.com/image`,
-            fullName: `Whatever`,
-            role: `Journalist`,
-            testimonial: `Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.`,
-            year: `2018`
-        },
+        // {
+        //     key: 1,
+        //     avatarUrl: 'https://thispersondoesnotexist.com/image',
+        //     fullName: 'Danielius A.',
+        //     role: 'Implementation Engineer',
+        //     testimonial: 'Thank you for being super fast and responsive!',
+        //     year: '2018'
+        // },
         {
             key: 2,
-            avatarUrl: `https://thispersondoesnotexist.com/image`,
-            fullName: `Whatever`,
-            role: `Journalist`,
-            testimonial: `Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.`,
-            year: `2018`
+            avatarUrl: 'https://thispersondoesnotexist.com/image',
+            fullName: 'Elvyra S.',
+            role: 'Certification Specialist',
+            testimonial: 'Thanks for sharing your superpowers! :))',
+            year: '2018'
         },
         {
             key: 3,
-            avatarUrl: `https://thispersondoesnotexist.com/image`,
-            fullName: `Whatever`,
-            role: `Journalist`,
-            testimonial: `Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.`,
+            avatarUrl: 'https://thispersondoesnotexist.com/image',
+            fullName: 'Gintare S.',
+            role: 'QA Analyst',
+            testimonial: 'Thanks for everyday cooperation and all the work with dashboards that make our life more colourful!',
             year: 2018
         },
         {
             key: 4,
-            avatarUrl: `https://thispersondoesnotexist.com/image`,
-            fullName: `Whatever`,
-            role: `Journalist`,
-            testimonial: `Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.`,
+            avatarUrl: 'https://thispersondoesnotexist.com/image',
+            fullName: 'Karolis N.',
+            role: 'QA Specialist',
+            testimonial: 'Thanks for all the improvements, amazing work on internal tool and constant technical help!',
             year: 2018
         },
         {
             key: 5,
-            avatarUrl: `https://thispersondoesnotexist.com/image`,
-            fullName: `Whatever`,
-            role: `Journalist`,
-            testimonial: `Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.`,
+            avatarUrl: 'https://thispersondoesnotexist.com/image',
+            fullName: 'Dovile M.',
+            role: 'QA Analyst',
+            testimonial: 'Thank you Mindaugas for your help! You\'re are so smart! Github was easy only because you helped :).',
             year: 2018
         },
         {
             key: 6,
-            avatarUrl: `https://thispersondoesnotexist.com/image`,
-            fullName: `Whatever`,
-            role: `Journalist`,
-            testimonial: `Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.`,
+            avatarUrl: 'https://thispersondoesnotexist.com/image',
+            fullName: 'Tomas S.',
+            role: 'Implementation Manager',
+            testimonial: 'Thank you for your help on building QA Automation tool.',
+            year: 2018
+        },
+        {
+            key: 7,
+            avatarUrl: 'https://thispersondoesnotexist.com/image',
+            fullName: 'Martha Y.',
+            role: 'Engagement Manager',
+            testimonial: 'I think your formal title should be QA Master, QA Wizard.',
             year: 2018
         }
     ];
@@ -111,19 +119,20 @@ export function getTestimonialCards() {
             return `
 <div class="reviewer">
 <div class="reviewerInfo">
-<img class="Avatar" src="${obj.avatarUrl}"</img>
+<img class="avatar" src="${obj.avatarUrl}"</img>
   <div class="fullName"><i class="fas fa-user-tie"></i> ${obj.fullName}</div>
-  <div class="Role"><i class="fas fa-briefcase"></i> ${obj.role}</div>
+  <div class="role"><i class="fas fa-briefcase"></i> ${obj.role}</div>
 </div>
-  <div class="Text"><i class="fas fa-quote-left"></i> ${obj.testimonial} <i class="fas fa-quote-right"></i></div>
-
-  <div class="year">${obj.year}</div>
+  <i class="text"><i class="fas fa-quote-left"></i> ${obj.testimonial} <i class="fas fa-quote-right"></i></i>
 </div>
 `;
         })
         .join("");
     console.log(testimonialsData);
     document.getElementsByTagName("testimonials")[0].innerHTML = `
+    <div class="section-name">
+        <h1 class="boxy"><a class="anchor" id="testimonials">Testimonials</a></h1>
+    </div>
 <div class="testimonialsModule">
 ${testimonialsData}
 </div>
