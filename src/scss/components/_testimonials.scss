@@ -1,0 +1,51 @@
+.testimonialsModule {
+  display: grid;
+  grid-template-columns: repeat(3, 355px);
+  @media screen and (max-width: 1160px) {
+    grid-template-columns: repeat(2, 355px);
+  }
+  @media screen and (max-width: 1000px) {
+    grid-template-columns: repeat(1, 90vw);
+  }
+  grid-template-rows: 1fr;
+  justify-content: center;
+  color: #222;
+}
+
+.reviewer {
+  grid-auto-rows: 0.6fr;
+  border: 1px solid #dcddd8;
+  color: #2d4059;
+  border-radius: 3px;
+  margin: 10px;
+  display: grid;
+  text-align: center;
+  grid-template-areas:
+    "reviewerInfo"
+    "Text";
+  .role {
+    grid-area: Role;
+  }
+  .text {
+    grid-area: Text;
+    margin: 10px;
+  }
+  .fa-quote-left,
+  .fa-quote-right {
+    color: #2d4059;
+    font-style: italic;
+  }
+  .avatar {
+    grid-area: Avatar;
+    width: 90px;
+    border-radius: 50%;
+    height: 90px;
+    border: 1px solid #00adb5;
+  }
+  .reviewerInfo {
+    padding: 13px;
+    grid-area: reviewerInfo;
+    word-break: break-all;
+    border-bottom: 2px solid #dcddd8;
+  }
+}
