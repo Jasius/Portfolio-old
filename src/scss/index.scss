@@ -17,6 +17,10 @@ $light-blue: #3498db; // #272727
 //   outline: 2px solid pink;
 //   outline-style: dashed;
 // }
+html {
+    scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   font-family: $font-stack;
