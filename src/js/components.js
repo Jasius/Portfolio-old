@@ -1,7 +1,7 @@
-"use strict";
+'use strict'
 import getProjectImage from './../assets/*.png'
 import getColleaguePicture from './../assets/colleagues/*.(jpg|png)'
-import { getTechnologiesList, getWorkplaceHighlights } from "./utils";
+import { getTechnologiesList, getWorkplaceHighlights } from './utils'
 
 export function getProjectsCards (path) {
     let [projectsListing, project] = [``]
@@ -25,7 +25,7 @@ export function getProjectsCards (path) {
             ${getWorkplaceHighlights(path[0].highlights)}
         </p>
     </div>
-    `;
+    `
     for (project = 1; project < path.length; project++) {
         projectsListing += `
         <div class="project">
@@ -44,9 +44,9 @@ export function getProjectsCards (path) {
             ${getWorkplaceHighlights(path[project].highlights)}
         </p>
         </div>
-    `;
+    `
     }
-    return spotlight + projectsListing;
+    return spotlight + projectsListing
 }
 
 export function getTestimonialCards () {
@@ -100,12 +100,12 @@ export function getTestimonialCards () {
             testimonial: 'Thanks for all the improvements, amazing work on internal tool and constant technical help!',
             year: 2018
         }
-    ];
+    ]
 
     const testimonialsData = testimonialsArray
         .map(obj => {
-            const testimonialsObj = {};
-            testimonialsObj[obj.key] = obj.value;
+            const testimonialsObj = {}
+            testimonialsObj[obj.key] = obj.value
             return `
 <div class="reviewer">
 <div class="reviewerInfo">
@@ -115,16 +115,16 @@ export function getTestimonialCards () {
 </div>
   <i class="text"><i class="fas fa-quote-left"></i> ${obj.testimonial} <i class="fas fa-quote-right"></i></i>
 </div>
-`;
+`
         })
-        .join("");
-    console.log(testimonialsData);
-    document.getElementsByTagName("testimonials")[0].innerHTML = `
+        .join('')
+    console.log(testimonialsData)
+    document.getElementsByTagName('testimonials')[0].innerHTML = `
     <div class="section-name">
         <h1 class="boxy"><a class="anchor" id="testimonials">Testimonials</a></h1>
     </div>
 <div class="testimonialsModule">
 ${testimonialsData}
 </div>
-`;
+`
 }
