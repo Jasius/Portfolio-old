@@ -18,7 +18,10 @@ $light-blue: #3498db; // #272727
 //   outline-style: dashed;
 // }
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
+  @media (prefers-reduced-motion: reduce) {
+    scroll-behavior: auto;
+  }
 }
 
 body {
