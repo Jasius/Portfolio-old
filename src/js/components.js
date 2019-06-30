@@ -2,7 +2,6 @@
 import getProjectImage from './../assets/*.png'
 import getColleaguePicture from './../assets/colleagues/*.(jpg|png)'
 import { getTechnologiesList, getWorkplaceHighlights } from "./utils";
-console.log(getColleaguePicture)
 
 export function getProjectsCards (path) {
     let [projectsListing, project] = [``]
