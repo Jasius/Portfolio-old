@@ -115,10 +115,7 @@ export function getTestimonialCards () {
 </div>
   <i class="text"><i class="fas fa-quote-left"></i> ${obj.testimonial} <i class="fas fa-quote-right"></i></i>
 </div>
-`
-        })
-        .join('')
-    console.log(testimonialsData)
+`}).join('')
     document.getElementsByTagName('testimonials')[0].innerHTML = `
     <div class="section-name">
         <h1 class="boxy"><a class="anchor" id="testimonials">Testimonials</a></h1>
