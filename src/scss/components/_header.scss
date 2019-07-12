@@ -297,6 +297,9 @@ header {
   .section-name h1 {
     margin: 0 50px;
   }
+  .skill span {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 607px) {
