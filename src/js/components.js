@@ -109,7 +109,7 @@ export function getTestimonialCards () {
             return `
 <div class="reviewer">
 <div class="reviewerInfo">
-<img class="avatar" src="${obj.avatarUrl}"/>
+<img class="avatar" loading="lazy" src="${obj.avatarUrl}"/>
   <div class="fullName"><i class="fas fa-user-tie"></i> ${obj.fullName}</div>
   <div class="role"><i class="fas fa-briefcase"></i> ${obj.role}</div>
 </div>
