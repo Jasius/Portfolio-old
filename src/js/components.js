@@ -14,7 +14,7 @@ export function getProjectsCards (path) {
         <div class="date">
           <p>${path[0].year}</p>
         </div>
-        <img src="${getProjectImage[path[0].imageUrl]}" alt="${path[0].name} project screenshot" class="img-responsive">
+        <img src="${getProjectImage[path[0].imageUrl]}" alt="${path[0].name} project screenshot" loading="lazy" class="img-responsive">
             ${getTechnologiesList(path[0].technologies)}
         <p>
             <i class="fas fa-briefcase"></i><span class="role"> ${path[0].role}</span><br>
@@ -33,7 +33,7 @@ export function getProjectsCards (path) {
         <div class="date">
             <p>${path[project].year}</p>
         </div>
-        <img src="${getProjectImage[path[project].imageUrl]}" alt="${path[project].name} project screenshot" class="img-responsive"/>
+        <img src="${getProjectImage[path[project].imageUrl]}" alt="${path[project].name} project screenshot" loading="lazy" class="img-responsive"/>
         ${getTechnologiesList(path[project].technologies)}
         <p>
             <i class="fas fa-briefcase"></i><span class="role"> ${path[project].role}</span><br>
