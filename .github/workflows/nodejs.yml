@@ -18,7 +18,6 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
     - name: build file
-      run: |
-      npm install && parcel build index.html
+      run: npm install && parcel build index.html
       env:
         CI: true
