@@ -1,9 +1,9 @@
 'use strict'
 import './assets/*.svg'
 import './scss/index'
-import { getTimespan, Render, toggleElementVisibility } from './js/utils'
+import { getTimespan, Render, toggleElementVisibility, ctaCloseMenu } from './js/utils'
 import { getProjectsCards, getTestimonialCards } from './js/components'
-getTestimonialCards()
+getTestimonialCards(), ctaCloseMenu()
 getTimespan('3/19/1997', 'age')
 getTimespan('1/4/2016', 'experienceAge')
 document.getElementById('toggle-menu').addEventListener('click', event => { toggleElementVisibility('panel') })

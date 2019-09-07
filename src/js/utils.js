@@ -44,3 +44,13 @@ export function toggleElementVisibility (div) {
     default: element.style.display = 'block'
   }
 }
+
+export function ctaCloseMenu() {
+  const menuLinks = document.querySelectorAll("#panel > li")
+  let i;
+  for (i = 0; i < menuLinks.length; i++) {
+    menuLinks[i].addEventListener('click', function () {
+      document.getElementById("panel").style.display = 'none'
+    });
+  }
+}
