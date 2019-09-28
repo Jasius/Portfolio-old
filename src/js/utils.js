@@ -1,14 +1,14 @@
 'use strict'
 export class Render {
-  static byId (content, node) {
+  static byId(content, node) {
     return (document.getElementById(node).innerHTML = content)
   }
-  static byTag (content, node) {
+  static byTag(content, node) {
     return (document.getElementById(node).innerHTML = content)
   }
 }
 
-export function getTechnologiesList (path) {
+export function getTechnologiesList(path) {
   let technologiesListing = ``
   for (let usedTechnology in path) {
     technologiesListing += `<li class="${path[usedTechnology].toLowerCase()}">${path[usedTechnology]}</li>`
@@ -16,7 +16,7 @@ export function getTechnologiesList (path) {
   return `<ul class="tools">${technologiesListing}</ul>`
 }
 
-export function getWorkplaceHighlights (path) {
+export function getWorkplaceHighlights(path) {
   let highlightsListing = ``
   for (let workplaceHighlight in path) {
     highlightsListing += `<li>${path[workplaceHighlight]}</li>`
@@ -24,33 +24,39 @@ export function getWorkplaceHighlights (path) {
   return `<ul>${highlightsListing}</ul>`
 }
 
-export function getTimespan (date, node) {
+export function getTimespan(date, node) {
   const
     div = document.getElementById(node),
-     today = new Date(),
-     givenDate = new Date(date),
-     month = today.getMonth() - givenDate.getMonth(),
-     timespan = today.getFullYear() - givenDate.getFullYear()
+    today = new Date(),
+    givenDate = new Date(date),
+    month = today.getMonth() - givenDate.getMonth(),
+    timespan = today.getFullYear() - givenDate.getFullYear()
   if (month < 0 || (month === 0 && today.getDate() < givenDate.getDate())) {
     return (div.innerText = timespan - 1)
   }
   return (div.innerText = timespan)
 }
 
-export function toggleElementVisibility (div) {
+export function toggleElementVisibility(div) {
   const element = document.getElementById(div)
   switch (element.style.display) {
-    case 'block': element.style.display = 'none'; break
-    default: element.style.display = 'block'
+    case 'block':
+      element.style.display = 'none';
+      break
+    default:
+      element.style.display = 'block'
   }
 }
 
 export function ctaCloseMenu() {
   const menuLinks = document.querySelectorAll("#panel > li")
   let i;
-  for (i = 0; i < menuLinks.length; i++) {
-    menuLinks[i].addEventListener('click', function () {
-      document.getElementById("panel").style.display = 'none'
-    });
+  const viewportWidth = window.innerWidth || document.documentElement.clientWidth;
+  if (viewportWidth < 720) {
+    for (i = 0; i < menuLinks.length; i++) {
+      menuLinks[i].addEventListener('click', function () {
+        document.getElementById("panel").style.display = 'none'
+      });
+    }
   }
 }
