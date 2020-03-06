@@ -96,7 +96,7 @@ export function getTestimonialCards () {
         {
             avatarUrl: getColleaguePicture['karolisN'].png,
             fullName: 'Karolis N.',
-            role: 'QA Specialist',
+            role: 'Delivery Ops Lead',
             testimonial: 'Thanks for all the improvements, amazing work on internal tool and constant technical help!',
             year: 2018
         }
