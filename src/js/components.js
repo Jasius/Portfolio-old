@@ -75,7 +75,7 @@ export function getTestimonialCards () {
         {
             avatarUrl: getColleaguePicture['gintareS'].jpg,
             fullName: 'Gintare S.',
-            role: 'QA Analyst',
+            role: 'Integration Tester',
             testimonial: 'Thanks for everyday cooperation and all the work with dashboards that make our life more colourful!',
             year: 2018
         },
