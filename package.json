@@ -8,22 +8,22 @@
     "build": "parcel build index.html"
   },
   "dependencies": {
-    "npm": "^6.12.0",
+    "npm": "^6.14.4",
     "scss": "^0.2.4",
     "src": "^1.1.2",
     "start": "^5.1.0"
   },
   "devDependencies": {
-    "@babel/core": "7.6.4",
+    "@babel/core": "7.9.0",
     "cssnano": "^4.1.10",
-    "eslint": "^6.6.0",
-    "eslint-config-standard": "^14.1.0",
-    "eslint-plugin-import": "^2.18.2",
-    "eslint-plugin-node": "^10.0.0",
+    "eslint": "^6.8.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-standard": "^4.0.1",
     "parcel-bundler": "^1.12.4",
-    "sass": "^1.23.1"
+    "sass": "^1.26.3"
   },
   "keywords": []
 }
