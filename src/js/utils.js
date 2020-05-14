@@ -8,36 +8,25 @@ export class Render {
   }
 }
 
-export function getTechnologiesList(path) {
-  let technologiesListing = ``
-  for (let usedTechnology in path) {
-    technologiesListing += `<li class="${path[usedTechnology].toLowerCase()}">${path[usedTechnology]}</li>`
-  }
-  return `<ul class="tools">${technologiesListing}</ul>`
+export const getTechnologiesList = (path) => {
+  return `<ul class="tools">${path.map(usedTechnology => `<li class="${usedTechnology.toLowerCase()}">${usedTechnology}</li>`).join('')}</ul>`
 }
 
-export function getWorkplaceHighlights(path) {
-  let highlightsListing = ``
-  for (let workplaceHighlight in path) {
-    highlightsListing += `<li>${path[workplaceHighlight]}</li>`
-  }
-  return `<ul>${highlightsListing}</ul>`
+export const getWorkplaceHighlights = (path) => {
+  return `<ul>${path.map(workplaceHighlight => `<li>${workplaceHighlight}</li>`).join('')}</ul>`
 }
 
-export function getTimespan(date, node) {
+export const getTimespan = (date, node) => {
   const
     div = document.getElementById(node),
     today = new Date(),
     givenDate = new Date(date),
     month = today.getMonth() - givenDate.getMonth(),
     timespan = today.getFullYear() - givenDate.getFullYear()
-  if (month < 0 || (month === 0 && today.getDate() < givenDate.getDate())) {
-    return (div.innerText = timespan - 1)
-  }
-  return (div.innerText = timespan)
+  return (month < 0 || (month === 0 && today.getDate() < givenDate.getDate())) ? (div.innerText = timespan - 1) : (div.innerText = timespan)
 }
 
-export function toggleElementVisibility(div) {
+export const toggleElementVisibility = (div) => {
   const element = document.getElementById(div)
   switch (element.style.display) {
     case 'block':
@@ -48,15 +37,13 @@ export function toggleElementVisibility(div) {
   }
 }
 
-export function ctaCloseMenu() {
-  const menuLinks = document.querySelectorAll("#panel > li")
+export const ctaCloseMenu = () => {
+  const menuLinks = document.querySelectorAll("#panel > li"),
+    viewportWidth = window.innerWidth || document.documentElement.clientWidth;
   let i;
-  const viewportWidth = window.innerWidth || document.documentElement.clientWidth;
   if (viewportWidth < 720) {
     for (i = 0; i < menuLinks.length; i++) {
-      menuLinks[i].addEventListener('click', function () {
-        document.getElementById("panel").style.display = 'none'
-      });
+      menuLinks[i].addEventListener('click', () => document.getElementById("panel").style.display = 'none');
     }
   }
 }
