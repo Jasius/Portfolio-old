@@ -1,9 +1,12 @@
 'use strict'
 import getProjectImage from './../assets/*.png'
 import getColleaguePicture from './../assets/colleagues/*.(jpg|png)'
-import { getTechnologiesList, getWorkplaceHighlights } from './utils'
+import {
+    getTechnologiesList,
+    getWorkplaceHighlights
+} from './utils'
 
-export function getProjectsCards (path) {
+export const getProjectsCards = (path) => {
     let [projectsListing, project] = [``]
     const spotlight = `
     <div class="section-name">
@@ -49,7 +52,7 @@ export function getProjectsCards (path) {
     return spotlight + projectsListing
 }
 
-export function getTestimonialCards () {
+export const getTestimonialCards = () => {
     const testimonialsArray = [
         // {
         //     avatarUrl: getColleaguePicture[],
